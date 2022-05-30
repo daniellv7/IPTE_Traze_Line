@@ -1,0 +1,339 @@
+﻿using IPTE_Base_Project.Common;
+using IPTE_Base_Project.Common.Utils.MediatorPattern;
+using IPTE_Base_Project.DataSources;
+using IPTE_Base_Project.DataSources.Config;
+using IPTE_Base_Project.Models;
+using IPTE_Base_Project.ViewModels.Configure;
+using IPTE_Base_Project.ViewModels.Manipulate;
+using IPTE_Base_Project.ViewModels.Observe;
+using System;
+using System.ComponentModel;
+using System.Windows.Input;
+
+namespace IPTE_Base_Project.ViewModels
+{
+    class MainWindowViewModel : ValidationBaseViewModel
+    {
+        #region Data members and accessors
+
+        //Models
+
+        //ViewModels
+        private CellViewModel cellVM;
+        private DevicesViewModel devicesVM;
+        private FrequentActionsViewModel freqActionsVM;
+        private HardwareViewModel hardwareVM;
+        private IOViewModel ioVM;
+        private GeneralSettingsViewModel generalSettingsVM;
+        private MachineSettingsViewModel machineSettingsVM;
+        private HardwareSettingsViewModel hardwareSettingsVM;
+        private OtherSettingsViewModel otherSettingsVM;
+
+
+        internal CellViewModel CellVM
+        {
+            get { return cellVM; }
+            set { cellVM = value; }
+        }
+        internal DevicesViewModel DevicesVM
+        {
+            get { return devicesVM; }
+            set { devicesVM = value; }
+        }
+        internal FrequentActionsViewModel FreqActionsVM
+        {
+            get { return freqActionsVM; }
+            set { freqActionsVM = value; }
+        }
+        internal HardwareViewModel HardwareVM
+        {
+            get { return hardwareVM; }
+            set { hardwareVM = value; }
+        }
+        internal IOViewModel IOVM
+        {
+            get { return ioVM; }
+            set { ioVM = value; }
+        }
+        internal GeneralSettingsViewModel GeneralSettingsVM
+        {
+            get { return generalSettingsVM; }
+            set { generalSettingsVM = value; }
+        }
+        internal MachineSettingsViewModel MachineSettingsVM
+        {
+            get { return machineSettingsVM; }
+            set { machineSettingsVM = value; }
+        }
+        internal HardwareSettingsViewModel HardwareSettingsVM
+        {
+            get { return hardwareSettingsVM; }
+            set { hardwareSettingsVM = value; }
+        }
+        internal OtherSettingsViewModel OtherSettingsVM
+        {
+            get { return otherSettingsVM; }
+            set { otherSettingsVM = value; }
+        }
+<<<<<<< .mine
+        internal PowerSupplyDcViewModel KeysightE3633AVM { get; set; }
+        internal PowerSupplyAcViewModel PPS_3150AFX_4AEVM { get; set; }
+        internal MultimeterViewModel MULTIMETER_KEYSIGHT_34465VM { get; set; }
+        internal MultimeterViewModel YOKOGAWAVM { get; set; }
+        internal ElectronicLoadViewModel ELECTRONIC_LOAD_GSSVM { get; set; }
+        internal ElectronicLoadViewModel ELECTRONIC_LOAD_GXSVM { get; set; }
+        internal PowerSupplyAcDcViewModel POWER_SUPPLY_CHROMA_19053VM { get; set; }
+||||||| .r2314
+        internal PowerSupplyDcViewModel KeysightE3633AVM { get; set; }
+        internal PowerSupplyAcViewModel PPS_3150AFX_4AEVM { get; set; }
+        internal MultimeterViewModel MULTIMETER_FLUKE_8846AVM { get; set; }
+        internal MultimeterViewModel YOKOGAWAVM { get; set; }
+        internal ElectronicLoadViewModel ELECTRONIC_LOAD_GSSVM { get; set; }
+        internal ElectronicLoadViewModel ELECTRONIC_LOAD_GXSVM { get; set; }
+        internal PowerSupplyAcDcViewModel POWER_SUPPLY_CHROMA_19053VM { get; set; }
+=======
+        internal PowerSupplyDcViewModel PowerSupplyKeysightE3633AVM { get; set; }
+        internal PowerSupplyAcViewModel PowerSupply3150AFX4AEVM { get; set; }
+        internal MultimeterViewModel MultimeterFluke8846AVM { get; set; }
+        internal MultimeterViewModel MultimeterYokogawaVM { get; set; }
+        internal ElectronicLoadViewModel ElectronicLoadGssVM { get; set; }
+        internal ElectronicLoadViewModel ElectronicLoadGxsVM { get; set; }
+        internal PowerSupplyAcDcViewModel PowerSupplyChroma19053VM { get; set; }
+>>>>>>> .r2318
+        internal Multiplexer6515ViewModel Multiplexer6515VM { get; set; }
+        internal Multiplexer2530ViewModel Multiplexer2530VM { get; set; }
+
+        #endregion
+
+        #region Commands
+
+        public ICommand StartCommand
+        {
+            get
+            {
+                if (startCommand == null)
+                {
+                    startCommand = new RelayCommand(param => StartAutomaticCycle(param), CanStartAutomaticCycle);
+                }
+                return startCommand;
+            }
+        }
+        private RelayCommand startCommand;
+
+        public ICommand StopCommand
+        {
+            get
+            {
+                if (stopCommand == null)
+                {
+                    stopCommand = new RelayCommand(param => StopAutomaticCycle(param), CanStopAutomaticCycle);
+                }
+                return stopCommand;
+            }
+        }
+        private RelayCommand stopCommand;
+
+        public ICommand ResetCommand
+        {
+            get
+            {
+                if (resetCommand == null)
+                {
+                    resetCommand = new RelayCommand(param => ResetAutomaticCycle(param), CanResetAutomaticCycle);
+                }
+                return resetCommand;
+            }
+        }
+        private RelayCommand resetCommand;
+
+        public ICommand AlarmCommand
+        {
+            get
+            {
+                if (alarmCommand == null)
+                {
+                    alarmCommand = new RelayCommand(param => AlarmClick(param), CanAlarmClick);
+                }
+                return alarmCommand;
+            }
+        }
+        private RelayCommand alarmCommand;
+
+        public ICommand PauseCommand
+        {
+            get
+            {
+                if (pauseCommand == null)
+                {
+                    pauseCommand = new RelayCommand(param => AlarmClick(param), CanAlarmClick);
+                }
+                return pauseCommand;
+            }
+        }
+        private RelayCommand pauseCommand;
+
+        #endregion
+
+        private int selectedIndex;
+
+        public int SelectedIndex
+        {
+            get { return selectedIndex; }
+            set { selectedIndex = value; }
+        }
+
+        #region Constructors
+
+        public MainWindowViewModel()
+        {
+            //Read configuration files
+            GlobalConfigDS globalConfig = new GlobalConfigDS();
+
+            //Initialize Models
+<<<<<<< .mine
+            PowerSupplyDcModel KeysightE3663AModel = new PowerSupplyDcModel((DeviceConfigSCPI)globalConfig.DevicesConfig["POWER_SUPPLY_KEYSIGHT_E3633A"]);
+            PowerSupplyAcModel PPS_3150AFX_4AEModel = new PowerSupplyAcModel((DeviceConfigSCPI)globalConfig.DevicesConfig["POWER_SUPPLY_PACIFIC_3150AFX"]);
+            PowerSupplyAcDcModel POWER_SUPPLY_CHROMA_19053 = new PowerSupplyAcDcModel((DeviceConfigSCPI)globalConfig.DevicesConfig["POWER_SUPPLY_CHROMA_19053"]);
+            ElectronicLoadModel ELECTRONIC_LOAD_GSS = new ElectronicLoadModel((DeviceConfigSCPI)globalConfig.DevicesConfig["ELECTRONIC_LOAD_GSS"]);  
+            ElectronicLoadModel ELECTRONIC_LOAD_GXS = new ElectronicLoadModel((DeviceConfigSCPI)globalConfig.DevicesConfig["ELECTRONIC_LOAD_GXS"]);
+            MultimeterModel MULTIMETER_KEYSIGHT_34465 = new MultimeterModel((DeviceConfigSCPI)globalConfig.DevicesConfig["MULTIMETER_KEYSIGHT_34465A"]);
+            MultimeterModel YOKOGAWA = new MultimeterModel((DeviceConfigSCPI)globalConfig.DevicesConfig["POWER_ANALYZER_YOKOGAWA"]);
+            Multiplexer6515Model MUX_6515Model = new Multiplexer6515Model((DeviceConfigMultiplexer)globalConfig.DevicesConfig["MUX_6515"]);
+            Multiplexer2530Model MUX_2530_1Model = new Multiplexer2530Model((DeviceConfigMultiplexer)globalConfig.DevicesConfig["MUX_2530_1"]);
+||||||| .r2314
+            PowerSupplyDcModel KeysightE3663AModel = new PowerSupplyDcModel((DeviceConfigSCPI)globalConfig.DevicesConfig["POWER_SUPPLY_KEYSIGHT_E3633A"]);
+            PowerSupplyAcModel PPS_3150AFX_4AEModel = new PowerSupplyAcModel((DeviceConfigSCPI)globalConfig.DevicesConfig["POWER_SUPPLY_PACIFIC_3150AFX"]);
+            PowerSupplyAcDcModel POWER_SUPPLY_CHROMA_19053 = new PowerSupplyAcDcModel((DeviceConfigSCPI)globalConfig.DevicesConfig["POWER_SUPPLY_CHROMA_19053"]);
+            ElectronicLoadModel ELECTRONIC_LOAD_GSS = new ElectronicLoadModel((DeviceConfigSCPI)globalConfig.DevicesConfig["ELECTRONIC_LOAD_GSS"]);  
+            ElectronicLoadModel ELECTRONIC_LOAD_GXS = new ElectronicLoadModel((DeviceConfigSCPI)globalConfig.DevicesConfig["ELECTRONIC_LOAD_GXS"]);
+            MultimeterModel MULTIMETER_FLUKE_8846A = new MultimeterModel((DeviceConfigSCPI)globalConfig.DevicesConfig["MULTIMETER_FLUKE_8846A"]);
+            MultimeterModel YOKOGAWA = new MultimeterModel((DeviceConfigSCPI)globalConfig.DevicesConfig["YOKOGAWA"]);
+            Multiplexer6515Model MUX_6515Model = new Multiplexer6515Model((DeviceConfigMultiplexer)globalConfig.DevicesConfig["MUX_6515"]);
+            Multiplexer2530Model MUX_2530_1Model = new Multiplexer2530Model((DeviceConfigMultiplexer)globalConfig.DevicesConfig["MUX_2530_1"]);
+=======
+            PowerSupplyDcModel powerSupplyKeysightE3663A = globalConfig.DevicesConfig.ContainsKey("POWER_SUPPLY_KEYSIGHT_E3633A") ? new PowerSupplyDcModel((DeviceConfigSCPI)globalConfig.DevicesConfig["POWER_SUPPLY_KEYSIGHT_E3633A"]) : null;
+            PowerSupplyAcModel powerSupplyPPS3150AFX4AE = globalConfig.DevicesConfig.ContainsKey("POWER_SUPPLY_PACIFIC_3150AFX") ? new PowerSupplyAcModel((DeviceConfigSCPI)globalConfig.DevicesConfig["POWER_SUPPLY_PACIFIC_3150AFX"]) : null;
+            PowerSupplyAcDcModel powerSupplyChroma19053 = globalConfig.DevicesConfig.ContainsKey("POWER_SUPPLY_CHROMA_19053") ? new PowerSupplyAcDcModel((DeviceConfigSCPI)globalConfig.DevicesConfig["POWER_SUPPLY_CHROMA_19053"]) : null;
+            ElectronicLoadModel electronicLoadGSS = globalConfig.DevicesConfig.ContainsKey("ELECTRONIC_LOAD_GSS") ? new ElectronicLoadModel((DeviceConfigSCPI)globalConfig.DevicesConfig["ELECTRONIC_LOAD_GSS"]) : null;  
+            ElectronicLoadModel electronicLoadGXS = globalConfig.DevicesConfig.ContainsKey("ELECTRONIC_LOAD_GXS") ? new ElectronicLoadModel((DeviceConfigSCPI)globalConfig.DevicesConfig["ELECTRONIC_LOAD_GXS"]) : null;
+            MultimeterModel multimeterFluke8846A = globalConfig.DevicesConfig.ContainsKey("MULTIMETER_FLUKE_8846A") ? new MultimeterModel((DeviceConfigSCPI)globalConfig.DevicesConfig["MULTIMETER_FLUKE_8846A"]) : null;
+            MultimeterModel multimeterYokogawa = globalConfig.DevicesConfig.ContainsKey("YOKOGAWA") ? new MultimeterModel((DeviceConfigSCPI)globalConfig.DevicesConfig["YOKOGAWA"]) : null;
+            Multiplexer6515Model multiplexer6515 = globalConfig.DevicesConfig.ContainsKey("MUX_6515") ? new Multiplexer6515Model((DeviceConfigMultiplexer)globalConfig.DevicesConfig["MUX_6515"]) : null;
+            Multiplexer2530Model multiplexer2530 = globalConfig.DevicesConfig.ContainsKey("MUX_2530_1") ? new Multiplexer2530Model((DeviceConfigMultiplexer)globalConfig.DevicesConfig["MUX_2530_1"]) : null;
+>>>>>>> .r2318
+
+            //Initialize ViewModels
+<<<<<<< .mine
+            KeysightE3633AVM = new PowerSupplyDcViewModel(KeysightE3663AModel);
+            PPS_3150AFX_4AEVM = new PowerSupplyAcViewModel(PPS_3150AFX_4AEModel);
+            ELECTRONIC_LOAD_GSSVM = new ElectronicLoadViewModel(ELECTRONIC_LOAD_GSS);
+            ELECTRONIC_LOAD_GXSVM = new ElectronicLoadViewModel(ELECTRONIC_LOAD_GXS);
+            MULTIMETER_KEYSIGHT_34465VM = new MultimeterViewModel(MULTIMETER_KEYSIGHT_34465);
+            YOKOGAWAVM = new MultimeterViewModel(YOKOGAWA);
+            POWER_SUPPLY_CHROMA_19053VM = new PowerSupplyAcDcViewModel(POWER_SUPPLY_CHROMA_19053);
+            Multiplexer6515VM = new Multiplexer6515ViewModel(MUX_6515Model);
+            Multiplexer2530VM = new Multiplexer2530ViewModel(MUX_2530_1Model);
+||||||| .r2314
+            KeysightE3633AVM = new PowerSupplyDcViewModel(KeysightE3663AModel);
+            PPS_3150AFX_4AEVM = new PowerSupplyAcViewModel(PPS_3150AFX_4AEModel);
+            ELECTRONIC_LOAD_GSSVM = new ElectronicLoadViewModel(ELECTRONIC_LOAD_GSS);
+            ELECTRONIC_LOAD_GXSVM = new ElectronicLoadViewModel(ELECTRONIC_LOAD_GXS);
+            MULTIMETER_FLUKE_8846AVM = new MultimeterViewModel(MULTIMETER_FLUKE_8846A);
+            YOKOGAWAVM = new MultimeterViewModel(YOKOGAWA);
+            POWER_SUPPLY_CHROMA_19053VM = new PowerSupplyAcDcViewModel(POWER_SUPPLY_CHROMA_19053);
+            Multiplexer6515VM = new Multiplexer6515ViewModel(MUX_6515Model);
+            Multiplexer2530VM = new Multiplexer2530ViewModel(MUX_2530_1Model);
+=======
+            PowerSupplyKeysightE3633AVM = new PowerSupplyDcViewModel(powerSupplyKeysightE3663A);
+            PowerSupply3150AFX4AEVM = new PowerSupplyAcViewModel(powerSupplyPPS3150AFX4AE);
+            ElectronicLoadGssVM = new ElectronicLoadViewModel(electronicLoadGSS);
+            ElectronicLoadGxsVM = new ElectronicLoadViewModel(electronicLoadGXS);
+            MultimeterFluke8846AVM = new MultimeterViewModel(multimeterFluke8846A);
+            MultimeterYokogawaVM = new MultimeterViewModel(multimeterYokogawa);
+            PowerSupplyChroma19053VM = new PowerSupplyAcDcViewModel(powerSupplyChroma19053);
+            Multiplexer6515VM = new Multiplexer6515ViewModel(multiplexer6515);
+            Multiplexer2530VM = new Multiplexer2530ViewModel(multiplexer2530);
+>>>>>>> .r2318
+        }
+
+        #endregion
+
+        #region CommandMethods     
+
+        private void StartAutomaticCycle(object param)
+        {
+            // Notify SequenceViewModel to Start
+            Mediator.NotifyColleagues("ViewStartButtonClicked", new string[] { "" });
+        }
+
+        private bool CanStartAutomaticCycle(object param)
+        {
+            //if (SettingsVM.Model.simulatePLC) return true;
+            //else return plcVM.model.plcDataSource.getInt("Auto") == 1;
+            return true;
+        }
+
+        private void StopAutomaticCycle(object param)
+        {
+            // Notify SequenceViewModel to Stop
+            Mediator.NotifyColleagues("ViewStopButtonClicked", new string[] { "" });
+        }
+
+        private bool CanStopAutomaticCycle(object param)
+        {
+            return true;
+        }
+
+        private void ResetAutomaticCycle(object param)
+        {
+            Mediator.NotifyColleagues("ViewResetButtonClicked", new string[] { "" });
+        }
+
+        private bool CanResetAutomaticCycle(object param)
+        {
+            return true;
+        }
+
+        private void AlarmClick(object param)
+        {
+                
+        }
+
+        private bool CanAlarmClick(object param)
+        {
+            return true;
+        }
+
+        #endregion
+
+        #region Methods
+
+        private void LogExamples()
+        {
+            //Examples of using logs, can be used like this in all classes
+            log.Debug("Example of Debug log");
+            log.Info("Example of Info log");
+            log.Warn("Example of Warn log");
+            log.Error("Example of Error log");
+            int i = 0;
+            try
+            {
+                var x = 10 / i;
+            }
+            catch (DivideByZeroException ex)
+            {
+                log.Error("Developer: we tried to divide by zero", ex);
+            }
+            log.Fatal("Example of Fatal log");
+        }
+
+        public void OnWindowClosing(object sender, CancelEventArgs e)
+        {
+            Multiplexer6515VM.Terminate(null);
+            //sequenceVM.Close();
+        }
+
+        #endregion
+
+    }
+}

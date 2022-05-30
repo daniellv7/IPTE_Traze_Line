@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<MessageList>
+  <!--Value = valor con el que se mostrara el mensaje-->
+  <!--Content = Mensaje a mostrar 3 Renglones disponibles , para separar contenido agregar ";" -->
+  <!--level= Color con el que se mostrara el mensaje -->
+  <message Value="1" Content="Presion de aire baja; Presionar boton de reset" Level="3"/>
+  <message Value="2"  Content="Paro de emergencia activado; Presionar boton de reset" Level="3"/>
+  <message Value="3" Content="Conveyor Montratec Apagado; Presionar boton de reset" Level="3"/>
+  <message Value="4" Content="Smart Router 1 en Error; Reiniciar Modulo" Level="3"/>
+  <message Value="5" Content="Smart Router 2 en Error; Reiniciar Modulo" Level="3"/>
+  <message Value="6" Content="Smart Router 3 en Error; Reiniciar Modulo" Level="3"/>
+  <message Value="7" Content="Smart Router 4 en Error; Reiniciar Modulo" Level="3"/>
+  <message Value="8" Content="Celda en modo manual" Level="2"/>
+  <message Value="9" Content="Celda no inicializada;Presionar home y despues automatic on" Level="2"/>
+  <message Value="10" Content="Celda apagada" Level="2"/>
+  <message Value="11" Content="Modulo BNI Balluf en error" Level="3"/>
+  <message Value="12" Content="Modulo Pilz en error" Level="3"/>
+  <message Value="13" Content="Modulo EKS en error" Level="3"/>
+  <message Value="14" Content="Modulo KP8 en Error" Level="3"/>
+  <message Value="15" Content="Limite de retrabajos Superado;Mandar Pieza a Scrap para continuar" Level="2"/>
+  <message Value="100" Content="Remover Carrier con Housing;Remover Bracket;Remover Shaft" Level="1"/>
+  <message Value="101" Content="Colocar Carrier con Housing;Remover Bracket; Remover Shaft" Level="1"/>
+  <message Value="102" Content="Remover Carrier con Housing;Remover Bracket;Remover Shaft" Level="1"/>
+  <message Value="103" Content="Colocar Carrier con Housing;Colocar Bracket;Colocar Shaft" Level="1"/>
+  <message Value="104" Content="Colocar Carrier con Housing;Colocar Bracket;Colocar Shaft" Level="1"/>
+  <message Value="105" Content="Colocar Shifter;Remover Bracket, Shaft y Detent Pin" Level="1"/>
+  <message Value="106" Content="Colocar Shifter;Remover Bracket, Shaft y Detent Pin" Level="1"/>
+  <message Value="107" Content="Colocar Shifter;Remover Bracket, Shaft y Detent Pin" Level="1"/>
+  <message Value="108" Content="Colocar Shifter boca abajo;Remover Bracket, Shaft y Detent Pin" Level="1"/>
+  <message Value="109" Content="Colocar Shifter boca Arriba;Remover Bracket, Shaft y Detent Pin" Level="1"/>
+  <message Value="110" Content="Colocar Shifter boca Arriba;Remover Bracket y Shaft" Level="1"/>
+  <message Value="111" Content="Colocar Shifter boca Arriba;Remover Bracket y Shaft" Level="1"/>
+  <message Value="112" Content="Colocar Shifter boca Arriba;Remover Bracket y Shaft" Level="1"/>
+  <message Value="113" Content="Colocar Shifter boca Arriba;Remover Bracket y Shaft" Level="1"/>
+  <message Value="114" Content="Colocar Shifter boca Arriba;Remover Bracket y Shaft" Level="1"/>
+  <message Value="115" Content="Message Content" Level="1"/>
+  <message Value="116" Content="Message Content" Level="1"/>
+  <message Value="117" Content="Message Content" Level="1"/>
+  <message Value="118" Content="Message Content" Level="1"/>
+  <message Value="119" Content="Message Content" Level="1"/>
+</MessageList>

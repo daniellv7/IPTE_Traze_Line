@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<SolutionSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UidGenerationMode>Smart</UidGenerationMode>
+  <ProjectsSettings>
+    <ProjectSettings>
+      <ProjectUniqueName>7_i18n\7_i18n.csproj</ProjectUniqueName>
+      <Localizable>true</Localizable>
+    </ProjectSettings>
+  </ProjectsSettings>
+  <DevelepmentCulture>en</DevelepmentCulture>
+  <LocalizationCultures>
+    <string>et</string>
+  </LocalizationCultures>
+</SolutionSettings>

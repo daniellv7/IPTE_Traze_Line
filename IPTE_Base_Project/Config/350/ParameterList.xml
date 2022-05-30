@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Parameters>
+  <!--Cell and Timestamp is automatically set by application -->
+  <DBResults>
+    <Parameter Name="U_Item" ObservableVariable="U_Item"/>
+    <Parameter Name="Process_Status" ObservableVariable="Process_Status"/>
+    <Parameter Name="Error_Code" ObservableVariable="Error_Code"/>
+    <Parameter Name="Variant" ObservableVariable="Variant"/>
+    <Parameter Name="WPC" ObservableVariable="WPC"/>
+    <Parameter Name="Shuttle_ID" ObservableVariable="Shuttle_ID"/>
+    <Parameter Name="PRND_PCB_Code" ObservableVariable="PRND_PCB_Code"/>
+	<Parameter Name="PRND_PCB_in_Well" ObservableVariable="PRND_PCB_in_Well"/>
+	<Parameter Name="Sub_Assy_bracket_in_housing" ObservableVariable="Sub_Assy_bracket_in_housing"/>
+    <Parameter Name="Shaft_Present" ObservableVariable="Shaft_Present"/>
+    <Parameter Name="Locking_element_Present" ObservableVariable="Locking_element_Present"/>
+    <Parameter Name="Bracket_Present" ObservableVariable="Bracket_Present"/>
+    <Parameter Name="Cover_Light_Housing_Present" ObservableVariable="Cover_Light_Housing_Present"/>
+    <Parameter Name="PRND_PCB_Box" ObservableVariable="PRND_PCB_Box"/>
+    <Parameter Name="Cover_Light_Box" ObservableVariable="Cover_Light_Box"/>
+    <Parameter Name="Sub_Assembly_Light_Box" ObservableVariable="Sub_Assembly_Light_Box"/>
+    <Parameter Name="PRND_PCB_Code_ok" ObservableVariable="PRND_PCB_Code_ok"/>
+    <Parameter Name="Model" ObservableVariable="Model"/>
+    <Parameter Name="PRND_PCB_Box_storage" ObservableVariable="PRND_PCB_Box_storage"/>
+    <Parameter Name="Cover_Light_Box_storage" ObservableVariable="Cover_Light_Box_storage"/>
+    <Parameter Name="Sub_Assembly_Light_Box_storage" ObservableVariable="Sub_Assembly_Light_Box_storage"/>
+  </DBResults>
+  <ConfigurationReport>
+    <Parameter Name="VariantName" ObservableVariable="VariantName"/>
+  </ConfigurationReport>
+</Parameters>

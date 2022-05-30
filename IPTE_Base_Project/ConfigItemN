@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Item>
+  <ItemInfo>
+    <U_Item_Production_Item></U_Item_Production_Item>
+    <V_Variant_ID></V_Variant_ID>
+    <Shuttle_ID>0</Shuttle_ID>
+    <Carrier_Model></Carrier_Model>
+    <Sub_Assembly_DMC></Sub_Assembly_DMC>
+    <Process_Status>False</Process_Status>
+    <Error_Code></Error_Code>
+  </ItemInfo>
+</Item>

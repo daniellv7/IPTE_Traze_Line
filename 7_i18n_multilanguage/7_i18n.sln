@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_i18n", "7_i18n\7_i18n.csproj", "{AC624D4B-6DCE-49E6-8244-95DA9639E46E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TS1Localization", "TS1Localization", "{C97562D3-FAB4-4293-AFB9-ED36F1E8C9DB}"
+	ProjectSection(SolutionItems) = preProject
+		TS1Localization\TS1Localization.exe = TS1Localization\TS1Localization.exe
+		TS1Localization\TS1Localization.settings = TS1Localization\TS1Localization.settings
+		TS1Localization\TS1Localization.targets = TS1Localization\TS1Localization.targets
+		TS1Localization\TS1LocalizationFormats.dll = TS1Localization\TS1LocalizationFormats.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC624D4B-6DCE-49E6-8244-95DA9639E46E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC624D4B-6DCE-49E6-8244-95DA9639E46E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC624D4B-6DCE-49E6-8244-95DA9639E46E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC624D4B-6DCE-49E6-8244-95DA9639E46E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A6E63CA-1DDD-4C46-8D3F-42B60B83C5AD}
+	EndGlobalSection
+EndGlobal

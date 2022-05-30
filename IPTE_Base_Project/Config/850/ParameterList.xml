@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Parameters>
+  <!--Cell and Timestamp is automatically set by application -->
+  <DBResults>
+    <Parameter Name="U_Item" ObservableVariable="U_Item"/>
+    <Parameter Name="Process_Status" ObservableVariable="Process_Status"/>
+    <Parameter Name="Error_Code" ObservableVariable="Error_Code"/>
+    <Parameter Name="Variant" ObservableVariable="Variant"/>
+    <Parameter Name="WPC" ObservableVariable="WPC"/>
+    <Parameter Name="Shuttle_ID" ObservableVariable="Shuttle_ID"/>
+    <Parameter Name="Screw_Result_LH" ObservableVariable="Screw_Result_LH"/>
+    <Parameter Name="Screw_Result_RH" ObservableVariable="Screw_Result_RH"/>
+    <Parameter Name="Toggle_LH_Present" ObservableVariable="Toggle_LH_Present"/>
+    <Parameter Name="Toggle_RH_Present" ObservableVariable="Toggle_RH_Present"/>
+    <Parameter Name="Screw_Program_LH" ObservableVariable="Screw_Program_LH"/>
+    <Parameter Name="Screw_Program_RH" ObservableVariable="Screw_Program_RH"/>
+    <Parameter Name="Screw_Torque_LH" ObservableVariable="Screw_Torque_LH"/>
+    <Parameter Name="Screw_Torque_RH" ObservableVariable="Screw_Torque_RH"/>
+    <Parameter Name="Screw_Angle_LH" ObservableVariable="Screw_Angle_LH"/>
+    <Parameter Name="Screw_Angle_RH" ObservableVariable="Screw_Angle_RH"/>
+    <Parameter Name="Screw_Grad_LH" ObservableVariable="Screw_Grad_LH"/>
+    <Parameter Name="Screw_Grad_RH" ObservableVariable="Screw_Grad_RH"/>
+    <Parameter Name="Toggle_LH_Box" ObservableVariable="Toggle_LH_Box"/>
+    <Parameter Name="Toggle_RH_Box" ObservableVariable="Toggle_RH_Box"/>
+    <Parameter Name="Toggle_LH_Box_storage" ObservableVariable="Toggle_LH_Box_storage"/>
+    <Parameter Name="Toggle_RH_Box_storage" ObservableVariable="Toggle_RH_Box_storage"/>
+	  <Parameter Name="Screw_Box" ObservableVariable="Screw_Box"/>
+    <Parameter Name="Screw_Box_storage" ObservableVariable="Screw_Box_storage"/>
+    <Parameter Name="Model" ObservableVariable="Model"/>
+	  <Parameter Name="Screw_Torque_High_Limit_LH" ObservableVariable="Screw_Torque_High_Limit_LH"/>
+    <Parameter Name="Screw_Torque_Low_Limit_LH" ObservableVariable="Screw_Torque_Low_Limit_LH"/>
+	  <Parameter Name="Screw_Angle_High_Limit_LH" ObservableVariable="Screw_Angle_High_Limit_LH"/>
+    <Parameter Name="Screw_Angle_Low_Limit_LH" ObservableVariable="Screw_Angle_Low_Limit_LH"/>
+  	<Parameter Name="Screw_Grad_High_Limit_LH" ObservableVariable="Screw_Grad_High_Limit_LH"/>
+    <Parameter Name="Screw_Grad_Low_Limit_LH" ObservableVariable="Screw_Grad_Low_Limit_LH"/>
+	  <Parameter Name="Screw_Torque_High_Limit_RH" ObservableVariable="Screw_Torque_High_Limit_RH"/>
+    <Parameter Name="Screw_Torque_Low_Limit_RH" ObservableVariable="Screw_Torque_Low_Limit_RH"/>
+	  <Parameter Name="Screw_Angle_High_Limit_RH" ObservableVariable="Screw_Angle_High_Limit_RH"/>
+    <Parameter Name="Screw_Angle_Low_Limit_RH" ObservableVariable="Screw_Angle_Low_Limit_RH"/>
+  	<Parameter Name="Screw_Grad_High_Limit_RH" ObservableVariable="Screw_Grad_High_Limit_RH"/>
+    <Parameter Name="Screw_Grad_Low_Limit_RH" ObservableVariable="Screw_Grad_Low_Limit_RH"/>
+  
+  </DBResults>
+  
+  <ConfigurationReport>
+    
+    <Parameter Name="VariantName" ObservableVariable="VariantName"/>
+    <Parameter Name="Toggle_LH" ObservableVariable="Toggle_LH"/>
+    <Parameter Name="Toggle_RH" ObservableVariable="Toggle_RH"/>
+    <Parameter Name="Screw_Program_LH" ObservableVariable="Screw_Program_LH"/>
+    <Parameter Name="Screw_Program_RH" ObservableVariable="Screw_Program_RH"/>
+	
+  </ConfigurationReport>
+</Parameters>

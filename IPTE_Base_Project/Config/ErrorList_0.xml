@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ErrorList>
+
+  <!--Value= valor con el que se mostrara el mensaje  -->
+  <!--Title=Titulo a mostrar de el error que viene en pallet-->
+  <!--Content= Mensaje de proceso a seguir mostrado en pantalla 6 renglones disponibles utilizar ";" para separar-->
+  <!--Image=si el mensaje va acompañado por imagenes colocar el nombre de las mismas separados por ";" estas deben de existir en la carpeta correspondiente Maximo 4-->
+
+  <Cell Name="0">
+    <message Value="406" Title="Waiting Shuttle"  Content="Message Contetn 1" Images="0;1;2;3"/>
+  </Cell>
+
+  <Cell Name="100">
+    <message Value="0" Title="No Error" Content="  " />
+    <message Value="1" Title="Rechazo por N.I.O " Content="1.-Parte rechazada por N.I.O.;2.-Revisar pieza"/>
+    <message Value="2" Title="Defecto Detectado en Bezel, Lens, knob o knob cap" Content="1.-Scrap shifter y recupera partes en proceso especial"/>
+    <message Value="3" Title="Defecto Detectado en Switches y palancas" Content="1.-Remover tornillos;2.-Des ensambla los toggle lever;3.-Colocar NOK lever en caja NOK;4.-Enviar WPC a celda 850 "/>
+    <message Value="4" Title="Defecto Detectado en bitron switches o toggle switches" Content="N/A"/>
+    <message Value="5" Title="Fallo en procedimiento de Etiquetado"  Content="1.-Retirar Etiqueta ;Enviar WPC a celda 100 para retiquetado"/>
+    <message Value="6" Title="DMC/Barcode no legible"  Content="1.-Retirar Etiqueta ;Enviar WPC a celda 100 para retiquetado"/>
+    <message Value="7" Title="DMC/Barcode no legible"  Content="1.-Retirar Etiqueta ;Enviar WPC a celda 100 para retiquetado"/>
+    <message Value="8" Title="Pending Message"  Content="N/A"/>
+    <message Value="9" Title="Pending Message"  Content="N/A"/>
+    <message Value="10" Title="Pending Message"  Content="N/A"/>
+  </Cell>
+
+  <Cell Name="200">
+    <message Value="0" Title="No Error" Content="  " />
+    <message Value="1" Title="Rechazo por N.I.O" Content="1.-Parte rechazada por N.I.O.;2.-Revisar pieza"/>
+    <message Value="2" Title="DMC no legible" Content="fallo en lectura del Selenoide de sub ensamble de bracket"/>
+    <message Value="3" Title="DMC no legible"  Content="fallo en lectura del Selenoide de sub ensamble de Carrier"/>
+    <message Value="4" Title="Pending Message"  Content="N/A"/>
+    <message Value="5" Title="Pending Message"  Content="N/A"/>
+    <message Value="6" Title="Pending Message"  Content="N/A"/>
+    <message Value="7" Title="Pending Message"  Content="N/A"/>
+    <message Value="8" Title="Pending Message"  Content="N/A"/>
+    <message Value="9" Title="Pending Message"  Content="N/A"/>
+    <message Value="10" Title="Pending Message"  Content="N/A"/>
+  </Cell>
+
+  <Cell Name="300">
+    <message Value="0" Title="No Error" Content="  " />
+    <message Value="1" Title="Rechazo por N.I.O" Content="1.-Parte rechazada por N.I.O.;2.-Revisar pieza"/>
+    <message Value="2" Title="Puntos de engrasado no colocados" Content="Limpiar shaft, housing y bracket;Enviar a celda 300 para re-engrasado"/>
+    <message Value="3" Title="Cantidad de Grasa Incorrecta"  Content="Limpiar shaft, housing y bracket;Enviar a celda 300 para re-engrasado"/>
+    <message Value="4" Title="particulas de Aire Detectadas"  Content="Limpiar shaft, housing y bracket;Enviar a celda 300 para re-engrasado"/>
+    <message Value="5" Title="Pending Message"  Content="N/A"/>
+    <message Value="6" Title="Pending Message"  Content="N/A"/>
+    <message Value="7" Title="Pending Message"  Content="N/A"/>
+    <message Value="8" Title="Pending Message"  Content="N/A"/>
+    <message Value="9" Title="Pending Message"  Content="N/A"/>
+    <message Value="10" Title="Pending Message"  Content="N/A"/>
+  </Cell>
+
+  <Cell Name="350">
+    <message Value="0" Title="No Error" Content="  " />
+    <message Value="1" Title="Rechazo por N.I.O" Content="1.-Parte rechazada por N.I.O.;2.-Revisar pieza"/>
+    <message Value="2" Title="Daño en componente"  Content="1:Scrap shaft ;2:Limpiar todos los componentes de grasa;3:Enviar componentes a celda 200"/>
+    <message Value="3" Title="Daño en componente"  Content="Scrap locking element ;Confirmar el Sub ensamble de manera visual y colocarlo en WPC;Enviar a celda 350"/>
+    <message Value="4" Title="Daño en componente"  Content="Scrap subassembly bracket;Limpiar todos los componentes de grasa;enviar componentes a celda 200"/>
+    <message Value="5" Title="Pending Message"  Content="N/A"/>
+    <message Value="6" Title="Pending Message"  Content="N/A"/>
+    <message Value="7" Title="Pending Message"  Content="N/A"/>
+    <message Value="8" Title="Pending Message"  Content="N/A"/>
+    <message Value="9" Title="Pending Message"  Content="N/A"/>
+    <message Value="10" Title="Pending Message"  Content="N/A"/>
+  </Cell>
+
+
+  <Cell Name="400">
+    <message Value="0" Title="No Error" Content="  " />
+    <message Value="1" Title="Rechazo por N.I.O" Content="1.-Parte rechazada por N.I.O.;2.-Revisar pieza"/>
+    <message Value="2" Title="Daño en componente" Content="Scrap shaft;Enviar WPC a celda 200"/>
+    <message Value="3" Title="Daño en componente"  Content="Scrap locking element;Confirmar el Sub ensamble de manera visual y colocarlo en WPC;Enviar a celda 400"/>
+    <message Value="4" Title="Daño en componente"  Content="1:Scrap shaft ;2:Limpiar todos los componentes de grasa;3:Enviar componentes a celda 200"/>
+    <message Value="5" Title="Atornillado NOK"  Content="1:Remover todos los tornillos de la unidad;2:revisar que no queden tornillos en housing;Enviar a la celda 400"/>
+    <message Value="6" Title="Pending Message"  Content="N/A"/>
+    <message Value="7" Title="Pending Message"  Content="N/A"/>
+    <message Value="8" Title="Pending Message"  Content="N/A"/>
+    <message Value="9" Title="Pending Message"  Content="N/A"/>
+    <message Value="10" Title="Pending Message"  Content="N/A"/>
+  </Cell>
+
+  <Cell Name="500">
+    <message Value="0" Title="No Error" Content="  " />
+    <message Value="1" Title="Rechazo por N.I.O" Content="1.-Parte rechazada por N.I.O.;2.-Revisar pieza"/>
+    <message Value="2" Title="Daño cosmetico" Content="Remover Ilumination sub-assembly ;Enviar WPC a celda 350"/>
+    <message Value="3" Title="Pending Message"  Content="N/A"/>
+    <message Value="4" Title="Pending Message"  Content="N/A"/>
+    <message Value="5" Title="Pending Message"  Content="N/A"/>
+    <message Value="6" Title="Pending Message"  Content="N/A"/>
+    <message Value="7" Title="Pending Message"  Content="N/A"/>
+    <message Value="8" Title="Pending Message"  Content="N/A"/>
+    <message Value="9" Title="Pending Message"  Content="N/A"/>
+    <message Value="10" Title="Pending Message"  Content="N/A"/>
+  </Cell>
+
+  <Cell Name="600">
+    <message Value="0" Title="No Error" Content="  " />
+    <message Value="1" Title="Rechazo por N.I.O" Content="1.-Parte rechazada por N.I.O.;2.-Revisar pieza"/>
+    <message Value="2" Title="Posicion Final no lograda" Content="1:Confirmar condicion de Housing clips;2;si es OK enviar a celda 600;si se detecta daño Remover Housing Cover;Remover PCB principal; Enviar a celda 500"/>
+    <message Value="3" Title="Posicion Final no lograda"  Content="1:Confirmar condicion de Illumination Cover clips;2;si es OK enviar a celda 600;si se detecta daño Scrap Shifter y recuperar Partes"/>
+    <message Value="4" Title="Atornillado NOK"  Content="Remover el tornillo de la unidad ;Enviar WPC a celda 600"/>
+    <message Value="5" Title="Parte perdida"  Content="1.-Remover cover, connector y PCB;Enviar WPC a celda 500"/>
+    <message Value="6" Title="Parte perdida"  Content="1.-Remover sub-assembly illumination cover;Enviar WPC a celda 500"/>
+    <message Value="7" Title="Damaged in clips"  Content="Scrap shifter y recuperar partes singulares"/>
+    <message Value="8" Title="Pending Message"  Content="N/A"/>
+    <message Value="9" Title="Pending Message"  Content="N/A"/>
+    <message Value="10" Title="Pending Message"  Content="N/A"/>
+  </Cell>
+
+ 
+  <Cell Name="700">
+    <message Value="0" Title="No Error" Content="  " />
+    <message Value="1" Title="Rechazo por N.I.O" Content="1.-Parte rechazada por N.I.O.;2.-Revisar pieza"/>
+    <message Value="2" Title="Wiring harness no conectado correctamente" Content="1.-Reconectar correctamente y enviar a EOL"/>
+    <message Value="3" Title="Display no colocado hasta posicion final"  Content="1.-Des-ensamblar display ;2.-Enviar WPC a celda 700"/>
+    <message Value="4" Title="Display not Bezel in into end position"  Content="1.-Des-ensamblar Bezel;2.-Enviar WPC a celda 700"/>
+    <message Value="5" Title="Pending Message"  Content="N/A"/>
+    <message Value="6" Title="Pending Message"  Content="N/A"/>
+    <message Value="7" Title="Pending Message"  Content="N/A"/>
+    <message Value="8" Title="Pending Message"  Content="N/A"/>
+    <message Value="9" Title="Pending Message"  Content="N/A"/>
+    <message Value="10" Title="Pending Message"  Content="N/A"/>
+  </Cell>
+  
+
+  <Cell Name="750">
+    <message Value="0" Title="No Error" Content="  " />
+    <message Value="1" Title="Rechazo por N.I.O" Content="1.-Parte rechazada por N.I.O.;2.-Revisar pieza"/>
+    <message Value="2" Title="Wiring harness no conectado correctamente" Content="1.-Reconectar correctamente y enviar a EOL"/>
+    <message Value="3" Title="Display no colocado hasta posicion final"  Content="1.-Des-ensamblar display ;2.-Enviar WPC a celda 700"/>
+    <message Value="4" Title="Display not Bezel in into end position"  Content="1.-Des-ensamblar Bezel;2.-Enviar WPC a celda 700"/>
+    <message Value="5" Title="Pending Message"  Content="N/A"/>
+    <message Value="6" Title="Pending Message"  Content="N/A"/>
+    <message Value="7" Title="Pending Message"  Content="N/A"/>
+    <message Value="8" Title="Pending Message"  Content="N/A"/>
+    <message Value="9" Title="Pending Message"  Content="N/A"/>
+    <message Value="10" Title="Pending Message"  Content="N/A"/>
+  </Cell>
+
+  <Cell Name="800">
+    <message Value="0" Title="No Error" Content="  " />
+    <message Value="1" Title="Rechazo por N.I.O" Content="1.-Parte rechazada por N.I.O.;2.-Revisar pieza"/>
+    <message Value="2" Title="Atornillado NOK" Content="1.-Remover todos los tornillos y remover con el KNOB ;2.-Realizar una prueba de sacudida para confirmar tornillos en unidad;Enviar a celda 800"/>
+    <message Value="3" Title="Pending Message"  Content="N/A"/>
+    <message Value="4" Title="Pending Message"  Content="N/A"/>
+    <message Value="5" Title="Pending Message"  Content="N/A"/>
+    <message Value="6" Title="Pending Message"  Content="N/A"/>
+    <message Value="7" Title="Pending Message"  Content="N/A"/>
+    <message Value="8" Title="Pending Message"  Content="N/A"/>
+    <message Value="9" Title="Pending Message"  Content="N/A"/>
+    <message Value="10" Title="Pending Message"  Content="N/A"/>
+  </Cell>
+
+  <Cell Name="850">
+    <message Value="0" Title="No Error" Content="  " />
+    <message Value="1" Title="Rechazo por N.I.O" Content="1.-Parte rechazada por N.I.O.;2.-Revisar pieza"/>
+    <message Value="2" Title="Atornillado NOK" Content="1.-Remover tornillos de los toggle levers (LH y RH);2.Des-emsambla los toggle levers;Enviar a Celda 850"/>
+    <message Value="3" Title="Atornillado NOK"  Content="1.-Remover tornillos de los toggle levers (LH y RH);2.Des-emsambla los toggle levers;Enviar a Celda 850"/>
+    <message Value="4" Title="Pending Message"  Content="N/A"/>
+    <message Value="5" Title="Pending Message"  Content="N/A"/>
+    <message Value="6" Title="Pending Message"  Content="N/A"/>
+    <message Value="7" Title="Pending Message"  Content="N/A"/>
+    <message Value="8" Title="Pending Message"  Content="N/A"/>
+    <message Value="9" Title="Pending Message"  Content="N/A"/>
+    <message Value="10" Title="Pending Message"  Content="N/A"/>
+  </Cell>
+
+  <Cell Name="900">
+    <message Value="0" Title="No Error" Content="  " />
+    <message Value="1" Title="Fallo en Knob Checker" Content="Colocar Knob en la correcta posicion para EOL;Presionar Captron despues de realizar accion correctiva"/>
+    <message Value="2" Title="Receta no encontrada" Content="Verificar configuracion en celda 901;Modificar informacion de pallet si es necesario;Presionar Captron despues de realizar accion correctiva"/>
+    <message Value="3" Title="Error en RFID"  Content="Verificar el RFID tag y RFID scanner en la celda 901;Presionar Captron despues de realizar accion correctiva"/>
+    <message Value="4" Title="Parte faltante en pallet"  Content="Sensor no detecto parte en pallet;Scrap Pallet;Presionar Captron despues de realizar accion correctiva"/>
+    <message Value="5" Title="Error en tipo de pallet"  Content="Gripper y/o Utiles incorrectos para esta variante en celda 901;Presionar Captron despues de realizar accion correctiva"/>
+    <message Value="6" Title="Error en informacion de pallet"  Content="Variante o numero serial vacio;LLamar supervisor para revisar fallo en celda 901;Presionar Captron despues de realizar accion correctiva"/>
+    <message Value="7" Title="Pieza Rechazada"  Content="Parte rechazada porque se han abierto las puertas"/>
+    <message Value="8" Title="Pending Message"  Content="N/A"/>
+    <message Value="9" Title="Maquina en PassThrough"  Content="Pieza No Testeada"/>
+    <message Value="10" Title="Pending Message"  Content="N/A"/>
+    <message Value="100" Title="Prueba detenida en Posicion 1"  Content="Cambiar PCB signal y knob;Revisar posicion correcta de knob;Presionar Captron despues de realizar accion correctiva"/>
+    <message Value="101" Title="Prueba detenida en Posicion 1"  Content="Cambiar PCB signal y knob;Revisar posicion correcta de knob;Presionar Captron despues de realizar accion correctiva"/>
+    <message Value="102" Title="Pending Message"  Content="N/A"/>
+    <message Value="103" Title="Pending Message"  Content="N/A"/>
+    <message Value="104" Title="Pending Message"  Content="N/A"/>
+    <message Value="105" Title="Pending Message"  Content="N/A"/>
+    <message Value="106" Title="Pending Message"  Content="N/A"/>
+    <message Value="107" Title="Pending Message"  Content="N/A"/>
+  </Cell>
+
+  <Cell Name="901">
+    <message Value="0" Title="No Error" Content="  " />
+    <message Value="1" Title="Fallo en Knob Checker" Content="Colocar Knob en la correcta posicion para EOL;Presionar Captron despues de realizar accion correctiva"/>
+    <message Value="2" Title="Receta no encontrada" Content="Verificar configuracion en celda 901;Modificar informacion de pallet si es necesario;Presionar Captron despues de realizar accion correctiva"/>
+    <message Value="3" Title="Error en RFID"  Content="Verificar el RFID tag y RFID scanner en la celda 901;Presionar Captron despues de realizar accion correctiva"/>
+    <message Value="4" Title="Parte faltante en pallet"  Content="Sensor no detecto parte en pallet;Scrap Pallet;Presionar Captron despues de realizar accion correctiva"/>
+    <message Value="5" Title="Error en tipo de pallet"  Content="Gripper y/o Utiles incorrectos para esta variante en celda 901;Presionar Captron despues de realizar accion correctiva"/>
+    <message Value="6" Title="Error en informacion de pallet"  Content="Variante o numero serial vacio;LLamar supervisor para revisar fallo en celda 901;Presionar Captron despues de realizar accion correctiva"/>
+    <message Value="7" Title="Pieza Rechazada"  Content="Parte rechazada porque se han abierto las puertas"/>
+    <message Value="8" Title="Pending Message"  Content="N/A"/>
+    <message Value="9" Title="Maquina en PassThrough"  Content="Pieza No Testeada"/>
+    <message Value="10" Title="Pending Message"  Content="N/A"/>
+    <message Value="100" Title="Prueba detenida en Posicion 1"  Content="Cambiar PCB signal y knob;Revisar posicion correcta de knob;Presionar Captron despues de realizar accion correctiva"/>
+    <message Value="101" Title="Prueba detenida en Posicion 1"  Content="Cambiar PCB signal y knob;Revisar posicion correcta de knob;Presionar Captron despues de realizar accion correctiva"/>
+    <message Value="102" Title="Pending Message"  Content="N/A"/>
+    <message Value="103" Title="Pending Message"  Content="N/A"/>
+    <message Value="104" Title="Pending Message"  Content="N/A"/>
+    <message Value="105" Title="Pending Message"  Content="N/A"/>
+    <message Value="106" Title="Pending Message"  Content="N/A"/>
+    <message Value="107" Title="Pending Message"  Content="N/A"/>
+  </Cell>
+
+  <Cell Name="902">
+    <message Value="0" Title="No Error" Content="  " />
+    <message Value="1" Title="Fallo en Knob Checker" Content="Colocar Knob en la correcta posicion para EOL;Presionar Captron despues de realizar accion correctiva"/>
+    <message Value="2" Title="Receta no encontrada" Content="Verificar configuracion en celda 902;Modificar informacion de pallet si es necesario;Presionar Captron despues de realizar accion correctiva"/>
+    <message Value="3" Title="Error en RFID"  Content="Verificar el RFID tag y RFID scanner en la celda 902;Presionar Captron despues de realizar accion correctiva"/>
+    <message Value="4" Title="Parte faltante en pallet"  Content="Sensor no detecto parte en pallet;Scrap Pallet;Presionar Captron despues de realizar accion correctiva"/>
+    <message Value="5" Title="Error en tipo de pallet"  Content="Gripper y/o Utiles incorrectos para esta variante en celda 902;Presionar Captron despues de realizar accion correctiva"/>
+    <message Value="6" Title="Error en informacion de pallet"  Content="Variante o numero serial vacio;LLamar supervisor para revisar fallo en celda 902;Presionar Captron despues de realizar accion correctiva"/>
+    <message Value="7" Title="Pieza Rechazada"  Content="Parte rechazada porque se han abierto las puertas"/>
+    <message Value="8" Title="Pending Message"  Content="N/A"/>
+    <message Value="9" Title="Maquina en PassThrough"  Content="Pieza No Testeada"/>
+    <message Value="10" Title="Pending Message"  Content="N/A"/>
+    <message Value="100" Title="Prueba detenida en Posicion 1"  Content="Cambiar PCB signal y knob;Revisar posicion correcta de knob;Presionar Captron despues de realizar accion correctiva"/>
+    <message Value="101" Title="Prueba detenida en Posicion 1"  Content="Cambiar PCB signal y knob;Revisar posicion correcta de knob;Presionar Captron despues de realizar accion correctiva"/>
+    <message Value="102" Title="Pending Message"  Content="N/A"/>
+    <message Value="103" Title="Pending Message"  Content="N/A"/>
+    <message Value="104" Title="Pending Message"  Content="N/A"/>
+    <message Value="105" Title="Pending Message"  Content="N/A"/>
+    <message Value="106" Title="Pending Message"  Content="N/A"/>
+    <message Value="107" Title="Pending Message"  Content="N/A"/>
+  </Cell>
+
+  <Cell Name="1000">
+    <message Value="0" Title="No Error" Content="  " />
+    <message Value="1" Title="Rechazo por N.I.O" Content="1.-Parte rechazada por N.I.O.;2.-Revisar pieza"/>
+    <message Value="2" Title="Fallo en presionar Knob Cap"  Content="Scrap Shifter"/>
+    <message Value="3" Title="Pending Message"  Content="N/A"/>
+    <message Value="4" Title="Pending Message"  Content="N/A"/>
+    <message Value="5" Title="Pending Message"  Content="N/A"/>
+    <message Value="6" Title="Pending Message"  Content="N/A"/>
+    <message Value="7" Title="Pending Message"  Content="N/A"/>
+    <message Value="8" Title="Pending Message"  Content="N/A"/>
+    <message Value="9" Title="Pending Message"  Content="N/A"/>
+    <message Value="10" Title="Pending Message"  Content="N/A"/>
+  </Cell>
+
+  <Cell Name="1100">
+    <message Value="0" Title="No Error" Content="  " />
+    <message Value="1" Title="Fallo en Knob Checker" Content="Colocar Knob en la correcta posicion para EOL;Presionar Captron despues de realizar accion correctiva"/>
+    <message Value="2" Title="Receta no encontrada" Content="Verificar configuracion en celda 1100;Modificar informacion de pallet si es necesario;Presionar Captron despues de realizar accion correctiva"/>
+    <message Value="3" Title="Error en RFID"  Content="Verificar el RFID tag y RFID scanner en la celda 1100;Presionar Captron despues de realizar accion correctiva"/>
+    <message Value="4" Title="Parte faltante en pallet"  Content="Sensor no detecto parte en pallet;Scrap Pallet;Presionar Captron despues de realizar accion correctiva"/>
+    <message Value="5" Title="Error en tipo de pallet"  Content="Gripper y/o Utiles incorrectos para esta variante en celda 1100;Presionar Captron despues de realizar accion correctiva"/>
+    <message Value="6" Title="Error en informacion de pallet"  Content="Variante o numero serial vacio;LLamar supervisor para revisar fallo en celda 1100;Presionar Captron despues de realizar accion correctiva"/>
+    <message Value="7" Title="Pieza Rechazada"  Content="Parte rechazada porque se han abierto las puertas"/>
+    <message Value="8" Title="Pending Message"  Content="N/A"/>
+    <message Value="9" Title="Maquina en PassThrough"  Content="Pieza No Testeada"/>
+    <message Value="10" Title="Pending Message"  Content="N/A"/>
+    <message Value="100" Title="Prueba detenida en Posicion 2"  Content="Knob halo vision test fail ;Revisar parte para buscar posible causa:;Knob Cap, Light pipe , PCB signal;Presionar Captron despues de realizar accion correctiva"/>
+    <message Value="101" Title="Prueba detenida en Posicion 2"  Content="PRND vision test fail;Revisar parte para buscar posible causa:;PCB signal, Light PCB;Presionar Captron despues de realizar accion correctiva"/>
+    <message Value="102" Title="Prueba detenida en Posicion 1/2"  Content="Cambiar toggle LH;Presionar Captron despues de realizar accion correctiva"/>
+    <message Value="103" Title="Prueba detenida en Posicion 1/2"  Content="Cambiar toggle RH;Presionar Captron despues de realizar accion correctiva"/>
+    <message Value="104" Title="Prueba detenida en Posicion 1/2"  Content="Cambiar button LH;Presionar Captron despues de realizar accion correctiva"/>
+    <message Value="105" Title="Prueba detenida en Posicion 1/2"  Content="Cambiar button RH;Presionar Captron despues de realizar accion correctiva"/>
+    <message Value="106" Title="Pending Message"  Content="N/A"/>
+    <message Value="107" Title="Pending Message"  Content="N/A"/>
+  </Cell>
+</ErrorList>

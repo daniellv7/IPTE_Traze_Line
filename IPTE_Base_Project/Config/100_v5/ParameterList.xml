@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Parameters>
+  <!--Cell and Timestamp is automatically set by application -->
+  <DBResults>
+    <Parameter Name="U_Item" ObservableVariable="U_Item"/>
+    <Parameter Name="Process_Status" ObservableVariable="Process_Status"/>
+    <Parameter Name="Error_Code" ObservableVariable="Error_Code"/>
+    <Parameter Name="Variant" ObservableVariable="Variant"/>
+    <Parameter Name="Shuttle_ID" ObservableVariable="Shuttle_ID"/>
+    <Parameter Name="WPC" ObservableVariable="WPC"/>
+    <Parameter Name="Sub_Assembly_Carrier_DMC" ObservableVariable="Sub_Assembly_Carrier_DMC"/>
+    <Parameter Name="Detent_Pin_OK" ObservableVariable="Detent_Pin_Present"/>
+    <Parameter Name="DMC_Carrier_Box" ObservableVariable="DMC_Carrier_Box"/>
+    <Parameter Name="Ring_Box" ObservableVariable="Ring_Box"/>
+    <Parameter Name="Preassure_Spring_Box" ObservableVariable="Preassure_Spring_Box"/>
+    <Parameter Name="Detent_Pin_Box" ObservableVariable="Detent_Pin_Box"/>
+    <Parameter Name="DMC_Carrier_Box_storage" ObservableVariable="DMC_Carrier_Box_storage"/>
+    <Parameter Name="Ring_Box_storage" ObservableVariable="Ring_Box_storage"/>
+    <Parameter Name="Preassure_Spring_Box_storage" ObservableVariable="Preassure_Spring_Box_storage"/>
+    <Parameter Name="Detent_Pin_Box_storage" ObservableVariable="Detent_Pin_Box_storage"/>
+    <Parameter Name="Model" ObservableVariable="Model"/>
+  </DBResults>
+  
+  <DBResults2>
+    <Parameter Name="U_Item" ObservableVariable="U_Item"/>
+    <Parameter Name="Process_Status" ObservableVariable="Process_Status"/>
+    <Parameter Name="Error_Code" ObservableVariable="Error_Code"/>
+    <Parameter Name="Variant" ObservableVariable="Variant"/>
+    <Parameter Name="Shuttle_ID" ObservableVariable="Shuttle_ID"/>
+    <Parameter Name="WPC" ObservableVariable="WPC"/>
+	  <Parameter Name="Label_Shifter" ObservableVariable="Label_Shifter"/>
+	  <Parameter Name="Visual_Protective_Films" ObservableVariable="Visual_Protective_Films"/>
+	  <Parameter Name="Visual_Rotary_Knob" ObservableVariable="Visual_Rotary_Knob"/>
+	  <Parameter Name="Visual_Surface_carrier" ObservableVariable="Visual_Surface_carrier"/>
+	  <Parameter Name="Visual_Levers" ObservableVariable="Visual_Levers"/>
+	  <Parameter Name="Model" ObservableVariable="Model"/>
+  </DBResults2>
+  
+  <ConfigurationReport>
+    <Parameter Name="VariantName" ObservableVariable="VariantName"/>
+    <Parameter Name="Part_Number_Carrier" ObservableVariable="Part_Number_Carrier"/>
+    <Parameter Name="Number_Of_Inspections" ObservableVariable="Number_Of_Inspections"/>
+    <Parameter Name="Model_Name" ObservableVariable="Model_Name"/>
+  </ConfigurationReport>
+  
+</Parameters>
+

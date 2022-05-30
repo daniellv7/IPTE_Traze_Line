@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Collectors>
+  <CollectorPath name="Server">
+    <Path>C:\Users\CNG1402\Documents\test</Path>
+  </CollectorPath>
+  <CollectorPath name="Cell100">
+    <Path>\\IPCELL100\Users\Public\RecollectionFolder</Path>
+  </CollectorPath>
+  <CollectorPath name="Cell150">
+    <Path>\\IPCELL150\Users\Public\RecollectionFolder</Path>
+  </CollectorPath>
+</Collectors>

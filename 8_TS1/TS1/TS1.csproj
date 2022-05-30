@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E1C9FDC9-50AF-4E56-89D2-7D05CF8B4DF9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Ipte</RootNamespace>
+    <AssemblyName>TS1</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Ipte.UI.App</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>510F498141BD5877E3D2FA5D87C6FD9D7B7B446D</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>TS1_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ipte.TS1.IO, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ipte.TS1.IO.2.0.0-alpha1\lib\net40\Ipte.TS1.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="Ipte.TS1.IO.Beckhoff.Tc2, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ipte.TS1.IO.Beckhoff.Tc2.2.0.0-alpha1\lib\net40\Ipte.TS1.IO.Beckhoff.Tc2.dll</HintPath>
+    </Reference>
+    <Reference Include="Ipte.TS1.NC.Beckhoff.Tc3, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ipte.TS1.NC.Beckhoff.Tc3.2.0.0-alpha1\lib\net40\Ipte.TS1.NC.Beckhoff.Tc3.dll</HintPath>
+    </Reference>
+    <Reference Include="Ipte.TS1.StateMachine.CAMX, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ipte.TS1.StateMachine.CAMX.2.0.0-alpha2\lib\net40\Ipte.TS1.StateMachine.CAMX.dll</HintPath>
+    </Reference>
+    <Reference Include="Ipte.TS1.UI.Analytics, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ipte.TS1.UI.Analytics.2.0.0-alpha1\lib\net40\Ipte.TS1.UI.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Ipte.TS1.UI.Controls, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ipte.TS1.UI.Controls.2.0.0-alpha3\lib\net45\Ipte.TS1.UI.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Ipte.TS1.UI.i18n, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ipte.TS1.UI.i18n.2.0.0-alpha1\lib\net45\Ipte.TS1.UI.i18n.dll</HintPath>
+    </Reference>
+    <Reference Include="ReachFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Data.SQLite, Version=1.0.101.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ipte.TS1.UI.Analytics.2.0.0-alpha1\lib\net40\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="TwinCAT.Ads, Version=4.0.17.0, Culture=neutral, PublicKeyToken=180016cd49e5e8c3, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ipte.TS1.Comm.Beckhoff.Ads.3.1.0\lib\net40\TwinCAT.Ads.dll</HintPath>
+    </Reference>
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WPFLocalizeExtension, Version=3.3.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\WPFLocalizeExtension.3.3.1\lib\net35\WPFLocalizeExtension.dll</HintPath>
+    </Reference>
+    <Reference Include="XAMLMarkupExtensions, Version=1.5.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\XAMLMarkupExtensions.1.5.1\lib\net40\XAMLMarkupExtensions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="UI\App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Dialogs\AboutBox.xaml.cs">
+      <DependentUpon>AboutBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Dialogs\DocumentViewerDialog.xaml.cs">
+      <DependentUpon>DocumentViewerDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Pages\AdminConfigPage.xaml.cs">
+      <DependentUpon>AdminConfigPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Pages\AnalyzeCycleTimesPage.xaml.cs">
+      <DependentUpon>AnalyzeCycleTimesPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Pages\AnalyzeMachineEventsPage.xaml.cs">
+      <DependentUpon>AnalyzeMachineEventsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Pages\AnalyzeProductsInOut.xaml.cs">
+      <DependentUpon>AnalyzeProductsInOut.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Pages\AnalyzeSpcPage.xaml.cs">
+      <DependentUpon>AnalyzeSpcPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Pages\CellPage.xaml.cs">
+      <DependentUpon>CellPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Pages\DevicesPage.xaml.cs">
+      <DependentUpon>DevicesPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Pages\IoPage.xaml.cs">
+      <DependentUpon>IoPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Pages\LogPage.xaml.cs">
+      <DependentUpon>LogPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Machine\Config\MachineSettings.cs" />
+    <Compile Include="Machine\Config\Paths.cs" />
+    <Compile Include="Machine\Config\Product.cs" />
+    <Compile Include="Machine\Config\Recipe.cs" />
+    <Compile Include="Machine\Controller.cs" />
+    <Compile Include="Machine\Devices\LoadingSegment.cs" />
+    <Compile Include="Machine\Devices\SimpleSegment.cs" />
+    <Compile Include="Machine\Devices\UnloadingSegment.cs" />
+    <Compile Include="Machine\Hardware\IO\GeneralIO.cs" />
+    <Compile Include="Machine\Hardware\IO\LoadingSegmentIO.cs" />
+    <Compile Include="Machine\Hardware\IO\SegmentIO.cs" />
+    <ApplicationDefinition Include="UI\App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="UI\Dialogs\AboutBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UI\Dialogs\DocumentViewerDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UI\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UI\Pages\AdminConfigPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UI\Pages\AnalyzeCycleTimesPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UI\Pages\AnalyzeMachineEventsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UI\Pages\AnalyzeProductsInOut.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UI\Pages\AnalyzeSpcPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UI\Pages\CellPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UI\Pages\DevicesPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UI\Pages\IoPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UI\Pages\LogPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="Resources\documentation.xps">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="TS1_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\analyse.png" />
+    <Resource Include="Resources\column.PNG" />
+    <Resource Include="Resources\configure.png" />
+    <Resource Include="Resources\icon.ico" />
+    <SplashScreen Include="Resources\ipte transparent logo.png" />
+    <Resource Include="Resources\manipulate.png" />
+    <Resource Include="Resources\observe.png" />
+    <Resource Include="Resources\teach.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

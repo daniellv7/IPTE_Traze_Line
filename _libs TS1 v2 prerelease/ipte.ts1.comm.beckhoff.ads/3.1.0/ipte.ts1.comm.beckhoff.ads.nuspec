@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Ipte.TS1.Comm.Beckhoff.Ads</id>
+    <version>3.1.0</version>
+    <authors>Beckhoff Automation GmbH</authors>
+    <owners>Beckhoff Automation GmbH</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Beckhoff ADS library</description>
+    <releaseNotes>Initial nuget release</releaseNotes>
+    <copyright>Beckhoff Automation GmbH</copyright>
+    <tags>Beckhoff TwinCAT ADS</tags>
+  </metadata>
+</package>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Collectors>
+  <CollectorPath name="Cell1100_SequenceRecord">
+    <Path>V:\File\SequenceRecord\</Path>
+  </CollectorPath>
+    <CollectorPath name="Cell1100_TestErrorRecord">
+    <Path>V:\File\TestErrorRecord\</Path>
+  </CollectorPath>
+    <CollectorPath name="Cell1100_AlarmMessageRecord">
+    <Path>V:\File\AlarmMessageRecord\</Path>
+  </CollectorPath>
+    <CollectorPath name="Cell1100_Traceability">
+    <Path>V:\File\Traceability\</Path>
+  </CollectorPath>
+    <CollectorPath name="Cell1100_UserEventRecord">
+    <Path>V:\File\UserEventRecord\</Path>
+  </CollectorPath>
+  <CollectorPath name="Cell1100_Lumicam">
+    <Path>V:\Lumicam\</Path>
+  </CollectorPath>
+  <CollectorPath name="Cell1100_HTVision">
+    <Path>V:\HTVision\</Path>
+  </CollectorPath>
+</Collectors>

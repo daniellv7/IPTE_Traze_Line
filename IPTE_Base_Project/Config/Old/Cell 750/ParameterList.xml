@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Parameters>
+  <!--Cell and Timestamp is automatically set by application -->
+  <DBResults>
+    <Parameter Name="U_Item" ObservableVariable="U_Item"/>
+    <Parameter Name="Process_Status" ObservableVariable="Process_Status"/>
+    <Parameter Name="Error_Code" ObservableVariable="Error_Code"/>
+    <Parameter Name="Variant" ObservableVariable="Variant"/>
+    <Parameter Name="Shuttle_ID" ObservableVariable="Shuttle_ID"/>
+    <Parameter Name="WPC" ObservableVariable="WPC"/>
+    <Parameter Name="Model" ObservableVariable="Model"/>
+    <Parameter Name="Bezel_Present" ObservableVariable="Bezel_Present"/>
+    <Parameter Name="Display_Present" ObservableVariable="Display_Present"/>
+	<Parameter Name="Display_Pressed" ObservableVariable="Display_Pressed"/>
+    <Parameter Name="Bezel_Pressed" ObservableVariable="Bezel_Pressed"/>
+	<Parameter Name="Detent_Pin_OK" ObservableVariable="Detent_Pin_OK"/>
+    <Parameter Name="Display_Box" ObservableVariable="Display_Box"/>
+    <Parameter Name="Bezel_Box" ObservableVariable="Bezel_Box"/>
+    <Parameter Name="Display_DMC" ObservableVariable="Display_DMC"/>
+    <Parameter Name="Bezel_DMC" ObservableVariable="Bezel_DMC"/>
+    <Parameter Name="Harness_Box" ObservableVariable="Harness_Box"/>
+    <Parameter Name="Harness_Box_storage" ObservableVariable="Harness_Box"/>
+    <Parameter Name="Display_Box_storage" ObservableVariable="Display_Box"/>
+    <Parameter Name="Bezel_Box_storage" ObservableVariable="Bezel_Box"/>
+   
+  </DBResults>
+  <ConfigurationReport>
+    <Parameter Name="VariantName" ObservableVariable="VariantName"/>
+    <Parameter Name="Display_Present" ObservableVariable="Display_Present"/>
+    <Parameter Name="Detent_Pin_Present" ObservableVariable="Detent_Pin_Present"/>
+    <Parameter Name="Display_Box" ObservableVariable="Display_Box"/>
+    <Parameter Name="Bezel_Box" ObservableVariable="Bezel_Box"/>
+  </ConfigurationReport>
+</Parameters>

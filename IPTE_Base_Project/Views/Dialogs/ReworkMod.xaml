@@ -1,0 +1,83 @@
+﻿<Window xmlns:lex="http://wpflocalizeextension.codeplex.com" x:Uid="Window_ReworkMod" xmlns:Controls="clr-namespace:Ipte.TS1.UI.Controls;assembly=Ipte.TS1.UI.Controls"  x:Class="IPTE_Base_Project.Views.Dialogs.ReworkMod"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IPTE_Base_Project.Views.Dialogs"
+        mc:Ignorable="d"
+        Title="ReworkMod" Height="250" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="100*"/>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="100*"/>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="50*"/>
+            <ColumnDefinition Width="10"/>
+        </Grid.ColumnDefinitions>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="20*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="20*"/>
+        </Grid.RowDefinitions>
+
+        <Label x:Uid="Label_From" Grid.Row="0" Grid.Column="3" Content="From:"/>
+        <Label x:Uid="Label_To" Grid.Row="0" Grid.Column="5" Content="To:"/>
+
+        <Label x:Uid="Label_SerialNumber" Grid.Row="1" Grid.Column="1" Content="Serial Number: "/>
+
+        <Label x:Uid="Label_Variant" Grid.Row="3" Grid.Column="1" Content="Variant:"/>
+
+        <Label x:Uid="Label_Model" Grid.Row="5" Grid.Column="1" Content="Model:"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="3" Grid.Row="1" Background="#FFE7FD83"  >
+            <Label Content="{Binding Model.SNUMBER}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="3" Grid.Row="3" Background="#FFE7FD83"  >
+            <Label Content="{Binding Model.RVARIANT}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="3" Grid.Row="5" Background="#FFE7FD83"  >
+            <Label Content="{Binding Model.RMODEL}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="5" Grid.Row="1"  Background="#FFE7FD83" ToolTip="12 characters" >
+            <TextBox Text="{Binding SerialMod ,Mode=TwoWay}" ToolTip="12 characters"/>
+        </Border>
+
+        <Controls:GuiComboBox   x:Uid="GuiComboBox_SelectVariant" Grid.Column="5"  Grid.Row="3" Width="Auto"  ItemsSource="{Binding LVariantList}" Text="Select Variant" SelectedIndex="{Binding SelectedInd}"/>
+
+        <Controls:GuiComboBox   x:Uid="GuiComboBox_SelectVariant_0" Grid.Column="5"  Grid.Row="5" Width="Auto"   Text="Select Variant" SelectedIndex="{Binding SelectedMod,Mode=TwoWay}">
+            <ComboBoxItem x:Uid="ComboBoxItem_WL" Content="WL" HorizontalAlignment="Left" Width="258"/>
+            <ComboBoxItem x:Uid="ComboBoxItem_WS" Content="WS" HorizontalAlignment="Left" Width="258"/>
+        </Controls:GuiComboBox>
+
+
+
+        <Controls:GuiButton x:Uid="GuiButton_Change" Content="Change" Grid.Column="7" Grid.Row="1" CommandParameter="SN" Command="{Binding WriteCommand}" IsEnabled="{Binding EnableWrite}"/>
+
+        <Controls:GuiButton x:Uid="GuiButton_Change_0" Content="Change" Grid.Column="7" Grid.Row="3" CommandParameter="VAR" Command="{Binding WriteCommand}" IsEnabled="{Binding EnableWrite}"/>
+
+        <Controls:GuiButton x:Uid="GuiButton_Change_1" Content="Change" Grid.Column="7" Grid.Row="5" CommandParameter="MOD" Command="{Binding WriteCommand}" IsEnabled="{Binding EnableWrite}"/>
+
+        <Controls:GuiButton Content="Rework Number" Grid.Column="7" Grid.Row="7" CommandParameter="RMOD" Command="{Binding WriteCommand}" IsEnabled="{Binding EnableWrite}" MinHeight="40"/>
+
+        <Controls:GuiButton Content="Scan" Grid.Column="1" Grid.Row="7" CommandParameter="SCAN" Command="{Binding WriteCommand}" IsEnabled="True"  MinHeight="40"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="3" Grid.Row="7" Grid.ColumnSpan="3" Background="#FFE7FD83" ToolTip="12 characters" >
+            <TextBox Text="{Binding ScanModT ,Mode=TwoWay}" ToolTip="12 characters"/>
+        </Border>
+        
+    </Grid>
+</Window>

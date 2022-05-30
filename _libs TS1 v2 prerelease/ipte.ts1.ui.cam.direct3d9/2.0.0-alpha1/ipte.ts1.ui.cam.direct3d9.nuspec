@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Ipte.TS1.UI.CAM.Direct3D9</id>
+    <version>2.0.0-alpha1</version>
+    <authors>Robert Hudjakov</authors>
+    <owners>Robert Hudjakov</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>http://redmine/redmine/projects/teach/news</projectUrl>
+    <description>IPTE TS1 CAM teach library</description>
+    <releaseNotes>Initial nuget release</releaseNotes>
+    <copyright>Copyright ©2019 Ipte NV</copyright>
+    <tags>IPTE TS1 UI TEACH CAM Direct3D9</tags>
+    <repository type="vn" url="https://ipteee1svn/svn/ipteee/Test/TS1/Ipte.TS1.UI/Ipte.TS1.UI.CAM.Direct3D9/draft" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.0" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="PresentationCore" targetFramework=".NETFramework4.0" />
+      <frameworkAssembly assemblyName="System.Windows.Forms" targetFramework=".NETFramework4.0" />
+      <frameworkAssembly assemblyName="WindowsBase" targetFramework=".NETFramework4.0" />
+    </frameworkAssemblies>
+    <contentFiles>
+      <files include="any/net40/SharpDX.Direct3D9.dll" buildAction="Content" />
+      <files include="any/net40/SharpDX.dll" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+</package>

@@ -1,0 +1,51 @@
+<gcl:GuiDialogWindow 
+ x:Uid="Window" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:gcl="clr-namespace:Ipte.TS1.UI.Controls;assembly=Ipte.TS1.UI.Controls" 
+    xmlns:system="clr-namespace:System;assembly=mscorlib"
+	x:Class="Ipte.UI.AboutBox" x:Name="Window" Title="About"
+	Width="480" Height="320" ShowInTaskbar="False" FontSize="16" WindowStartupLocation="CenterOwner">
+
+    <gcl:GuiDialogWindow.Resources>
+        <system:String x:Uid="String_NA" x:Key="N/A">N/A</system:String>
+        <Style TargetType="TextBlock">
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect Color="Black" ShadowDepth="0" Opacity="0.5"/>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </gcl:GuiDialogWindow.Resources>
+    
+    <Grid x:Name="LayoutRoot">
+        <Grid HorizontalAlignment="Right" Margin="0,16,16,0" VerticalAlignment="Top" Width="120" Height="40">
+            <Path Fill="{x:Null}" Stretch="Fill" Stroke="#FFDF2C31" StrokeThickness="2" Data="M0.99999997,20.316927 L83.002736,20.48063 88.975377,24.245794 95.75513,21.135443 98.983584,36.523504 111.8974,0.99999999 110.4446,23.099876 116.09439,18.843604 119,21.209033" Margin="0,2.476,0,0"/>
+            <Path Stretch="Fill" StrokeThickness="2" Data="M0.99999999,15.918 L6.4170328,1.0197613 16.980999,1 11.00734,15.918 z M26.413285,15.917999 L17.491,15.918 23.664157,1.0210012 44.1,1.021 40.452388,9.8623905 28.891106,9.8546594 z M51.154176,1.035 L72.194001,1.0572667 70.681124,4.8802016 65.444777,4.9269098 60.964505,15.918 50.840249,15.918 55.320943,5.0611208 49.513,4.9975802 z M78.940438,1.0414136 L72.833,15.917663 92.330492,15.918 93.663006,12.815729 85.323022,12.789704 86.478465,9.9720453 92.412034,9.9619868 93.681918,6.9973474 87.836493,7.0073458 88.899297,4.1596597 97.166454,4.1596597 98.525,1.041 z M30.890849,4.514 L33.447,4.514 32.351506,6.9696547 29.841,6.9700001 z" Margin="3.167,0.834,17.326,0" VerticalAlignment="Top" Height="16.918" Stroke="#FF0C0C0C"/>
+            <Path Fill="{x:Null}" Stretch="Fill" StrokeThickness="2" Data="M0.99999999,15.918 L6.4170328,1.0197613 16.980999,1 11.00734,15.918 z M26.413285,15.917999 L17.491,15.918 23.664157,1.0210012 44.1,1.021 40.452388,9.8623905 28.891106,9.8546594 z M51.154176,1.035 L72.194001,1.0572667 70.681124,4.8802016 65.444777,4.9269098 60.964505,15.918 50.840249,15.918 55.320943,5.0611208 49.513,4.9975802 z M78.940438,1.0414136 L72.833,15.917663 92.330492,15.918 93.663006,12.815729 85.323022,12.789704 86.478465,9.9720453 92.412034,9.9619868 93.681918,6.9973474 87.836493,7.0073458 88.899297,4.1596597 97.166454,4.1596597 98.525,1.041 z M30.890849,4.514 L33.447,4.514 32.351506,6.9696547 29.841,6.9700001 z" Margin="2.314,0,18.161,0" VerticalAlignment="Top" Height="16.918">
+                <Path.Stroke>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFDEDFE1" Offset="0"/>
+                        <GradientStop Color="#FF696A6C" Offset="1"/>
+                    </LinearGradientBrush>
+                </Path.Stroke>
+            </Path>
+            <Path Stretch="Fill" Stroke="#FFDF2C31" StrokeThickness="0.3" VerticalAlignment="Bottom" Height="3" Data="M49,25 C49,38.254834 38.254834,49 25,49 C11.745166,49 1,38.254834 1,25 C1,11.745166 11.745166,1 25,1 C38.254834,1 49,11.745166 49,25 z M14.847492,12.174701 L14.847492,23.068344 L24.213854,23.068344 C25.20964,23.068344 26.096861,23.01687 26.875519,22.913924 C27.654178,22.810976 28.324272,22.656555 28.885805,22.450663 C30.00887,22.038876 30.862399,21.380016 31.446393,20.474085 C32.030387,19.568153 32.322384,18.583606 32.322384,17.520447 C32.322384,16.741797 32.181064,16.032398 31.898427,15.392256 C31.615788,14.752115 31.191831,14.181228 30.626556,13.679596 C30.061281,13.177964 29.332223,12.80174 28.439387,12.550925 C27.54655,12.300109 26.489934,12.174701 25.269536,12.174701 z M10.49,8.536 L25.089845,8.536 C26.557318,8.536 27.848843,8.6099342 28.96442,8.7578035 C30.079998,8.9056719 31.019628,9.1274755 31.783313,9.4232142 C32.546997,9.7189519 33.233938,10.127932 33.844137,10.650152 C34.454334,11.172374 34.98779,11.807836 35.444505,12.55654 C35.901219,13.305245 36.243754,14.093256 36.472109,14.920573 C36.700466,15.74789 36.814644,16.614514 36.814644,17.520447 C36.814644,18.688426 36.625594,19.764688 36.247496,20.749233 C35.869396,21.73378 35.302248,22.62661 34.546053,23.427722 C33.789857,24.228834 32.827763,24.88395 31.659776,25.39307 C30.491788,25.902187 29.117906,26.265309 27.538127,26.482434 C28.69114,27.036473 29.56713,27.583029 30.166099,28.122095 C31.438907,29.290074 32.644329,30.750046 33.782368,32.502014 L39.51,41.464 L34.029443,41.464 L29.67195,34.613359 C29.035546,33.62507 28.455296,32.752828 27.9312,31.996638 C27.407103,31.240445 26.93916,30.600305 26.527368,30.076213 C25.703787,29.028029 24.966308,28.294296 24.31493,27.875023 C23.663553,27.45575 23.000944,27.163756 22.327105,26.99904 C21.832957,26.894222 21.02435,26.841812 19.901285,26.841812 L14.847492,26.841812 L14.847492,41.464 L10.49,41.464 z" HorizontalAlignment="Right" Width="3" Margin="0,0,2.438,12.562"/>
+        </Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock x:Uid="TextBlock_MachineType" Text="Machine type" HorizontalAlignment="Center" FontSize="20" Margin="0,0,0,4"/>
+            <TextBlock Text="{Binding Path=MachineType, ElementName=Window, Mode=Default}" TextWrapping="Wrap" HorizontalAlignment="Center" FontStyle="Italic"/>
+            <TextBlock x:Uid="TextBlock_SoftwareVersion" Text="Software version" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="0,10,0,4" FontSize="20"/>
+            <TextBlock Text="{Binding Path=SoftwareVersion, ElementName=Window, Mode=Default}" TextWrapping="Wrap" HorizontalAlignment="Center" FontStyle="Italic"/>
+        </StackPanel>
+        <Button x:Uid="Button_Close" HorizontalAlignment="Right" VerticalAlignment="Bottom" Content="Close" Click="Close_Click" Margin="0,0,8,8" Padding="32,4,32,4" IsCancel="True"/>
+        <Grid HorizontalAlignment="Left" Margin="8,0,0,8" VerticalAlignment="Bottom">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock x:Uid="TextBlock_TechnicalSupport" Visibility="Collapsed" Text="Technical support:" TextWrapping="Wrap" FontSize="9" FontStyle="Italic" Foreground="#FFFFFFFF" Margin="0,0,8,0"/>
+            <TextBlock Visibility="Collapsed" TextWrapping="Wrap" Text="{Binding Path=SupportNumber, ElementName=Window, Mode=Default}" FontSize="9" FontStyle="Italic" Grid.Column="1" Foreground="#FFFFFFFF"/>
+        </Grid>
+    </Grid>
+</gcl:GuiDialogWindow>

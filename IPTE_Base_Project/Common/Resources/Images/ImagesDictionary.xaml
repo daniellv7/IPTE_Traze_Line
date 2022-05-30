@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <BitmapImage x:Key="IpteImage" UriSource="IPTE.ico"/>
+    <BitmapImage x:Key="StationImage" UriSource="Station.png"/>
+    <BitmapImage x:Key="ConfigureImage" UriSource="Configure.png"/>
+    <BitmapImage x:Key="AnalyseImage" UriSource="Analyse.png"/>
+    <BitmapImage x:Key="ManipulateImage" UriSource="Manipulate.png"/>
+    <BitmapImage x:Key="ObserveImage" UriSource="Observe.png"/>
+    <BitmapImage x:Key="PowerOn" UriSource="powerOn.png"/>
+    <BitmapImage x:Key="WaveSquare" UriSource="WaveSquare.png"/>
+</ResourceDictionary>

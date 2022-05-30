@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Database>
+  <DataBaseConfig name="MySql_DB">
+    <Ip>192.168.100.1</Ip>
+    <Server>LocalHost</Server>
+    <Database>zf-db</Database>
+    <User>root</User>
+    <Password>45593</Password>
+    <AutoConnect>true</AutoConnect>
+   
+   <CellConfig name="Cell_100">
+      <Parameters>4</Parameters>
+      <Parameter_1>U_Item_Production_Item:DOUBLE</Parameter_1>
+      <Parameter_2>Process_Status:INT</Parameter_2>
+      <Parameter_3>Error_Code:VARCHAR</Parameter_3>
+      <Parameter_4>Shuttle_ID:INT</Parameter_4>
+    </CellConfig>
+    
+    <QueryConfig name="Errors">
+      <Parameters>0</Parameters>
+      <Query>SELECT * FROM e_errortable</Query>
+      <MainTable>e_errortable</MainTable>
+    </QueryConfig>
+	
+	
+  </DataBaseConfig>
+</Database>

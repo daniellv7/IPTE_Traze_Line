@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<MessageList>
+  <!--Value = valor con el que se mostrara el mensaje-->
+  <!--Content = Mensaje a mostrar 3 Renglones disponibles , para separar contenido agregar ";" -->
+  <!--level= Color con el que se mostrara el mensaje -->
+  <message Value="1" Content="1.-Part Rejected By N.I.O. Command;2.-Check Part" Level="1"/>
+  <message Value="2"  Content="Check Shutter Info" Level="1"/>
+  <message Value="3" Content="Message Contetn 1" Level="1"/>
+  <message Value="4" Content="Message Content" Level="1"/>
+  <message Value="5" Content="Message Content" Level="1"/>
+  <message Value="6" Content="Message Content" Level="1"/>
+  <message Value="7" Content="Message Content" Level="1"/>
+  <message Value="8" Content="Message Content" Level="1"/>
+  <message Value="9" Content="Message Content" Level="1"/>
+  <message Value="10" Content="Message Content" Level="1"/>
+  <message Value="11" Content="Message Content" Level="1"/>
+  <message Value="12" Content="Message Content" Level="1"/>
+  <message Value="14" Content="Message Content" Level="1"/>
+  <message Value="15" Content="Message Content" Level="1"/>
+  <message Value="13" Content="Message Content" Level="1"/>
+  <message Value="16" Content="Message Content" Level="1"/>
+  <message Value="17" Content="Message Content" Level="1"/>
+</MessageList>

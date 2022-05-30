@@ -1,0 +1,57 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:IPTE_Base_Project.Common">
+
+    <Style x:Key="myButtonStyle" TargetType="{x:Type Button}">
+        <Setter Property="Padding" Value="10,5"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+    </Style>
+
+    <Style x:Key="myTextBoxStyle" TargetType="{x:Type TextBox}">
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+    </Style>
+
+    <Style x:Key="myComboBoxStyle" TargetType="{x:Type ComboBox}">
+        <Setter Property="MinHeight" Value="50"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="FontSize" Value="14"/>
+    </Style>
+
+    <Style x:Key="myLabelStyle" TargetType="{x:Type Label}">
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+    </Style>
+
+    <Style x:Key="SelectedTextBoxStyle" TargetType="{x:Type TextBox}">
+        <Style.Triggers>
+            <DataTrigger Binding="{Binding IsFocused}" Value="True">
+                <Setter Property="FocusManager.FocusedElement" 
+                Value="{Binding RelativeSource={RelativeSource Self}}"/>
+            </DataTrigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="ItemContStyle" TargetType="{x:Type ListViewItem}">
+        <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+        <Style.Triggers>
+            <DataTrigger Binding="{Binding Stock}" Value="0">
+                <Setter Property="Foreground" Value="Red"/>
+            </DataTrigger>
+            <DataTrigger Binding="{Binding Stock}" Value="1">
+                <Setter Property="Foreground" Value="Black" />
+            </DataTrigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="myGroupBoxStyle" TargetType="{x:Type GroupBox}">
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="BorderThickness" Value="3"/>
+    </Style>
+
+</ResourceDictionary>

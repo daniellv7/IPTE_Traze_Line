@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Ipte.TS1.Comm.Siemens.Sharp7</id>
+    <version>2.0.0-alpha1</version>
+    <authors>Davide Nardella</authors>
+    <owners>Davide Nardella</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>http://snap7.sourceforge.net/sharp7.html</projectUrl>
+    <description>IPTE TS1 Siemens S7 Communication Library</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <copyright>Copyright ©2019 Ipte NV</copyright>
+    <tags>IPTE TS1 SIEMENS S7 COMMUNICATION SHARP7</tags>
+    <repository type="svn" url="https://ipteee1svn.ipte.global/svn/IPTEEE/Test/TS1/Ipte.TS1.Comm/Ipte.TS1.Comm.Siemens.Sharp7/trunk" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.0" />
+      <group targetFramework=".NETCoreApp2.0">
+        <dependency id="System.IO.Ports" version="4.5.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework=".NETFramework4.0" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.0" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.0" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

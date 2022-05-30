@@ -1,0 +1,79 @@
+<UserControl
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:gcl="clr-namespace:Ipte.TS1.UI.Controls;assembly=Ipte.TS1.UI.Controls"
+    x:Class="Ipte.UI.Pages.CellPage"
+    x:Name="UserControl"
+    Width="980" Height="550">
+
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <LinearGradientBrush x:Key="AvailabilityBrush" EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFCCFFCC" Offset="0" />
+                <GradientStop Color="#FF66E266" Offset="0.5" />
+                <GradientStop Color="#FF669B66" Offset="1" />
+            </LinearGradientBrush>
+            <LinearGradientBrush x:Key="UtilizationBrush" EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFCCCCFF" Offset="0" />
+                <GradientStop Color="#FF6666E2" Offset="0.5" />
+                <GradientStop Color="#FF66669B" Offset="1" />
+            </LinearGradientBrush>
+            <LinearGradientBrush x:Key="DownBrush" EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFFAFFCC" Offset="0" />
+                <GradientStop Color="#FFD5E266" Offset="0.5" />
+                <GradientStop Color="#FF989B66" Offset="1" />
+            </LinearGradientBrush>
+            <LinearGradientBrush x:Key="ProgressBarFill" EndPoint="0,1" StartPoint="0,0">
+                <GradientStop Color="#FFE9E9E9" Offset="0.0060091020988732652" />
+                <GradientStop Color="#FFE2E2E2" Offset="0.36054612593239588" />
+                <GradientStop Color="#FFC5C5C5" Offset="0.93389987691239407" />
+            </LinearGradientBrush>
+            <Style x:Key="ProgressBarStyle" TargetType="{x:Type gcl:GuiProgressBar}">
+                <Setter Property="Foreground" Value="{StaticResource ProgressBarFill}" />
+                <Setter Property="Background" Value="{DynamicResource {x:Static SystemColors.WindowBrushKey}}" />
+                <Setter Property="BorderBrush" Value="{DynamicResource {x:Static SystemColors.ControlDarkDarkBrushKey}}" />
+                <Setter Property="SmallChange" Value="0.01" />
+                <Setter Property="LargeChange" Value="0.01" />
+                <Setter Property="BorderThickness" Value="1" />
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="{x:Type gcl:GuiProgressBar}">
+                            <Border BorderThickness="1,1,1,1" BorderBrush="{TemplateBinding Background}" CornerRadius="3,3,3,3">
+                                <Grid>
+                                    <DockPanel x:Name="PART_Track" LastChildFill="false">
+                                        <Rectangle x:Name="PART_Indicator" Fill="{TemplateBinding Background}" RadiusX="3" RadiusY="3" />
+                                    </DockPanel>
+                                    <TextBlock Text="{TemplateBinding Text}" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="{TemplateBinding Foreground}" />
+                                </Grid>
+                            </Border>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="15*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="10*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <gcl:GuiMessageControl x:Name="MessageControl" Grid.Column="0"/>
+
+        <Image Grid.Column="2"/>
+
+        <StackPanel Grid.Column="4" >
+            <gcl:GuiProgressBar x:Uid="GuiProgressBar_Availability" Background="{DynamicResource AvailabilityBrush}" Height="32" Margin="4,2" Maximum="1" Style="{DynamicResource ProgressBarStyle}" Text="Availability" Value="{Binding Availability, ElementName=UserControl, Mode=Default}" Foreground="#FF666666" />
+            <gcl:GuiProgressBar x:Uid="GuiProgressBar_Utilization" Background="{DynamicResource UtilizationBrush}" Height="32" Margin="4,2" Maximum="1" Style="{DynamicResource ProgressBarStyle}" Text="Utilization" Value="{Binding Utilization, ElementName=UserControl, Mode=Default}" Foreground="#FF666666" />
+            <gcl:GuiProgressBar x:Uid="GuiProgressBar_DownTime" Background="{DynamicResource DownBrush}" Height="32" Margin="4,2" Maximum="1" Style="{DynamicResource ProgressBarStyle}" Text="Down time" Value="{Binding DownTime, ElementName=UserControl, Mode=Default}" Foreground="#FF666666" />
+        </StackPanel>
+    </Grid>
+</UserControl>

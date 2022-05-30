@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Collectors>
+  <CollectorPath name="Cell900.1">
+    <Path>X:\File\</Path>
+  </CollectorPath>
+  <CollectorPath name="Cell900.2">
+    <Path>W:\File\</Path>
+  </CollectorPath>
+  <CollectorPath name="Cell1100_File">
+    <Path>V:\File\</Path>
+  </CollectorPath>
+  <CollectorPath name="Cell1100_Lumicam">
+    <Path>V:\Lumicam\</Path>
+  </CollectorPath>
+  <CollectorPath name="Cell1100_HTVision">
+    <Path>V:\HTVision\</Path>
+  </CollectorPath>
+</Collectors>

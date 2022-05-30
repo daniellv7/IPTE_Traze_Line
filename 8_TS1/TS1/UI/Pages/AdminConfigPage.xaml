@@ -1,0 +1,33 @@
+<UserControl
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:gcl="clr-namespace:Ipte.TS1.UI.Controls;assembly=Ipte.TS1.UI.Controls"
+    x:Class="Ipte.UI.Pages.AdminConfigPage"
+    x:Name="userControl"
+    Width="980" Height="550">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto" MinWidth="200"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock x:Uid="TextBlock_Filter" Text="Filter:" VerticalAlignment="Center" Margin="2"/>
+            <TextBox Grid.Column="1" x:Name="txtFilter" VerticalAlignment="Center" Margin="2" TextChanged="FilterUpdated" />
+            <Button x:Uid="Button_Refresh" Grid.Column="2" Content="Refresh" VerticalAlignment="Center" Margin="2" MinWidth="75" Click="Refresh"/>
+            <Button x:Uid="Button_Save" Grid.Column="5" Content="Save" VerticalAlignment="Center" Margin="2" MinWidth="75" Click="Save" />
+        </Grid>
+        
+        <gcl:GuiPropertyEditor Grid.Row="1" Name="editor" />
+
+    </Grid>
+</UserControl>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Parameters>
+  <!--Cell and Timestamp is automatically set by application -->
+  <DBResults>
+    <Parameter Name="Package_ID" ObservableVariable="Package_ID"/>
+    <Parameter Name="Process_Status" ObservableVariable="Process_Status"/>
+    <Parameter Name="Error_Code" ObservableVariable="Error_Code"/>
+    <Parameter Name="Selenoid_DMC_01" ObservableVariable="Selenoid_DMC_01"/>
+    <Parameter Name="Selenoid_DMC_02" ObservableVariable="Selenoid_DMC_02"/>
+    <Parameter Name="Selenoid_DMC_03" ObservableVariable="Selenoid_DMC_03"/>
+    <Parameter Name="Selenoid_DMC_04" ObservableVariable="Selenoid_DMC_04"/>
+    <Parameter Name="Selenoid_DMC_05" ObservableVariable="Selenoid_DMC_05"/>
+    <Parameter Name="Conector_Placed_01" ObservableVariable="Conector_Placed_01"/>
+    <Parameter Name="Conector_Placed_02" ObservableVariable="Conector_Placed_02"/>
+    <Parameter Name="Conector_Placed_03" ObservableVariable="Conector_Placed_03"/>
+    <Parameter Name="Conector_Placed_04" ObservableVariable="Conector_Placed_04"/>
+    <Parameter Name="Conector_Placed_05" ObservableVariable="Conector_Placed_05"/>
+    <Parameter Name="Selenoid_Placed_01" ObservableVariable="Selenoid_Placed_01"/>
+    <Parameter Name="Selenoid_Placed_02" ObservableVariable="Selenoid_Placed_02"/>
+    <Parameter Name="Selenoid_Placed_03" ObservableVariable="Selenoid_Placed_03"/>
+    <Parameter Name="Selenoid_Placed_04" ObservableVariable="Selenoid_Placed_04"/>
+    <Parameter Name="Selenoid_Placed_05" ObservableVariable="Selenoid_Placed_05"/>
+    <Parameter Name="Selenoid_Target" ObservableVariable="Selenoid_Target"/>
+    <Parameter Name="Bracket_Box" ObservableVariable="Bracket_Box"/>
+    <Parameter Name="Selenoid_Box" ObservableVariable="Selenoid_Box"/>
+    <Parameter Name="Bracket_Box_storage" ObservableVariable="Bracket_Box_storage"/>
+    <Parameter Name="Selenoid_Box_storage" ObservableVariable="Selenoid_Box_storage"/>
+  </DBResults>
+  <ConfigurationReport>
+    <Parameter Name="VariantName" ObservableVariable="VariantName"/>
+    <Parameter Name="Bracket_Box" ObservableVariable="Bracket_Box"/>
+    <Parameter Name="Selenoid_Box" ObservableVariable="Selenoid_Box"/>
+    <Parameter Name="Selenoid_Read_01" ObservableVariable="Selenoid_Read_01"/>
+    <Parameter Name="Selenoid_Read_02" ObservableVariable="Selenoid_Read_02"/>
+    <Parameter Name="Selenoid_Read_03" ObservableVariable="Selenoid_Read_03"/>
+    <Parameter Name="Selenoid_Read_04" ObservableVariable="Selenoid_Read_04"/>
+    <Parameter Name="Selenoid_Read_05" ObservableVariable="Selenoid_Read_05"/>
+    <Parameter Name="Selenoid_Target" ObservableVariable="Selenoid_Target"/>
+    <Parameter Name="Version_Number" ObservableVariable="Version_Number"/>
+  </ConfigurationReport>
+</Parameters>

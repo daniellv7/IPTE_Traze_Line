@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Parameters>
+  <!--Cell and Timestamp is automatically set by application -->
+  <DBResults>
+    <Parameter Name="U_Item" ObservableVariable="U_Item"/>
+    <Parameter Name="Process_Status" ObservableVariable="Process_Status"/>
+    <Parameter Name="Error_Code" ObservableVariable="Error_Code"/>
+    <Parameter Name="Variant" ObservableVariable="Variant"/>
+    <Parameter Name="WPC" ObservableVariable="WPC"/>
+    <Parameter Name="Shuttle_ID" ObservableVariable="Shuttle_ID"/>
+    <Parameter Name="Plug_in_Shifter" ObservableVariable="Plug_in_Shifter"/>
+    <Parameter Name="Cover_on_Housing" ObservableVariable="Cover_on_Housing"/>
+    <Parameter Name="Cover_In_Carrier" ObservableVariable="Cover_In_Carrier"/>
+    <Parameter Name="Read_Code_Signal_PCB" ObservableVariable="Read_Code_Signal_PCB"/>
+    <Parameter Name="Read_Code_PCB_Light" ObservableVariable="Read_Code_PCB_Light"/>
+    <Parameter Name="Signal_PCB_Code" ObservableVariable="Signal_PCB_Code"/>
+    <Parameter Name="PRND_PCB_Code" ObservableVariable="PRND_PCB_Code"/>
+    <Parameter Name="Light_Guide_Box" ObservableVariable="Light_Guide_Box"/>
+    <Parameter Name="Cover_Light_Box" ObservableVariable="Cover_Light_Box"/>
+    <Parameter Name="Light_Housing_Box" ObservableVariable="Light_Housing_Box"/>
+    <Parameter Name="Cover_Box" ObservableVariable="Cover_Box"/>
+    <Parameter Name="Plug_Box" ObservableVariable="Plug_Box"/>
+    <Parameter Name="PRND_PCB_Box" ObservableVariable="PRND_PCB_Box"/>
+    <Parameter Name="Signal_PCB_Box" ObservableVariable="Signal_PCB_Box"/>
+    <Parameter Name="Sub_assembly_Light_Box" ObservableVariable="Sub_assembly_Light_Box"/>
+    <Parameter Name="Model" ObservableVariable="Model"/>
+    <Parameter Name="Light_Guide_Box_storage" ObservableVariable="Light_Guide_Box_storage"/>
+    <Parameter Name="Cover_Light_Box_storage" ObservableVariable="Cover_Light_Box_storage"/>
+    <Parameter Name="Light_Housing_Box_storage" ObservableVariable="Light_Housing_Box_storage"/>
+    <Parameter Name="Cover_Box_storage" ObservableVariable="Cover_Box_storage"/>
+    <Parameter Name="Plug_Box_storage" ObservableVariable="Plug_Box_storage"/>
+    <Parameter Name="PRND_PCB_Box_storage" ObservableVariable="PRND_PCB_Box_storage"/>
+    <Parameter Name="Signal_PCB_Box_storage" ObservableVariable="Signal_PCB_Box_storage"/>
+    <Parameter Name="Sub_assembly_Light_Box_storage" ObservableVariable="Sub_assembly_Light_Box_storage"/>
+    
+  </DBResults>
+  <ConfigurationReport>
+    <Parameter Name="VariantName" ObservableVariable="VariantName"/>
+  </ConfigurationReport>
+</Parameters>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<MessageList>
+  <!--Value = valor con el que se mostrara el mensaje-->
+  <!--Content = Mensaje a mostrar 3 Renglones disponibles , para separar contenido agregar ";" -->
+  <!--level= Color con el que se mostrara el mensaje -->
+  <message Value="1" Content="Air Preasure Low; Press Reset Button" Level="3"/>
+  <message Value="2"  Content="Emergency Stop Activated; Press Reset Button" Level="3"/>
+  <message Value="3" Content="Conveyor Montratec Off; Press Start Button" Level="3"/>
+  <message Value="4" Content="Smart Router 1 in Error; Restart Module" Level="3"/>
+  <message Value="5" Content="Smart Router 2 in Error; Restart Module" Level="3"/>
+  <message Value="6" Content="Smart Router 3 in Error; Restart Module" Level="3"/>
+  <message Value="7" Content="Smart Router 4 in Error; Restart Module" Level="3"/>
+  <message Value="8" Content="Machine In Manual Mode" Level="2"/>
+  <message Value="9" Content="Cell not Started;Press Home and then Press Automatic On" Level="2"/>
+  <message Value="10" Content="Cell Off" Level="2"/>
+  <message Value="11" Content="BNI Balluf Module in Error" Level="3"/>
+  <message Value="12" Content="Pilz Module in Error" Level="3"/>
+  <message Value="13" Content="EKS Module in Error" Level="3"/>
+  <message Value="14" Content="KP8 Module in Error" Level="3"/>
+  <message Value="15" Content="Reworked Times exceeded; Send part to scrap to continue" Level="3"/>
+  <message Value="100" Content="Remove Carrier with housing;Remove Bracket;Remove Shaft" Level="1"/>
+  <message Value="101" Content="Place Carrier with housing;Remove Bracket; Remove Shaft" Level="1"/>
+  <message Value="102" Content="Remove Carrier with housing;Remove Bracket;Remove Shaft" Level="1"/>
+  <message Value="103" Content="Place Carrier with housing;Place Bracket;Place Shaft" Level="1"/>
+  <message Value="104" Content="Place Carrier with housing;Place Bracket;Place Shaft" Level="1"/>
+  <message Value="105" Content="Place Shifter" Level="1"/>
+  <message Value="106" Content="Place Shifter" Level="1"/>
+  <message Value="107" Content="Place Shifter" Level="1"/>
+  <message Value="108" Content="Place Shifter Upside Down" Level="1"/>
+  <message Value="109" Content="Place Shifter Upside Up" Level="1"/>
+  <message Value="110" Content="Place Shifter Upside Up" Level="1"/>
+  <message Value="111" Content="Place Shifter Upside Up" Level="1"/>
+  <message Value="112" Content="Place Shifter Upside Up" Level="1"/>
+  <message Value="113" Content="Place Shifter Upside Up" Level="1"/>
+  <message Value="114" Content="Place Shifter Upside Up" Level="1"/>
+  <message Value="115" Content="Message Content" Level="1"/>
+  <message Value="116" Content="Message Content" Level="1"/>
+  <message Value="117" Content="Message Content" Level="1"/>
+  <message Value="118" Content="Message Content" Level="1"/>
+  <message Value="119" Content="Message Content" Level="1"/>
+</MessageList>

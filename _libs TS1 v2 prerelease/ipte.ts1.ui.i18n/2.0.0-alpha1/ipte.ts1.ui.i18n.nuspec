@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Ipte.TS1.UI.i18n</id>
+    <version>2.0.0-alpha1</version>
+    <authors>Robert Hudjakov</authors>
+    <owners>Robert Hudjakov</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>http://redmine/redmine/projects/gui-control-library/news</projectUrl>
+    <description>IPTE TS1 Dynamic language change functionality</description>
+    <releaseNotes>Initial nuget release</releaseNotes>
+    <copyright>Copyright ©2019 Ipte NV</copyright>
+    <tags>IPTE TS1 V2 i18n</tags>
+    <repository type="svn" url="https://ipteee1svn/svn/ipteee/Test/TS1/Ipte.TS1.UI/Ipte.TS1.UI._i18n/trunk" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="WPFLocalizeExtension" version="3.3.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="UIAutomationProvider" targetFramework=".NETFramework4.5" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

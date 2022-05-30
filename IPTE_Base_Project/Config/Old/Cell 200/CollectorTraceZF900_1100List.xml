@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Collectors>
+  <CollectorPath name="ZFxmlTraceabilityLocal">
+    <Path>E:\\Traceability\ZFxml</Path>
+  </CollectorPath>
+  <CollectorPath name="Cell900.1">
+    <Path>X:\ZFxml</Path>
+  </CollectorPath>
+  <CollectorPath name="Cell900.2">
+    <Path>W:\ZFxml</Path>
+  </CollectorPath>
+  <CollectorPath name="Cell1100">
+    <Path>V:\ZFxml</Path>
+  </CollectorPath>
+</Collectors>

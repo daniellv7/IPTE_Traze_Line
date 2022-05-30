@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Querys>
+  
+   <QueryConfig name="Selenoid_DMC_03">
+      <Parameters>ItemKey</Parameters>
+      <Query>SELECT * FROM `zf-db`.u_cell_150 WHERE Selenoid_DMC_03='ItemKey' AND Process_Status='1';</Query>
+   </QueryConfig>
+ 
+</Querys>

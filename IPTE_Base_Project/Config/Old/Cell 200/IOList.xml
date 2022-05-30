@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<IO>
+  <Inputs>
+    <!--Rework Inputs Variables -->
+    <Input>
+      <Name>PART_PRESENT</Name>
+      <Type>BOOL</Type>
+      <Adress>2,0</Adress>
+    </Input>
+    
+    <Input>
+      <Name>PART_OK</Name>
+      <Type>BOOL</Type>
+      <Adress>2,1</Adress>
+    </Input>
+    
+    <Input>
+      <Name>PART_NOK</Name>
+      <Type>BOOL</Type>
+      <Adress>2,2</Adress>
+    </Input>
+
+    <Input>
+      <Name>Shaft_Present</Name>
+      <Type>BOOL</Type>
+      <Adress>2,3</Adress>
+    </Input>
+
+    <Input>
+      <Name>Detent_Pin_Present</Name>
+      <Type>BOOL</Type>
+      <Adress>2,4</Adress>
+    </Input>
+
+    <Input>
+      <Name>Bracket_Present</Name>
+      <Type>BOOL</Type>
+      <Adress>2,5</Adress>
+    </Input>
+
+    <Input>
+      <Name>Housing_Present</Name>
+      <Type>BOOL</Type>
+      <Adress>2,6</Adress>
+    </Input>
+    
+    <Input>
+      <Name>LAST_STATION</Name>
+      <Type>INT</Type>
+      <Adress>4</Adress>
+    </Input>
+    
+    <Input>
+      <Name>WPC</Name>
+      <Type>INT</Type>
+      <Adress>6</Adress>
+    </Input>
+    
+    <Input>
+      <Name>VARIANT</Name>
+      <Type>INT</Type>
+      <Adress>8</Adress>
+    </Input>
+    
+    <Input>
+      <Name>ERROR_CODE</Name>
+      <Type>INT</Type>
+      <Adress>10</Adress>
+    </Input>
+    
+    <Input>
+      <Name>TARGET_CELL</Name>
+      <Type>INT</Type>
+      <Adress>12</Adress>
+    </Input>
+
+    <Input>
+      <Name>MACHINESTATUS</Name>
+      <Type>INT</Type>
+      <Adress>14</Adress>
+    </Input>
+    
+    <Input>
+      <Name>ACTIVEUSER</Name>
+      <Type>INT</Type>
+      <Adress>16</Adress>
+    </Input>
+    
+    <Input>
+      <Name>ACTIVELEVEL</Name>
+      <Type>INT</Type>
+      <Adress>18</Adress>
+    </Input>
+
+
+    <!--Montratec Outputs Variables -->
+    <Input>
+      <Name>RUNNING_SR1</Name>
+      <Type>BOOL</Type>
+      <Adress>32,0</Adress>
+    </Input>
+
+    <Input>
+      <Name>RUNNING_SR2</Name>
+      <Type>BOOL</Type>
+      <Adress>32,1</Adress>
+    </Input>
+
+    <Input>
+      <Name>RUNNING_SR3</Name>
+      <Type>BOOL</Type>
+      <Adress>32,2</Adress>
+    </Input>
+
+    <Input>
+      <Name>RUNNING_SR4</Name>
+      <Type>BOOL</Type>
+      <Adress>32,3</Adress>
+    </Input>
+
+    <Input>
+      <Name>SHUTTLE_CELL_100</Name>
+      <Type>INT</Type>
+      <Adress>34</Adress>
+    </Input>
+
+    <Input>
+      <Name>SHUTTLE_CELL_200</Name>
+      <Type>INT</Type>
+      <Adress>36</Adress>
+    </Input>
+
+    <Input>
+      <Name>SHUTTLE_CELL_300</Name>
+      <Type>INT</Type>
+      <Adress>38</Adress>
+    </Input>
+
+    <Input>
+      <Name>SHUTTLE_CELL_350</Name>
+      <Type>INT</Type>
+      <Adress>40</Adress>
+    </Input>
+
+    <Input>
+      <Name>SHUTTLE_CELL_400</Name>
+      <Type>INT</Type>
+      <Adress>42</Adress>
+    </Input>
+
+    <Input>
+      <Name>SHUTTLE_CELL_500</Name>
+      <Type>INT</Type>
+      <Adress>44</Adress>
+    </Input>
+
+    <Input>
+      <Name>SHUTTLE_CELL_600</Name>
+      <Type>INT</Type>
+      <Adress>46</Adress>
+    </Input>
+
+    <Input>
+      <Name>SHUTTLE_CELL_700</Name>
+      <Type>INT</Type>
+      <Adress>48</Adress>
+    </Input>
+
+    <Input>
+      <Name>SHUTTLE_CELL_750</Name>
+      <Type>INT</Type>
+      <Adress>50</Adress>
+    </Input>
+
+    <Input>
+      <Name>SHUTTLE_CELL_800</Name>
+      <Type>INT</Type>
+      <Adress>52</Adress>
+    </Input>
+
+    <Input>
+      <Name>SHUTTLE_CELL_850</Name>
+      <Type>INT</Type>
+      <Adress>54</Adress>
+    </Input>
+    
+    <Input>
+      <Name>SHUTTLE_CELL_901</Name>
+      <Type>INT</Type>
+      <Adress>56</Adress>
+    </Input>
+
+    <Input>
+      <Name>SHUTTLE_CELL_902</Name>
+      <Type>INT</Type>
+      <Adress>58</Adress>
+    </Input>
+
+    <Input>
+      <Name>SHUTTLE_CELL_1000</Name>
+      <Type>INT</Type>
+      <Adress>60</Adress>
+    </Input>
+
+    <Input>
+      <Name>SHUTTLE_CELL_1100</Name>
+      <Type>INT</Type>
+      <Adress>62</Adress>
+    </Input>
+
+    <Input>
+      <Name>SHUTTLE_CELL_1200</Name>
+      <Type>INT</Type>
+      <Adress>64</Adress>
+    </Input>
+
+    <!--Handshake Variables -->
+    <Input>
+      <Name>HS_PLC</Name>
+      <Type>INT</Type>
+      <Adress>66</Adress>
+    </Input>
+    
+     <Input>
+      <Name>SAVE_PLC</Name>
+      <Type>int</Type>
+      <Adress>68</Adress>
+    </Input>
+
+    <!--Error Variables -->
+    <Input>
+      <Name>ERROR_VAR_01</Name>
+      <Type>int</Type>
+      <Adress>70</Adress>
+    </Input>
+
+    <Input>
+      <Name>ERROR_VAR_02</Name>
+      <Type>int</Type>
+      <Adress>72</Adress>
+    </Input>
+
+    <Input>
+      <Name>ERROR_VAR_03</Name>
+      <Type>int</Type>
+      <Adress>74</Adress>
+    </Input>
+
+    <Input>
+      <Name>ERROR_VAR_04</Name>
+      <Type>int</Type>
+      <Adress>76</Adress>
+    </Input>
+
+    <Input>
+      <Name>ERROR_VAR_05</Name>
+      <Type>int</Type>
+      <Adress>78</Adress>
+    </Input>
+
+    <Input>
+      <Name>ERROR_VAR_06</Name>
+      <Type>int</Type>
+      <Adress>80</Adress>
+    </Input>
+
+    <Input>
+      <Name>ERROR_VAR_07</Name>
+      <Type>int</Type>
+      <Adress>82</Adress>
+    </Input>
+
+    <Input>
+      <Name>ERROR_VAR_08</Name>
+      <Type>int</Type>
+      <Adress>84</Adress>
+    </Input>
+
+    <Input>
+      <Name>ERROR_VAR_09</Name>
+      <Type>int</Type>
+      <Adress>86</Adress>
+    </Input>
+
+    <Input>
+      <Name>ERROR_VAR_10</Name>
+      <Type>int</Type>
+      <Adress>88</Adress>
+    </Input>
+
+    <Input>
+      <Name>HS_QUERY</Name>
+      <Type>int</Type>
+      <Adress>90</Adress>
+    </Input>
+
+    <Input>
+      <Name>HS_QUERY_ITEM_ID</Name>
+      <Type>string</Type>
+      <Adress>92</Adress>
+    </Input>
+
+    <!--Bypass Variables -->
+
+    <Input>
+      <Name>BYPASS_VAR_01</Name>
+      <Type>int</Type>
+      <Adress>144</Adress>
+    </Input>
+
+    <Input>
+      <Name>BYPASS_VAR_02</Name>
+      <Type>int</Type>
+      <Adress>146</Adress>
+    </Input>
+
+    <Input>
+      <Name>BYPASS_VAR_03</Name>
+      <Type>int</Type>
+      <Adress>148</Adress>
+    </Input>
+
+    <Input>
+      <Name>BYPASS_VAR_04</Name>
+      <Type>int</Type>
+      <Adress>150</Adress>
+    </Input>
+
+    
+    <Input>
+      <Name>BYPASS_RET_100</Name>
+      <Type>bool</Type>
+      <Adress>280,0</Adress>
+    </Input>
+
+    <Input>
+      <Name>BYPASS_RET_200</Name>
+      <Type>bool</Type>
+      <Adress>280,1</Adress>
+    </Input>
+
+    <Input>
+      <Name>BYPASS_RET_300</Name>
+      <Type>bool</Type>
+      <Adress>280,2</Adress>
+    </Input>
+
+    <Input>
+      <Name>BYPASS_RET_350</Name>
+      <Type>bool</Type>
+      <Adress>280,3</Adress>
+    </Input>
+
+    <Input>
+      <Name>BYPASS_RET_400</Name>
+      <Type>bool</Type>
+      <Adress>280,4</Adress>
+    </Input>
+
+    <Input>
+      <Name>BYPASS_RET_500</Name>
+      <Type>bool</Type>
+      <Adress>280,5</Adress>
+    </Input>
+
+    <Input>
+      <Name>BYPASS_RET_600</Name>
+      <Type>bool</Type>
+      <Adress>280,6</Adress>
+    </Input>
+
+    <Input>
+      <Name>BYPASS_RET_700</Name>
+      <Type>bool</Type>
+      <Adress>280,7</Adress>
+    </Input>
+
+    <Input>
+      <Name>BYPASS_RET_750</Name>
+      <Type>bool</Type>
+      <Adress>281,0</Adress>
+    </Input>
+
+    <Input>
+      <Name>BYPASS_RET_800</Name>
+      <Type>bool</Type>
+      <Adress>281,1</Adress>
+    </Input>
+
+    <Input>
+      <Name>BYPASS_RET_850</Name>
+      <Type>bool</Type>
+      <Adress>281,2</Adress>
+    </Input>
+
+    <Input>
+      <Name>BYPASS_RET_901</Name>
+      <Type>bool</Type>
+      <Adress>281,3</Adress>
+    </Input>
+
+    <Input>
+      <Name>BYPASS_RET_902</Name>
+      <Type>bool</Type>
+      <Adress>281,4</Adress>
+    </Input>
+
+    <Input>
+      <Name>BYPASS_RET_1000</Name>
+      <Type>bool</Type>
+      <Adress>281,5</Adress>
+    </Input>
+
+    <Input>
+      <Name>BYPASS_RET_1100</Name>
+      <Type>bool</Type>
+      <Adress>281,6</Adress>
+    </Input>
+
+    <Input>
+      <Name>BYPASS_RET_1200</Name>
+      <Type>bool</Type>
+      <Adress>281,7</Adress>
+    </Input>
+    <!--Printer -->
+    
+  </Inputs>
+  
+  <Outputs >
+    <!--Rework Outputs Variables -->
+    <Output>
+      <Name>ROUTE_100</Name>
+      <Type>BOOL</Type>
+      <Adress>2,0</Adress>
+    </Output>
+    
+    <Output>
+      <Name>ROUTE_200</Name>
+      <Type>BOOL</Type>
+      <Adress>2,1</Adress>
+    </Output>
+
+    <Output>
+      <Name>ROUTE_300</Name>
+      <Type>BOOL</Type>
+      <Adress>2,2</Adress>
+    </Output>
+
+    <Output>
+      <Name>ROUTE_350</Name>
+      <Type>BOOL</Type>
+      <Adress>2,3</Adress>
+    </Output>
+
+    <Output>
+      <Name>ROUTE_400</Name>
+      <Type>BOOL</Type>
+      <Adress>2,4</Adress>
+    </Output>
+
+    <Output>
+      <Name>ROUTE_500</Name>
+      <Type>BOOL</Type>
+      <Adress>2,5</Adress>
+    </Output>
+
+    <Output>
+      <Name>ROUTE_600</Name>
+      <Type>BOOL</Type>
+      <Adress>2,6</Adress>
+    </Output>
+
+    <Output>
+      <Name>ROUTE_700</Name>
+      <Type>BOOL</Type>
+      <Adress>2,7</Adress>
+    </Output>
+
+    <Output>
+      <Name>ROUTE_750</Name>
+      <Type>BOOL</Type>
+      <Adress>3,0</Adress>
+    </Output>
+
+    <Output>
+      <Name>ROUTE_800</Name>
+      <Type>BOOL</Type>
+      <Adress>3,1</Adress>
+    </Output>
+
+    <Output>
+      <Name>ROUTE_850</Name>
+      <Type>BOOL</Type>
+      <Adress>3,2</Adress>
+    </Output>
+
+    <Output>
+      <Name>ROUTE_900</Name>
+      <Type>BOOL</Type>
+      <Adress>3,3</Adress>
+    </Output>
+    
+    <Output>
+      <Name>ROUTE_1000</Name>
+      <Type>BOOL</Type>
+      <Adress>3,4</Adress>
+    </Output>
+    
+    <Output>
+      <Name>ROUTE_1100</Name>
+      <Type>BOOL</Type>
+      <Adress>3,5</Adress>
+    </Output>
+
+    <Output>
+      <Name>RELEASE</Name>
+      <Type>BOOL</Type>
+      <Adress>3,6</Adress>
+    </Output>
+    
+    <!--Montratec Reset Outputs Variables -->
+    <Output>
+      <Name>RESET_SR1</Name>
+      <Type>BOOL</Type>
+      <Adress>6,0</Adress>
+    </Output>
+
+    <Output>
+      <Name>RESET_SR2</Name>
+      <Type>BOOL</Type>
+      <Adress>6,1</Adress>
+    </Output>
+
+    <Output>
+      <Name>RESET_SR3</Name>
+      <Type>BOOL</Type>
+      <Adress>6,2</Adress>
+    </Output>
+
+    <Output>
+      <Name>RESET_SR4</Name>
+      <Type>BOOL</Type>
+      <Adress>6,3</Adress>
+    </Output>
+    <!--Montratec Release Outputs Variables -->
+    <Output>
+      <Name>RELEASE_CELL_100</Name>
+      <Type>BOOL</Type>
+      <Adress>8,0</Adress>
+    </Output>
+    <Output>
+      <Name>RELEASE_CELL_200</Name>
+      <Type>BOOL</Type>
+      <Adress>8,1</Adress>
+    </Output>
+    <Output>
+      <Name>RELEASE_CELL_300</Name>
+      <Type>BOOL</Type>
+      <Adress>8,2</Adress>
+    </Output>
+    <Output>
+      <Name>RELEASE_CELL_350</Name>
+      <Type>BOOL</Type>
+      <Adress>8,3</Adress>
+    </Output>
+    <Output>
+      <Name>RELEASE_CELL_400</Name>
+      <Type>BOOL</Type>
+      <Adress>8,4</Adress>
+    </Output>
+    <Output>
+      <Name>RELEASE_CELL_500</Name>
+      <Type>BOOL</Type>
+      <Adress>8,5</Adress>
+    </Output>
+    <Output>
+      <Name>RELEASE_CELL_600</Name>
+      <Type>BOOL</Type>
+      <Adress>8,6</Adress>
+    </Output>
+    <Output>
+      <Name>RELEASE_CELL_700</Name>
+      <Type>BOOL</Type>
+      <Adress>8,7</Adress>
+    </Output>
+    <Output>
+      <Name>RELEASE_CELL_750</Name>
+      <Type>BOOL</Type>
+      <Adress>9,0</Adress>
+    </Output>
+    <Output>
+      <Name>RELEASE_CELL_800</Name>
+      <Type>BOOL</Type>
+      <Adress>9,1</Adress>
+    </Output>
+    <Output>
+      <Name>RELEASE_CELL_850</Name>
+      <Type>BOOL</Type>
+      <Adress>9,2</Adress>
+    </Output>
+    <Output>
+      <Name>RELEASE_CELL_901</Name>
+      <Type>BOOL</Type>
+      <Adress>9,3</Adress>
+    </Output>
+    <Output>
+      <Name>RELEASE_CELL_902</Name>
+      <Type>BOOL</Type>
+      <Adress>9,4</Adress>
+    </Output>
+    <Output>
+      <Name>RELEASE_CELL_1000</Name>
+      <Type>BOOL</Type>
+      <Adress>9,5</Adress>
+    </Output>
+    <Output>
+      <Name>RELEASE_CELL_1100</Name>
+      <Type>BOOL</Type>
+      <Adress>9,6</Adress>
+    </Output>
+    <Output>
+      <Name>RELEASE_CELL_1200</Name>
+      <Type>BOOL</Type>
+      <Adress>9,7</Adress>
+    </Output>
+
+    <Output>
+      <Name>HS_PC</Name>
+      <Type>int</Type>
+      <Adress>12</Adress>
+    </Output>
+    
+    <Output>
+      <Name>SAVE_PC</Name>
+      <Type>int</Type>
+      <Adress>14</Adress>
+    </Output>
+
+    <Output>
+      <Name>QUERY_HS_PC</Name>
+      <Type>int</Type>
+      <Adress>16</Adress>
+    </Output>
+
+    <Output>
+      <Name>BOM_HS</Name>
+      <Type>int</Type>
+      <Adress>18</Adress>
+    </Output>
+
+    <Output>
+      <Name>BOM_CopyFrom</Name>
+      <Type>int</Type>
+      <Adress>20</Adress>
+    </Output>
+
+    <Output>
+      <Name>BOM_Copyto</Name>
+      <Type>int</Type>
+      <Adress>22</Adress>
+    </Output>
+    
+  </Outputs>
+
+  <Variant>
+    
+    <Parameter>
+      <Name>U_Item</Name>
+      <Type>string</Type>
+      <Adress>0</Adress>
+    </Parameter>
+
+    <Parameter>
+      <Name>Process_Status</Name>
+      <Type>bool</Type>
+      <Adress>32,0</Adress>
+    </Parameter>
+
+    <Parameter>
+      <Name>Housing_present</Name>
+      <Type>bool</Type>
+      <Adress>32,1</Adress>
+    </Parameter>
+
+    <Parameter>
+      <Name>Shaft_Present</Name>
+      <Type>bool</Type>
+      <Adress>32,2</Adress>
+    </Parameter>
+
+    <Parameter>
+      <Name>Adapter_Disc_Present</Name>
+      <Type>bool</Type>
+      <Adress>32,3</Adress>
+    </Parameter>
+
+    <Parameter>
+      <Name>Sub_assembly_Bracket_present</Name>
+      <Type>bool</Type>
+      <Adress>32,4</Adress>
+    </Parameter>
+
+    <Parameter>
+      <Name>Sub_assembly_Carrier_present</Name>
+      <Type>bool</Type>
+      <Adress>32,5</Adress>
+    </Parameter>
+    
+    <Parameter>
+      <Name>Sub_Assembly_Bracket_DMC</Name>
+      <Type>string</Type>
+      <Adress>34</Adress>
+    </Parameter>
+
+    <Parameter>
+      <Name>Sub_Assembly_Carrier_DMC</Name>
+      <Type>string</Type>
+      <Adress>86</Adress>
+    </Parameter>
+
+    <Parameter>
+      <Name>Adapter_Disc_Box</Name>
+      <Type>string</Type>
+      <Adress>138</Adress>
+    </Parameter>
+    
+    <Parameter>
+      <Name>Shaft_Box</Name>
+      <Type>string</Type>
+      <Adress>170</Adress>
+    </Parameter>
+
+    <Parameter>
+      <Name>Sub_Assembly_Carrier_Box</Name>
+      <Type>string</Type>
+      <Adress>202</Adress>
+    </Parameter>
+
+    <Parameter>
+      <Name>Housing_Box</Name>
+      <Type>string</Type>
+      <Adress>234</Adress>
+    </Parameter>
+
+    <Parameter>
+      <Name>Error_Code</Name>
+      <Type>string</Type>
+      <Adress>266</Adress>
+    </Parameter>
+
+    <Parameter>
+      <Name>Variant</Name>
+      <Type>string</Type>
+      <Adress>314</Adress>
+    </Parameter>
+
+    <Parameter>
+      <Name>Shuttle_ID</Name>
+      <Type>int</Type>
+      <Adress>362</Adress>
+    </Parameter>
+
+    <Parameter>
+      <Name>WPC</Name>
+      <Type>int</Type>
+      <Adress>364</Adress>
+    </Parameter>
+
+    <Parameter>
+      <Name>Adapter_Disc_Box_storage</Name>
+      <Type>string</Type>
+      <Adress>366</Adress>
+    </Parameter>
+    
+    <Parameter>
+      <Name>Shaft_Box_storage</Name>
+      <Type>string</Type>
+      <Adress>414</Adress>
+    </Parameter>
+
+    <Parameter>
+      <Name>Sub_Assembly_Carrier_Box_storage</Name>
+      <Type>string</Type>
+      <Adress>462</Adress>
+    </Parameter>
+
+    <Parameter>
+      <Name>Housing_Box_storage</Name>
+      <Type>string</Type>
+      <Adress>510</Adress>
+    </Parameter>
+	
+	 <Parameter>
+      <Name>Model</Name>
+      <Type>string</Type>
+      <Adress>558</Adress>
+    </Parameter>
+
+
+  </Variant>
+  
+  <Configuration>
+
+    <Parameter>
+      <Name>VariantName</Name>
+      <Type>string</Type>
+      <Adress>3000</Adress>
+    </Parameter>
+
+    <Parameter>
+      <Name>Adapter_Disc_Box</Name>
+      <Type>string</Type>
+      <Adress>3052</Adress>
+    </Parameter>
+
+    <Parameter>
+      <Name>Shaft_Box</Name>
+      <Type>string</Type>
+      <Adress>3062</Adress>
+    </Parameter>
+
+    <Parameter>
+      <Name>Sub_Assembly_Carrier_Box</Name>
+      <Type>string</Type>
+      <Adress>3072</Adress>
+    </Parameter>
+
+    <Parameter>
+      <Name>Housing_Box</Name>
+      <Type>string</Type>
+      <Adress>3082</Adress>
+    </Parameter>
+
+  </Configuration>
+</IO>
+

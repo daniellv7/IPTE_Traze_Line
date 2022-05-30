@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Parameters>
+  <!--Cell and Timestamp is automatically set by application -->
+  <DBResults>
+    <Parameter Name="U_Item" ObservableVariable="U_Item"/>
+    <Parameter Name="Process_Status" ObservableVariable="Process_Status"/>
+    <Parameter Name="Error_Code" ObservableVariable="Error_Code"/>
+    <Parameter Name="Variant" ObservableVariable="Variant"/>
+    <Parameter Name="Shuttle_ID" ObservableVariable="Shuttle_ID"/>
+    <Parameter Name="WPC" ObservableVariable="WPC"/>
+	<Parameter Name="Model" ObservableVariable="Model"/>
+    <Parameter Name="Light_Pipe_Present" ObservableVariable="Light_Pipe_Present"/>
+    <Parameter Name="Cover_present" ObservableVariable="Cover_present"/>
+    <Parameter Name="Knob_Cap_Code" ObservableVariable="Knob_Cap_Code"/>
+    <Parameter Name="Knob_Cap_Present" ObservableVariable="Knob_Cap_Present"/>
+    <Parameter Name="Light_Pipe_Box" ObservableVariable="Light_Pipe_Box"/>
+    <Parameter Name="Knob_Cab_Box" ObservableVariable="Knob_Cab_Box"/>
+    <Parameter Name="Knob_Cover_Box" ObservableVariable="Knob_Cover_Box"/>
+    <Parameter Name="Press_Height" ObservableVariable="Press_Height"/>
+    <Parameter Name="Press_Force" ObservableVariable="Press_Force"/>
+    <Parameter Name="Light_Pipe_Box_storage" ObservableVariable="Light_Pipe_Box_storage"/>
+    <Parameter Name="Knob_Cab_Box_storage" ObservableVariable="Knob_Cab_Box_storage"/>
+    <Parameter Name="Knob_Cover_Box_storage" ObservableVariable="Knob_Cover_Box_storage"/>
+	 <Parameter Name="Press_Height_High_Limit" ObservableVariable="Press_Height_High_Limit"/>
+    <Parameter Name="Press_Force_High_Limit" ObservableVariable="Press_Force_High_Limit"/>
+	 <Parameter Name="Press_Height_Low_Limit" ObservableVariable="Press_Height_Low_Limit"/>
+    <Parameter Name="Press_Force_Low_Limit" ObservableVariable="Press_Force_Low_Limit"/>
+  </DBResults>
+  <ConfigurationReport>
+    <Parameter Name="VariantName" ObservableVariable="VariantName"/>
+    <Parameter Name="Press_Max" ObservableVariable="Press_Max"/>
+    <Parameter Name="Press_Min" ObservableVariable="Press_Min"/>
+	  <Parameter Name="Height_Max" ObservableVariable="Height_Max"/>
+    <Parameter Name="Height_Min" ObservableVariable="Height_Min"/>
+	  <Parameter Name="Plastic_Cap" ObservableVariable="Plastic_Cap"/>
+	  <Parameter Name="Metallic_Cap" ObservableVariable="Metallic_Cap"/>
+  </ConfigurationReport>
+</Parameters>
+
+  
+   

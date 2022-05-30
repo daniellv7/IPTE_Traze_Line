@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Ipte.TS1.StateMachine.CFX</id>
+    <version>2.0.0-alpha2</version>
+    <authors>Robert Hudjakov</authors>
+    <owners>Robert Hudjakov</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>http://redmine/redmine/projects/core-library/news</projectUrl>
+    <description>IPTE TS1 CFX state machine</description>
+    <releaseNotes>Included AbortException</releaseNotes>
+    <copyright>Copyright ©2019 Ipte NV</copyright>
+    <tags>IPTE TS1 CFX STATE MACHINE</tags>
+    <repository type="svn" url="https://ipteee1svn/svn/ipteee/Test/TS1/Ipte.TS1.StateMachine/Ipte.TS1.StateMachine.CAMX/trunk" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6">
+        <dependency id="CFX.CFXSDK" version="1.0.15" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Ipte.TS1.UI.PLC.Controls.AllenBradley.Cip</id>
+    <version>2.0.0-alpha1</version>
+    <authors>Robert Hudjakov</authors>
+    <owners>Robert Hudjakov</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>http://redmine/redmine/projects/</projectUrl>
+    <description>IPTE TS1 PLC UI library for Allen Bradley CIP.</description>
+    <releaseNotes>Initial nuget release</releaseNotes>
+    <copyright>Copyright ©2019 Ipte NV</copyright>
+    <tags>IPTE TS1 V2 PLC UI Allen Bradley CIP AllenBradley</tags>
+    <repository type="svn" url="https://ipteee1svn/svn/ipteee/Test/TS1/Ipte.TS1.UI/Ipte.TS1.UI.PLC.Controls.AllenBradley.Cip/trunk" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.5.2">
+        <dependency id="Ipte.TS1.UI.Controls" version="2.0.0-alpha" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework=".NETFramework4.5.2" />
+      <frameworkAssembly assemblyName="System.Data.DataSetExtensions" targetFramework=".NETFramework4.5.2" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

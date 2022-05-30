@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Ipte.TS1.NC.Beckhoff.Tc3</id>
+    <version>2.0.0-alpha1</version>
+    <authors>Robert Hudjakov</authors>
+    <owners>Robert Hudjakov</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>http://redmine/redmine/projects/tc3lib/news</projectUrl>
+    <description>IPTE TS1 NC library for Beckhoff TwinCAT 3.</description>
+    <releaseNotes>Initial nuget release</releaseNotes>
+    <copyright>Copyright ©2019 Ipte NV</copyright>
+    <tags>IPTE TS1 v1 BECKHOFF TWINCAT 3 NC</tags>
+    <repository type="svn" url="https://ipteee1svn/svn/ipteee/Test/TS1/Ipte.TS1.NC/Ipte.TS1.NC.Beckhoff.Tc3/trunk" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.0">
+        <dependency id="Ipte.TS1.Comm.Beckhoff.Ads" version="3.1.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="PresentationCore" targetFramework=".NETFramework4.0" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

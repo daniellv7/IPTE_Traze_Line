@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Collectors>
+  <CollectorPath name="Cell900.1">
+    <Path>C:\Users\CNG1402\Documents\Test</Path>
+  </CollectorPath>
+  <CollectorPath name="Cell900.2">
+    <Path>C:\Users\CNG1402\Documents\Test2</Path>
+  </CollectorPath>
+  <CollectorPath name="Cell1100">
+    <Path>C:\Users\CNG1402\Documents\Test3</Path>
+  </CollectorPath>
+</Collectors>

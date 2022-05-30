@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Collectors>
+  
+  <!--<CollectorPath name="Server">
+    <Path>C:\Users\CNG1402\Documents\Test</Path>
+  </CollectorPath>-->
+  
+  
+  <CollectorPath name="Cell100">
+    <Path>\\IPCELL100\Users\Public\RecollectionFolder</Path>
+  </CollectorPath>
+  
+  <CollectorPath name="Cell150">
+    <Path>\\IPCELL150\Users\Public\RecollectionFolder</Path>
+  </CollectorPath>
+
+  <CollectorPath name="Cell200">
+    <Path>\\IPCELL200\Users\Public\RecollectionFolder</Path>
+  </CollectorPath> 
+
+  <CollectorPath name="Cell300">
+    <Path>\\IPCELL300\Users\Public\RecollectionFolder</Path>
+  </CollectorPath>
+
+  <CollectorPath name="Cell350">
+    <Path>\\IPCELL350\Users\Public\RecollectionFolder</Path>
+  </CollectorPath>
+
+  <CollectorPath name="Cell400">
+    <Path>\\IPCELL400\Users\Public\RecollectionFolder</Path>
+  </CollectorPath>
+
+  <CollectorPath name="Cell500">
+    <Path>\\IPCELL500\Users\Public\RecollectionFolder</Path>
+  </CollectorPath>
+
+  <CollectorPath name="Cell600">
+    <Path>\\IPCELL600\Users\Public\RecollectionFolder</Path>
+  </CollectorPath>
+ 
+  <CollectorPath name="Cell700">
+    <Path>\\IPCELL700\Users\Public\RecollectionFolder</Path>
+  </CollectorPath>
+  
+  <CollectorPath name="Cell750">
+    <Path>\\IPCELL750\Users\Public\RecollectionFolder</Path>
+  </CollectorPath>
+
+  <CollectorPath name="Cell800">
+    <Path>\\IPCELL800\Users\Public\RecollectionFolder</Path>
+  </CollectorPath>
+
+  <CollectorPath name="Cell850">
+    <Path>\\IPCELL850\Users\Public\RecollectionFolder</Path>
+  </CollectorPath>
+
+  <CollectorPath name="Cell900.1">
+    <Path>C:\Users\CNG1402\Documents\test</Path>
+  </CollectorPath>
+
+  <CollectorPath name="Cell900.2">
+    <Path>C:\Users\CNG1402\Documents\test</Path>
+  </CollectorPath>
+
+  <CollectorPath name="Cell1000">
+    <Path>\\IPCELL1000\Users\Public\RecollectionFolder</Path>
+  </CollectorPath>
+
+  <CollectorPath name="Cell1100">
+    <Path>C:\Users\CNG1402\Documents\test</Path>
+  </CollectorPath>
+
+  <CollectorPath name="Cell2000">
+    <Path>\\IPCELL2000\Users\Public\RecollectionFolder</Path>
+  </CollectorPath>
+  
+</Collectors>

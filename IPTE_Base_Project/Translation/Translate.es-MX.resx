@@ -1,0 +1,1932 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ConnectionFail" xml:space="preserve">
+    <value>Conexion con PLC Fallida</value>
+    <comment>Alarm Messages</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticsalarmmessageviewⳭalarmMessageSeriesⳭTitleⲱ" xml:space="preserve">
+    <value>Valor</value>
+    <comment>en-US:Value</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticsalarmmessageviewⳭButton_ExportDataⳭContentⲱ" xml:space="preserve">
+    <value>Exportar Data</value>
+    <comment>en-US:Export Data</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticsalarmmessageviewⳭButton_UpdateGraphⳭContentⲱ" xml:space="preserve">
+    <value>Actualizar Graph</value>
+    <comment>en-US:Update Graph</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticsalarmmessageviewⳭString_ExportDataComplatedⳭⲶContentⲱ" xml:space="preserve">
+    <value>Exportar Data Completado</value>
+    <comment>en-US:Export Data Completed!</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticsalarmmessageviewⳭString_ExportDataCompletedⳭⲶContentⲱ" xml:space="preserve">
+    <value>Exportar Data Completado</value>
+    <comment>en-US:Export Data Completed!</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticsalarmmessageviewⳭTextBlock_AlarmTypesⳭTextⲱ" xml:space="preserve">
+    <value>Tipos de Alarma</value>
+    <comment>en-US:Alarm Types:</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticsalarmmessageviewⳭTextBlock_CellNameⳭTextⲱ" xml:space="preserve">
+    <value>Nombre de Celda</value>
+    <comment>en-US:Cell Name:</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticsalarmmessageviewⳭTextBlock_CellTypeⳭTextⲱ" xml:space="preserve">
+    <value>Tipo de Celda</value>
+    <comment>en-US:Cell Type:</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticsalarmmessageviewⳭTextBlock_CountⳭTextⲱ" xml:space="preserve">
+    <value>Contador</value>
+    <comment>en-US:Count:</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticsalarmmessageviewⳭTextBlock_EndDateTimeⳭTextⲱ" xml:space="preserve">
+    <value>Fecha Final &amp; tiempo</value>
+    <comment>en-US:End Date &amp; Time:</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticsalarmmessageviewⳭTextBlock_StartDateTimeⳭTextⲱ" xml:space="preserve">
+    <value>Fecha Inicial &amp; tiempo</value>
+    <comment>en-US:Start Date &amp; Time:</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticsalarmmessageviewⳭTextBlock_TestStopPosⳭTextⲱ" xml:space="preserve">
+    <value>Posicion Final de Prueba</value>
+    <comment>en-US:Test Stop Position:</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticsalarmmessageviewⳭTextBlock_UpdatingⳭTextⲱ" xml:space="preserve">
+    <value>Refrescando</value>
+    <comment>en-US:Updating ..</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticsalarmmessageviewⳭTextBlock_VariantCodeⳭTextⲱ" xml:space="preserve">
+    <value>Codigo de Variante</value>
+    <comment>en-US:VariantCode:</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticsalarmmessageviewⳭxAxisⳭTitleⲱ" xml:space="preserve">
+    <value>Categoria</value>
+    <comment>en-US:Category</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticsalarmmessageviewⳭyAxisⳭTitleⲱ" xml:space="preserve">
+    <value>Cantidad</value>
+    <comment>en-US:Quantity</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭButton_GenerateⳭContentⲱ" xml:space="preserve">
+    <value>Generar</value>
+    <comment>en-US:Generate</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_CellNameⳭHeaderⲱ" xml:space="preserve">
+    <value>Nombre de Celda</value>
+    <comment>en-US:CellName</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_CellTypeⳭHeaderⲱ" xml:space="preserve">
+    <value>Tipo de Celda</value>
+    <comment>en-US:CellType</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_DateTime_0ⳭHeaderⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:DateTime</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_DateTimeⳭHeaderⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:DateTime</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_ErrorCodeⳭHeaderⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:ErrorCode</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_ExecutionTimeSpan_0ⳭHeaderⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:ExecutionTimeSpan</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_ExecutionTimeSpanⳭHeaderⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:ExecutionTimeSpan</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_IDⳭHeaderⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:ID</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_KistlerRotCompGainⳭHeaderⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:KistlerRotCompGain</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_KistlerRotCompOffsetⳭHeaderⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:KistlerRotCompOffset</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_KistlerXCompGainⳭHeaderⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:KistlerXCompGain</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_KistlerXCompOffsetⳭHeaderⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:KistlerXCompOffset</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_KistlerZCompGainⳭHeaderⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:KistlerZCompGain</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_KistlerZCompOffsetⳭHeaderⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:KistlerZCompOffset</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_LinealServoAccelerat_0ⳭHeaderⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:LinealServo_AccelerationUnits</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_LinealServoAcceleratⳭHeaderⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:LinealServo_Acceleration</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_LinealServoDecelerat_0ⳭHeaderⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:LinealServo_DecelerationUnits</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_LinealServoDeceleratⳭHeaderⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:LinealServo_Deceleration</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_LinealServoJerkUnitsⳭHeaderⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:LinealServo_JerkUnits</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_LinealServoJerkⳭHeaderⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:LinealServo_Jerk</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_LinealServoVelocityUⳭHeaderⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:LinealServo_VelocityUnits</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_LinealServoVelocityⳭHeaderⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:LinealServo_Velocity</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_NameⳭHeaderⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:Name</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_PropertyⳭHeaderⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:Property</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_RotationServoAcceler_0ⳭHeaderⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:RotationServo_AccelerationUnits</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_RotationServoAccelerⳭHeaderⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:RotationServo_Acceleration</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_RotationServoDeceler_0ⳭHeaderⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:RotationServo_DecelerationUnits</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_RotationServoDecelerⳭHeaderⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:RotationServo_Deceleration</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_RotationServoJerkUniⳭHeaderⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:RotationServo_JerkUnits</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_RotationServoJerkⳭHeaderⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:RotationServo_Jerk</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_RotationServoVelocit_0ⳭHeaderⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:RotationServo_VelocityUnits</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_RotationServoVelocitⳭHeaderⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:RotationServo_Velocity</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_SerialNumberⳭHeaderⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:SerialNumber</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_SerquenceResultⳭHeaderⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:SerquenceResult</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_StopPosition_0ⳭHeaderⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:StopPosition</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_StopPositionⳭHeaderⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:StopPosition</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_TestStepStatusⳭHeaderⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:TestStepStatus</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_TestStepTypeⳭHeaderⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:TestStepType</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_ToolingZInStopForceUⳭHeaderⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:ToolingZInStopForceUnits</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_ToolingZInStopForceⳭHeaderⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:ToolingZInStopForce</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_ValueⳭHeaderⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:Value</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_VariantCodeⳭHeaderⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:VariantCode</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_ZPosPushDownUnitsⳭHeaderⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:ZPosPushDownUnits</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_ZPosPushDownⳭHeaderⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:ZPosPushDown</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_ZPosUnitsⳭHeaderⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:ZPosUnits</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭDataGridTextColumn_ZPosⳭHeaderⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:ZPos</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭString_ExportDataCompletedⳭⲶContentⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:Export Data Completed!</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭTextBlock_CellNameⳭTextⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:Cell Name:</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭTextBlock_CellTypeⳭTextⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:Cell Type:</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭTextBlock_EndDateTimeⳭTextⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:End Date &amp; Time:</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭTextBlock_ExportSequencesⳭTextⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:Export Sequences</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭTextBlock_ExportTestStepDataⳭTextⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:Export TestStep Data</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭTextBlock_ExportTestStepsⳭTextⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:Export TestSteps</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭTextBlock_StartDateTimeⳭTextⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:Start Date &amp; Time:</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭTextBlock_TestStopPosⳭTextⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:Test Stop Position:</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭTextBlock_UpdatingⳭTextⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:Updating ...</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticssequenceviewⳭTextBlock_VariantCodeⳭTextⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:VariantCode:</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticstop10mostfailureviewⳭButton_ExportDataⳭContentⲱ" xml:space="preserve">
+    <value>Exportar Data</value>
+    <comment>en-US:Export Data</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticstop10mostfailureviewⳭButton_UpdateGraphⳭContentⲱ" xml:space="preserve">
+    <value>Actualizar Graph</value>
+    <comment>en-US:Update Graph</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticstop10mostfailureviewⳭString_ExportDataComplatedⳭⲶContentⲱ" xml:space="preserve">
+    <value>Exportar Data Completado</value>
+    <comment>en-US:Export Data Completed!</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticstop10mostfailureviewⳭString_ExportDataCompletedⳭⲶContentⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:Export Data Completed!</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticstop10mostfailureviewⳭTextBlock_CellNameⳭTextⲱ" xml:space="preserve">
+    <value>Nombre de Celda</value>
+    <comment>en-US:Cell Name:</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticstop10mostfailureviewⳭTextBlock_CellTypeⳭTextⲱ" xml:space="preserve">
+    <value>Tipo de Celda</value>
+    <comment>en-US:Cell Type:</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticstop10mostfailureviewⳭTextBlock_CountⳭTextⲱ" xml:space="preserve">
+    <value>Contador</value>
+    <comment>en-US:Count:</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticstop10mostfailureviewⳭTextBlock_EndDateTimeⳭTextⲱ" xml:space="preserve">
+    <value>Fecha Final &amp; tiempo</value>
+    <comment>en-US:End Date &amp; Time:</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticstop10mostfailureviewⳭTextBlock_StartDateTimeⳭTextⲱ" xml:space="preserve">
+    <value>Fecha Inicial &amp; tiempo</value>
+    <comment>en-US:Start Date &amp; Time:</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticstop10mostfailureviewⳭTextBlock_TestStopPosⳭTextⲱ" xml:space="preserve">
+    <value>Posicion Final de Prueba</value>
+    <comment>en-US:Test Stop Position:</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticstop10mostfailureviewⳭTextBlock_UpdatingⳭTextⲱ" xml:space="preserve">
+    <value>Refrescando</value>
+    <comment>en-US:Updating ..</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticstop10mostfailureviewⳭTextBlock_VariantCodeⳭTextⲱ" xml:space="preserve">
+    <value>Codigo de Variante</value>
+    <comment>en-US:VariantCode:</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticstop10mostfailureviewⳭxAxisⳭTitleⲱ" xml:space="preserve">
+    <value>Categoria</value>
+    <comment>en-US:Category</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆcellstatisticstop10mostfailureviewⳭyAxisⳭTitleⲱ" xml:space="preserve">
+    <value>Cantidad</value>
+    <comment>en-US:Quantity</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆusereventshistoryviewⳭButton_ExportDataⳭContentⲱ" xml:space="preserve">
+    <value>Exportar Data</value>
+    <comment>en-US:Export Data</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆusereventshistoryviewⳭButton_GenerateⳭContentⲱ" xml:space="preserve">
+    <value>Generar</value>
+    <comment>en-US:Generate</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆusereventshistoryviewⳭDataGridTextColumn_AccesLevelⳭHeaderⲱ" xml:space="preserve">
+    <value>Nivel de Acceso</value>
+    <comment>en-US:Acces Level</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆusereventshistoryviewⳭDataGridTextColumn_ActionTypeⳭHeaderⲱ" xml:space="preserve">
+    <value>Tipo de Accion</value>
+    <comment>en-US:Action Type</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆusereventshistoryviewⳭDataGridTextColumn_CellNameⳭHeaderⲱ" xml:space="preserve">
+    <value>Nombre de Celda</value>
+    <comment>en-US:CellName</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆusereventshistoryviewⳭDataGridTextColumn_CellTypeⳭHeaderⲱ" xml:space="preserve">
+    <value>Typo de Celda</value>
+    <comment>en-US:CellType</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆusereventshistoryviewⳭDataGridTextColumn_InfoTypeⳭHeaderⲱ" xml:space="preserve">
+    <value>Type Info</value>
+    <comment>en-US:InfoType</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆusereventshistoryviewⳭDataGridTextColumn_NewValueⳭHeaderⲱ" xml:space="preserve">
+    <value>Nuevo Valor</value>
+    <comment>en-US:NewValue</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆusereventshistoryviewⳭDataGridTextColumn_OldValueⳭHeaderⲱ" xml:space="preserve">
+    <value>Valor Viejo</value>
+    <comment>en-US:OldValue</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆusereventshistoryviewⳭDataGridTextColumn_PropertyNameⳭHeaderⲱ" xml:space="preserve">
+    <value>Nombre de Propiedad</value>
+    <comment>en-US:Property Name</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆusereventshistoryviewⳭDataGridTextColumn_TargetNameⳭHeaderⲱ" xml:space="preserve">
+    <value>Nombre Objetivo</value>
+    <comment>en-US:Target Name</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆusereventshistoryviewⳭDataGridTextColumn_TimeⳭHeaderⲱ" xml:space="preserve">
+    <value>Tiempo</value>
+    <comment>en-US:Time</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆusereventshistoryviewⳭDataGridTextColumn_UserⳭHeaderⲱ" xml:space="preserve">
+    <value>Usuario</value>
+    <comment>en-US:User</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆusereventshistoryviewⳭString_ExportDataComplatedⳭⲶContentⲱ" xml:space="preserve">
+    <value>Exportar Data Completado</value>
+    <comment>en-US:Export Data Completed!</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆusereventshistoryviewⳭString_ExportDataCompletedⳭⲶContentⲱ" xml:space="preserve">
+    <value />
+    <comment>en-US:Export Data Completed!</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆusereventshistoryviewⳭTextBlock_ActionTypeⳭTextⲱ" xml:space="preserve">
+    <value>Tipo de Accion</value>
+    <comment>en-US:Action Type:</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆusereventshistoryviewⳭTextBlock_CellNameⳭTextⲱ" xml:space="preserve">
+    <value>Nombre de Celda</value>
+    <comment>en-US:Cell Name:</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆusereventshistoryviewⳭTextBlock_CellTypeⳭTextⲱ" xml:space="preserve">
+    <value>Typo de Celda</value>
+    <comment>en-US:Cell Type:</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆusereventshistoryviewⳭTextBlock_CountⳭTextⲱ" xml:space="preserve">
+    <value>Contador</value>
+    <comment>en-US:Count:</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆusereventshistoryviewⳭTextBlock_EndDateTimeⳭTextⲱ" xml:space="preserve">
+    <value>Fecha Final &amp; tiempo</value>
+    <comment>en-US:End Date &amp; Time:</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆusereventshistoryviewⳭTextBlock_PropertyNameⳭTextⲱ" xml:space="preserve">
+    <value>Nombre de Propiedad</value>
+    <comment>en-US:Property Name:</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆusereventshistoryviewⳭTextBlock_StartDateTimeⳭTextⲱ" xml:space="preserve">
+    <value>Fecha Inicial &amp; tiempo</value>
+    <comment>en-US:Start Date &amp; Time:</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆusereventshistoryviewⳭTextBlock_TargetNameⳭTextⲱ" xml:space="preserve">
+    <value>Nombre Objetivo</value>
+    <comment>en-US:Target Name:</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆusereventshistoryviewⳭTextBlock_UpdatingⳭTextⲱ" xml:space="preserve">
+    <value>Refrescando</value>
+    <comment>en-US:Updating ..</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆusereventshistoryviewⳭTextBlock_UserAccesLevelⳭTextⲱ" xml:space="preserve">
+    <value>Nivel de Acceso</value>
+    <comment>en-US:User Acces Level:</comment>
+  </data>
+  <data name="Ⲁcell900_1100traceabilityⳆusereventshistoryviewⳭTextBlock_UserⳭTextⲱ" xml:space="preserve">
+    <value>Usuario</value>
+    <comment>en-US:User:</comment>
+  </data>
+  <data name="ⲀviewsⳆanalizeⳆerroreventsⳭButton_ExportDataⳭContentⲱ" xml:space="preserve">
+    <value>Exportar</value>
+    <comment>en-US:Export Data</comment>
+  </data>
+  <data name="ⲀviewsⳆanalizeⳆerroreventsⳭButton_UpdateGraphⳭContentⲱ" xml:space="preserve">
+    <value>Actualizar</value>
+    <comment>en-US:Update Graph</comment>
+  </data>
+  <data name="ⲀviewsⳆanalizeⳆerroreventsⳭString_ExportDataComplatedⳭⲶContentⲱ" xml:space="preserve">
+    <value>Exportar data compeltado</value>
+    <comment>en-US:Export Data Complated!</comment>
+  </data>
+  <data name="ⲀviewsⳆanalizeⳆerroreventsⳭTextBlock_CellTypeⳭTextⲱ" xml:space="preserve">
+    <value>Celda:</value>
+    <comment>en-US:Cell Type:</comment>
+  </data>
+  <data name="ⲀviewsⳆanalizeⳆerroreventsⳭTextBlock_EndDateTimeⳭTextⲱ" xml:space="preserve">
+    <value>Fecha final </value>
+    <comment>en-US:End Date &amp; Time:</comment>
+  </data>
+  <data name="ⲀviewsⳆanalizeⳆerroreventsⳭTextBlock_StartDateTimeⳭTextⲱ" xml:space="preserve">
+    <value>Fecha Inicial</value>
+    <comment>en-US:Start Date &amp; Time:</comment>
+  </data>
+  <data name="ⲀviewsⳆanalizeⳆerroreventsⳭTextBlock_UpdatingⳭTextⲱ" xml:space="preserve">
+    <value>Actualizando..</value>
+    <comment>en-US:Updating ..</comment>
+  </data>
+  <data name="ⲀviewsⳆanalizeⳆerroreventsⳭxAxisⳭTitleⲱ" xml:space="preserve">
+    <value>Categoria</value>
+    <comment>en-US:Category</comment>
+  </data>
+  <data name="ⲀviewsⳆanalizeⳆerroreventsⳭyAxisⳭTitleⲱ" xml:space="preserve">
+    <value>Cantidad</value>
+    <comment>en-US:Quantity</comment>
+  </data>
+  <data name="ⲀviewsⳆanalizeⳆeventviewⳭComboBoxItem_DensityⳭContentⲱ" xml:space="preserve">
+    <value>Densidad</value>
+    <comment>en-US:Density</comment>
+  </data>
+  <data name="ⲀviewsⳆanalizeⳆeventviewⳭComboBoxItem_DivisionⳭContentⲱ" xml:space="preserve">
+    <value>División</value>
+    <comment>en-US:Division</comment>
+  </data>
+  <data name="ⲀviewsⳆanalizeⳆeventviewⳭComboBoxItem_FrequencyⳭContentⲱ" xml:space="preserve">
+    <value>Frecuencia</value>
+    <comment>en-US:Frequency</comment>
+  </data>
+  <data name="ⲀviewsⳆanalizeⳆeventviewⳭGuiButton_UpdateGraphⳭContentⲱ" xml:space="preserve">
+    <value>Actualizar gráfico</value>
+    <comment>en-US:Update Graph</comment>
+  </data>
+  <data name="ⲀviewsⳆanalizeⳆeventviewⳭLabel_ChartTypeⳭContentⲱ" xml:space="preserve">
+    <value>Tipo de gráfico</value>
+    <comment>en-US:Chart Type:</comment>
+  </data>
+  <data name="ⲀviewsⳆanalizeⳆeventviewⳭLabel_EndDateAndTimeⳭContentⲱ" xml:space="preserve">
+    <value>Fecha y hora finales</value>
+    <comment>en-US:End Date and Time:</comment>
+  </data>
+  <data name="ⲀviewsⳆanalizeⳆeventviewⳭLabel_StartDateAndTimeⳭContentⲱ" xml:space="preserve">
+    <value>Fecha y hora iniciales</value>
+    <comment>en-US:Start Date and Time:</comment>
+  </data>
+  <data name="ⲀviewsⳆanalizeⳆitemviewⳭGuiButton_UpdateGraphⳭContentⲱ" xml:space="preserve">
+    <value>Actualizar gráfico</value>
+    <comment>en-US:Update Graph</comment>
+  </data>
+  <data name="ⲀviewsⳆanalizeⳆitemviewⳭLabel_CellSelectionⳭContentⲱ" xml:space="preserve">
+    <value>selección de célula</value>
+    <comment>en-US:Cell Selection:</comment>
+  </data>
+  <data name="ⲀviewsⳆanalizeⳆitemviewⳭLabel_EndDateAndTimeⳭContentⲱ" xml:space="preserve">
+    <value>Fecha y hora finales</value>
+    <comment>en-US:End Date and Time:</comment>
+  </data>
+  <data name="ⲀviewsⳆanalizeⳆitemviewⳭLabel_StartDateAndTimeⳭContentⲱ" xml:space="preserve">
+    <value>Fecha y hora iniciales</value>
+    <comment>en-US:Start Date and Time:</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆmachinesettingsviewⳭGuiButton_MXⳭContentⲱ" xml:space="preserve">
+    <value>Mx</value>
+    <comment>en-US:MX</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆmachinesettingsviewⳭGuiButton_RefreshⳭContentⲱ" xml:space="preserve">
+    <value>Actualizar</value>
+    <comment>en-US:Refresh</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆmachinesettingsviewⳭGuiButton_SaveⳭContentⲱ" xml:space="preserve">
+    <value>Guardar</value>
+    <comment>en-US:Save</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆmachinesettingsviewⳭGuiButton_Select_0ⳭContentⲱ" xml:space="preserve">
+    <value>seleccionar</value>
+    <comment>en-US:Select</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆmachinesettingsviewⳭGuiButton_SelectⳭContentⲱ" xml:space="preserve">
+    <value>seleccionar</value>
+    <comment>en-US:Select</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆmachinesettingsviewⳭGuiButton_USⳭContentⲱ" xml:space="preserve">
+    <value>Us</value>
+    <comment>en-US:US</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆmachinesettingsviewⳭGuiGroupBox_CellConfigⳭHeaderⲱ" xml:space="preserve">
+    <value>Config</value>
+    <comment>en-US:Cell Config</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆmachinesettingsviewⳭGuiGroupBox_DatabaseⳭHeaderⲱ" xml:space="preserve">
+    <value>Base de datos</value>
+    <comment>en-US:Database</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆmachinesettingsviewⳭGuiGroupBox_LanguageⳭHeaderⲱ" xml:space="preserve">
+    <value>Lenguaje</value>
+    <comment>en-US:Language</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆmachinesettingsviewⳭGuiGroupBox_PLCⳭHeaderⲱ" xml:space="preserve">
+    <value>PLC</value>
+    <comment>en-US:PLC</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆmachinesettingsviewⳭGuiGroupBox_PrinterⳭHeaderⲱ" xml:space="preserve">
+    <value>Impresora</value>
+    <comment>en-US:Printer</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆmachinesettingsviewⳭGuiGroupBox_ReporterⳭHeaderⲱ" xml:space="preserve">
+    <value>Reportero</value>
+    <comment>en-US:Reporter</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆmachinesettingsviewⳭGuiGroupBox_ShuttleTrackⳭHeaderⲱ" xml:space="preserve">
+    <value>Shuttle Track</value>
+    <comment>en-US:Shuttle Track</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆmachinesettingsviewⳭLabel_ArchivePathⳭContentⲱ" xml:space="preserve">
+    <value>Ruta de archivado</value>
+    <comment>en-US:Archive Path:</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆmachinesettingsviewⳭLabel_CellNameⳭContentⲱ" xml:space="preserve">
+    <value>Nombre de la celda</value>
+    <comment>en-US:Cell Name:</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆmachinesettingsviewⳭLabel_CollectingPathⳭContentⲱ" xml:space="preserve">
+    <value>Recolectando</value>
+    <comment>en-US:Collecting Path:</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆmachinesettingsviewⳭLabel_DatabaseⳭContentⲱ" xml:space="preserve">
+    <value>Base de datos</value>
+    <comment>en-US:Database:</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆmachinesettingsviewⳭLabel_DBNameⳭContentⲱ" xml:space="preserve">
+    <value>Nombre de DB</value>
+    <comment>en-US:DB Name:</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆmachinesettingsviewⳭLabel_PasswordⳭContentⲱ" xml:space="preserve">
+    <value>Contraseña</value>
+    <comment>en-US:Password:</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆmachinesettingsviewⳭLabel_PLCIPⳭContentⲱ" xml:space="preserve">
+    <value>PLC</value>
+    <comment>en-US:PLC IP:</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆmachinesettingsviewⳭLabel_PLCNAmeⳭContentⲱ" xml:space="preserve">
+    <value>Nombre del PLC</value>
+    <comment>en-US:PLC NAme:</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆmachinesettingsviewⳭLabel_PLCⳭContentⲱ" xml:space="preserve">
+    <value>PLC</value>
+    <comment>en-US:PLC:</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆmachinesettingsviewⳭLabel_Port_0ⳭContentⲱ" xml:space="preserve">
+    <value>Puerto</value>
+    <comment>en-US:Port:</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆmachinesettingsviewⳭLabel_PortⳭContentⲱ" xml:space="preserve">
+    <value>Puerto</value>
+    <comment>en-US:Port:</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆmachinesettingsviewⳭLabel_PrinterⳭContentⲱ" xml:space="preserve">
+    <value>Impresora</value>
+    <comment>en-US:Printer:</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆmachinesettingsviewⳭLabel_RecolectorⳭContentⲱ" xml:space="preserve">
+    <value>Recolector</value>
+    <comment>en-US:Recolector:</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆmachinesettingsviewⳭLabel_ReporterⳭContentⲱ" xml:space="preserve">
+    <value>Reportero</value>
+    <comment>en-US:Reporter:</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆmachinesettingsviewⳭLabel_Server_0ⳭContentⲱ" xml:space="preserve">
+    <value>Servidor:</value>
+    <comment>en-US:Server:</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆmachinesettingsviewⳭLabel_ServerIP_0ⳭContentⲱ" xml:space="preserve">
+    <value>IP del servidor</value>
+    <comment>en-US:Server IP:</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆmachinesettingsviewⳭLabel_ServerIPⳭContentⲱ" xml:space="preserve">
+    <value>IP del servidor</value>
+    <comment>en-US:Server IP:</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆmachinesettingsviewⳭLabel_ServerⳭContentⲱ" xml:space="preserve">
+    <value>Servidor:</value>
+    <comment>en-US:Server:</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆmachinesettingsviewⳭLabel_ShuttleNumberⳭContentⲱ" xml:space="preserve">
+    <value>Numero de Shuttles</value>
+    <comment>en-US:Shuttle Number:</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆmachinesettingsviewⳭLabel_ShuttleTrackⳭContentⲱ" xml:space="preserve">
+    <value>Shuttle Track</value>
+    <comment>en-US:ShuttleTrack:</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆmachinesettingsviewⳭLabel_SimulatedⳭContentⲱ" xml:space="preserve">
+    <value>Simulado</value>
+    <comment>en-US:Simulated:</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆmachinesettingsviewⳭLabel_TestLinesⳭContentⲱ" xml:space="preserve">
+    <value>Lineas de Test</value>
+    <comment>en-US:TestLines:</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆmachinesettingsviewⳭLabel_TraceReturnⳭContentⲱ" xml:space="preserve">
+    <value>Retorno de Trazabilidad</value>
+    <comment>en-US:TraceReturn:</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆmachinesettingsviewⳭLabel_UserⳭContentⲱ" xml:space="preserve">
+    <value>usuario</value>
+    <comment>en-US:User:</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆmachinesettingsviewⳭLabel_VariantControlⳭContentⲱ" xml:space="preserve">
+    <value>Control de variantes</value>
+    <comment>en-US:Variant Control:</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆothersettingsviewⳭButton_SaveChangesⳭContentⲱ" xml:space="preserve">
+    <value>Guardar cambios</value>
+    <comment>en-US:Save changes</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆothersettingsviewⳭGroupBox_ConfigurePathⳭHeaderⲱ" xml:space="preserve">
+    <value>Configurar</value>
+    <comment>en-US:Configure path</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆvariantviewⳭComboBoxItem_CreateⳭContentⲱ" xml:space="preserve">
+    <value>Crear</value>
+    <comment>en-US:Create</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆvariantviewⳭComboBoxItem_ModifyⳭContentⲱ" xml:space="preserve">
+    <value>Modificar</value>
+    <comment>en-US:Modify</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆvariantviewⳭComboBoxItem_ViewⳭContentⲱ" xml:space="preserve">
+    <value>Ver</value>
+    <comment>en-US:View</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆvariantviewⳭGuiButton_DeleteⳭContentⲱ" xml:space="preserve">
+    <value>Eliminar</value>
+    <comment>en-US:Delete</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆvariantviewⳭGuiButton_LoadⳭContentⲱ" xml:space="preserve">
+    <value>Cargar</value>
+    <comment>en-US:Load</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆvariantviewⳭGuiButton_Save_0ⳭContentⲱ" xml:space="preserve">
+    <value>Guardar</value>
+    <comment>en-US:Save</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆvariantviewⳭGuiButton_SaveⳭContentⲱ" xml:space="preserve">
+    <value>Guardar</value>
+    <comment>en-US:Save</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆvariantviewⳭGuiComboBox_SelectVariantⳭTextⲱ" xml:space="preserve">
+    <value>Seleccione la variante</value>
+    <comment>en-US:Select Variant</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆvariantviewⳭGuiGroupBox_CreateVariableⳭHeaderⲱ" xml:space="preserve">
+    <value>Crear variable!</value>
+    <comment>en-US:Create Variable</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆvariantviewⳭGuiGroupBox_ModifyVariableⳭHeaderⲱ" xml:space="preserve">
+    <value>Modificar variable!</value>
+    <comment>en-US:Modify Variable</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆvariantviewⳭGuiGroupBox_ReadVariableⳭHeaderⲱ" xml:space="preserve">
+    <value>Variable</value>
+    <comment>en-US:Read Variable</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆvariantviewⳭGuiGroupBox_VariantPickerⳭHeaderⲱ" xml:space="preserve">
+    <value>Selector de variantes!</value>
+    <comment>en-US:Variant picker</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆvariantviewⳭLabel_ASBM_0ⳭContentⲱ" xml:space="preserve">
+    <value>ASBM</value>
+    <comment>en-US:ASBM:</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆvariantviewⳭLabel_ASBMⳭContentⲱ" xml:space="preserve">
+    <value>ASBM</value>
+    <comment>en-US:ASBM:</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆvariantviewⳭLabel_Bezel_0ⳭContentⲱ" xml:space="preserve">
+    <value>BISEL 2</value>
+    <comment>en-US:Bezel:</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆvariantviewⳭLabel_BezelⳭContentⲱ" xml:space="preserve">
+    <value>BISEL 2</value>
+    <comment>en-US:Bezel:</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆvariantviewⳭLabel_Display_0ⳭContentⲱ" xml:space="preserve">
+    <value>Mostrar</value>
+    <comment>en-US:Display:</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆvariantviewⳭLabel_DisplayⳭContentⲱ" xml:space="preserve">
+    <value>Mostrar</value>
+    <comment>en-US:Display:</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆvariantviewⳭLabel_LSBM3_0ⳭContentⲱ" xml:space="preserve">
+    <value>LSBM3</value>
+    <comment>en-US:LSBM3:</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆvariantviewⳭLabel_LSBM3ⳭContentⲱ" xml:space="preserve">
+    <value>LSBM3</value>
+    <comment>en-US:LSBM3:</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆvariantviewⳭLabel_NameⳭContentⲱ" xml:space="preserve">
+    <value>Nombre:</value>
+    <comment>en-US:Name:</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆvariantviewⳭLabel_RHSBM_0ⳭContentⲱ" xml:space="preserve">
+    <value>RHSBM :!</value>
+    <comment>en-US:RHSBM:</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆvariantviewⳭLabel_RHSBMⳭContentⲱ" xml:space="preserve">
+    <value>RHSBM :!</value>
+    <comment>en-US:RHSBM:</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆvariantviewⳭLabel_ShiftKnob_0ⳭContentⲱ" xml:space="preserve">
+    <value>TURNO</value>
+    <comment>en-US:Shift Knob:</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆvariantviewⳭLabel_ShiftKnobⳭContentⲱ" xml:space="preserve">
+    <value>TURNO</value>
+    <comment>en-US:Shift Knob:</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆvariantviewⳭLabel_TSBM_0ⳭContentⲱ" xml:space="preserve">
+    <value>TSBM :!</value>
+    <comment>en-US:TSBM:</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆvariantviewⳭLabel_TSBMⳭContentⲱ" xml:space="preserve">
+    <value>TSBM :!</value>
+    <comment>en-US:TSBM:</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆvariantviewⳭLabel_VariantName_0ⳭContentⲱ" xml:space="preserve">
+    <value>Nombre de presentaciones</value>
+    <comment>en-US:Variant Name:</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆvariantviewⳭLabel_VariantName_1ⳭContentⲱ" xml:space="preserve">
+    <value>Nombre de presentaciones</value>
+    <comment>en-US:Variant Name:</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆvariantviewⳭLabel_VariantNameⳭContentⲱ" xml:space="preserve">
+    <value>Nombre de presentaciones</value>
+    <comment>en-US:Variant Name:</comment>
+  </data>
+  <data name="ⲀviewsⳆconfigureⳆvariantviewⳭVariantList_CmbⳭTextⲱ" xml:space="preserve">
+    <value>Seleccione la variante</value>
+    <comment>en-US:Select Variant</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆaboutboxⳭButton_CloseⳭContentⲱ" xml:space="preserve">
+    <value>Cerrar</value>
+    <comment>en-US:Close</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆaboutboxⳭString_NAⳭⲶContentⲱ" xml:space="preserve">
+    <value>N/A</value>
+    <comment>en-US:N/A</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆaboutboxⳭTextBlock_MachineTypeⳭTextⲱ" xml:space="preserve">
+    <value>Tipo de máquina</value>
+    <comment>en-US:Machine type</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆaboutboxⳭTextBlock_SoftwareVersionⳭTextⲱ" xml:space="preserve">
+    <value>Versión de software</value>
+    <comment>en-US:Software version</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆaboutboxⳭTextBlock_TechnicalSupportⳭTextⲱ" xml:space="preserve">
+    <value>Soporte técnico</value>
+    <comment>en-US:Technical support:</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆaboutboxⳭWindowⳭTitleⲱ" xml:space="preserve">
+    <value>Acerca de</value>
+    <comment>en-US:About</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆdocumentviewerdialogⳭWindow_DocumentViewerⳭTitleⲱ" xml:space="preserve">
+    <value>Visor de documentos</value>
+    <comment>en-US:DocumentViewer</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆreworkmodⳭComboBoxItem_WLⳭContentⲱ" xml:space="preserve">
+    <value>WL</value>
+    <comment>en-US:WL</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆreworkmodⳭComboBoxItem_WSⳭContentⲱ" xml:space="preserve">
+    <value>WS</value>
+    <comment>en-US:WS</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆreworkmodⳭGuiButton_Change_0ⳭContentⲱ" xml:space="preserve">
+    <value>Cambiar</value>
+    <comment>en-US:Change</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆreworkmodⳭGuiButton_Change_1ⳭContentⲱ" xml:space="preserve">
+    <value>Cambiar</value>
+    <comment>en-US:Change</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆreworkmodⳭGuiButton_ChangeⳭContentⲱ" xml:space="preserve">
+    <value>Cambiar</value>
+    <comment>en-US:Change</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆreworkmodⳭGuiComboBox_SelectVariant_0ⳭTextⲱ" xml:space="preserve">
+    <value>Seleccionar Variante</value>
+    <comment>en-US:Select Variant</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆreworkmodⳭGuiComboBox_SelectVariantⳭTextⲱ" xml:space="preserve">
+    <value>Seleccionar Variante</value>
+    <comment>en-US:Select Variant</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆreworkmodⳭLabel_FromⳭContentⲱ" xml:space="preserve">
+    <value>De:</value>
+    <comment>en-US:From:</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆreworkmodⳭLabel_ModelⳭContentⲱ" xml:space="preserve">
+    <value>Modelo:</value>
+    <comment>en-US:Model:</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆreworkmodⳭLabel_SerialNumberⳭContentⲱ" xml:space="preserve">
+    <value>Numero Serial:</value>
+    <comment>en-US:Serial Number:</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆreworkmodⳭLabel_ToⳭContentⲱ" xml:space="preserve">
+    <value>A:</value>
+    <comment>en-US:To:</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆreworkmodⳭLabel_VariantⳭContentⲱ" xml:space="preserve">
+    <value>Variante:</value>
+    <comment>en-US:Variant:</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆreworkmodⳭWindow_ReworkModⳭTitleⲱ" xml:space="preserve">
+    <value>Retrabajo</value>
+    <comment>en-US:ReworkMod</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆshuttledialogⳭButton_ManipultorⳭContentⲱ" xml:space="preserve">
+    <value>Manipular</value>
+    <comment>en-US:Manipulate</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆshuttledialogⳭButton_SaveⳭContentⲱ" xml:space="preserve">
+    <value>Guardar</value>
+    <comment>en-US:Save</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆshuttledialogⳭLabel_ErrorCodeToⳭContentⲱ" xml:space="preserve">
+    <value>Codigo de Error a:</value>
+    <comment>en-US:Error Code to:</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆshuttledialogⳭLabel_ErrorCodeⳭContentⲱ" xml:space="preserve">
+    <value>Codigo de Error</value>
+    <comment>en-US:Error Code</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆshuttledialogⳭLabel_LastStationToⳭContentⲱ" xml:space="preserve">
+    <value>Ultima Estacion a:</value>
+    <comment>en-US:Last Station to:</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆshuttledialogⳭLabel_LastStationⳭContentⲱ" xml:space="preserve">
+    <value>Ultima Estacion</value>
+    <comment>en-US:Last Station</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆshuttledialogⳭLabel_NextStationToⳭContentⲱ" xml:space="preserve">
+    <value>Proxima estacion a:</value>
+    <comment>en-US:Next Station to:</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆshuttledialogⳭLabel_NextStationⳭContentⲱ" xml:space="preserve">
+    <value>Proxima estacion</value>
+    <comment>en-US:Next Station</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆshuttledialogⳭLabel_PalletID_0ⳭContentⲱ" xml:space="preserve">
+    <value>Pallet ID</value>
+    <comment>en-US:Pallet ID</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆshuttledialogⳭLabel_PalletIDⳭContentⲱ" xml:space="preserve">
+    <value>Pallet ID</value>
+    <comment>en-US:Pallet ID</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆshuttledialogⳭLabel_ReworkedToⳭContentⲱ" xml:space="preserve">
+    <value>Retrabajos a:</value>
+    <comment>en-US:Reworked to:</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆshuttledialogⳭLabel_ReworkedⳭContentⲱ" xml:space="preserve">
+    <value>Retrabajos</value>
+    <comment>en-US:Reworked</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆshuttledialogⳭLabel_SerialNumberToⳭContentⲱ" xml:space="preserve">
+    <value>Numero Serial a:</value>
+    <comment>en-US:Serial Number to:</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆshuttledialogⳭLabel_SerialNumberⳭContentⲱ" xml:space="preserve">
+    <value>Numero Serial</value>
+    <comment>en-US:Serial Number</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆshuttledialogⳭLabel_ShuttleID_0ⳭContentⲱ" xml:space="preserve">
+    <value>Shuttle ID</value>
+    <comment>en-US:Shuttle ID</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆshuttledialogⳭLabel_ShuttleIDⳭContentⲱ" xml:space="preserve">
+    <value>Shuttle ID</value>
+    <comment>en-US:Shuttle ID</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆshuttledialogⳭLabel_StatusToⳭContentⲱ" xml:space="preserve">
+    <value>Estatus a :</value>
+    <comment>en-US:Status to:</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆshuttledialogⳭLabel_StatusⳭContentⲱ" xml:space="preserve">
+    <value>Estatus</value>
+    <comment>en-US:Status</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆshuttledialogⳭLabel_TestTask1ToⳭContentⲱ" xml:space="preserve">
+    <value>Test Task 1 a:</value>
+    <comment>en-US:Test Task 1 to:</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆshuttledialogⳭLabel_TestTask1ⳭContentⲱ" xml:space="preserve">
+    <value>Test Task 1</value>
+    <comment>en-US:Test Task 1</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆshuttledialogⳭLabel_TestTask2ToⳭContentⲱ" xml:space="preserve">
+    <value>Test Task 2 a:</value>
+    <comment>en-US:Test Task 2 to:</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆshuttledialogⳭLabel_TestTask2ⳭContentⲱ" xml:space="preserve">
+    <value>Test Task 2</value>
+    <comment>en-US:Test Task 2</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆshuttledialogⳭLabel_VariantNameToⳭContentⲱ" xml:space="preserve">
+    <value>Variante a:</value>
+    <comment>en-US:Variant Name to:</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆshuttledialogⳭLabel_VariantNameⳭContentⲱ" xml:space="preserve">
+    <value>Variante</value>
+    <comment>en-US:Variant Name</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆshuttledialogⳭLabel_WorkOrderToⳭContentⲱ" xml:space="preserve">
+    <value>Orden de Trabajo A:</value>
+    <comment>en-US:Work Order to:</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆshuttledialogⳭLabel_WorkOrderⳭContentⲱ" xml:space="preserve">
+    <value>Orden de Trabajo</value>
+    <comment>en-US:Work Order</comment>
+  </data>
+  <data name="ⲀviewsⳆdialogsⳆshuttledialogⳭWindow_ShuttleInfoⳭTitleⲱ" xml:space="preserve">
+    <value>Shuttle Info</value>
+    <comment>en-US:Shuttle Info</comment>
+  </data>
+  <data name="ⲀviewsⳆmainwindowviewⳭGuiFrameTabItem_AnalyzeⳭTitleⲱ" xml:space="preserve">
+    <value>Analizar</value>
+    <comment>en-US:Analyze</comment>
+  </data>
+  <data name="ⲀviewsⳆmainwindowviewⳭGuiFrameTabItem_ConfigureⳭTitleⲱ" xml:space="preserve">
+    <value>Configurar</value>
+    <comment>en-US:Configure</comment>
+  </data>
+  <data name="ⲀviewsⳆmainwindowviewⳭGuiFrameTabItem_ObserveⳭTitleⲱ" xml:space="preserve">
+    <value>Observe</value>
+    <comment>en-US:Observe</comment>
+  </data>
+  <data name="ⲀviewsⳆmainwindowviewⳭTabItem_AlarmMessageⳭHeaderⲱ" xml:space="preserve">
+    <value>Alarma</value>
+    <comment>en-US:Alarm Message</comment>
+  </data>
+  <data name="ⲀviewsⳆmainwindowviewⳭTabItem_DataBaseⳭHeaderⲱ" xml:space="preserve">
+    <value>Base de datos</value>
+    <comment>en-US:DataBase</comment>
+  </data>
+  <data name="ⲀviewsⳆmainwindowviewⳭTabItem_DevicesⳭHeaderⲱ" xml:space="preserve">
+    <value>Dispositivos</value>
+    <comment>en-US:Devices</comment>
+  </data>
+  <data name="ⲀviewsⳆmainwindowviewⳭTabItem_EventsⳭHeaderⲱ" xml:space="preserve">
+    <value>Eventos de máquina</value>
+    <comment>en-US:Machine Events</comment>
+  </data>
+  <data name="ⲀviewsⳆmainwindowviewⳭTabItem_ItemsInOutⳭHeaderⲱ" xml:space="preserve">
+    <value>Artículos Eventos</value>
+    <comment>en-US:Items Events</comment>
+  </data>
+  <data name="ⲀviewsⳆmainwindowviewⳭTabItem_LogⳭHeaderⲱ" xml:space="preserve">
+    <value>Registro</value>
+    <comment>en-US:Log</comment>
+  </data>
+  <data name="ⲀviewsⳆmainwindowviewⳭTabItem_MachineEventsⳭHeaderⲱ" xml:space="preserve">
+    <value>Eventos de Maquina</value>
+    <comment>en-US:Machine Events</comment>
+  </data>
+  <data name="ⲀviewsⳆmainwindowviewⳭTabItem_MachineSettingsⳭHeaderⲱ" xml:space="preserve">
+    <value>Configuración de la máquina</value>
+    <comment>en-US:Machine Settings</comment>
+  </data>
+  <data name="ⲀviewsⳆmainwindowviewⳭTabItem_MontratecⳭHeaderⲱ" xml:space="preserve">
+    <value>Overview de estaciones</value>
+    <comment>en-US:Montratec</comment>
+  </data>
+  <data name="ⲀviewsⳆmainwindowviewⳭTabItem_ReworkⳭHeaderⲱ" xml:space="preserve">
+    <value>Retrabajo</value>
+    <comment>en-US:Rework</comment>
+  </data>
+  <data name="ⲀviewsⳆmainwindowviewⳭTabItem_SequenceResultsⳭHeaderⲱ" xml:space="preserve">
+    <value>Resultado de Secuencias</value>
+    <comment>en-US:Sequence results</comment>
+  </data>
+  <data name="ⲀviewsⳆmainwindowviewⳭTabItem_SequenceⳭHeaderⲱ" xml:space="preserve">
+    <value>Secuencia</value>
+    <comment>en-US:Sequence</comment>
+  </data>
+  <data name="ⲀviewsⳆmainwindowviewⳭTabItem_ShuttleTrackⳭHeaderⲱ" xml:space="preserve">
+    <value>Shuttle Track</value>
+    <comment>en-US:Shuttle Track</comment>
+  </data>
+  <data name="ⲀviewsⳆmainwindowviewⳭTabItem_Top10FailureⳭHeaderⲱ" xml:space="preserve">
+    <value>Top 10 Errores</value>
+    <comment>en-US:Top 10 Failure</comment>
+  </data>
+  <data name="ⲀviewsⳆmainwindowviewⳭTabItem_UserEventsHistoryⳭHeaderⲱ" xml:space="preserve">
+    <value>Eventos de Usuario &amp; Historico Configuracion de Variante</value>
+    <comment>en-US:User events and variants settings history</comment>
+  </data>
+  <data name="ⲀviewsⳆmainwindowviewⳭTabItem_VariantsⳭHeaderⲱ" xml:space="preserve">
+    <value>Variantes</value>
+    <comment>en-US:Variants</comment>
+  </data>
+  <data name="ⲀviewsⳆmainwindowviewⳭWindow_IPTELinePCⳭTitleⲱ" xml:space="preserve">
+    <value>IPTE Line PC</value>
+    <comment>en-US:IPTE Line PC</comment>
+  </data>
+  <data name="ⲀviewsⳆmanipulateⳆplcviewⳭGuiButton_GuiButton_0ⳭContentⲱ" xml:space="preserve">
+    <value>GuiButton!</value>
+    <comment>en-US:GuiButton</comment>
+  </data>
+  <data name="ⲀviewsⳆmanipulateⳆplcviewⳭGuiButton_GuiButtonⳭContentⲱ" xml:space="preserve">
+    <value>GuiButton!</value>
+    <comment>en-US:GuiButton</comment>
+  </data>
+  <data name="ⲀviewsⳆmanipulateⳆplcviewⳭGuiGroupBox_LockCylinderⳭHeaderⲱ" xml:space="preserve">
+    <value>CILINDRO</value>
+    <comment>en-US:Lock Cylinder</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆcellviewⳭGuiGroupBox_OnlineⳭHeaderⲱ" xml:space="preserve">
+    <value>En línea</value>
+    <comment>en-US:Online</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆcellviewⳭGuiGroupBox_StatusⳭHeaderⲱ" xml:space="preserve">
+    <value>Estado</value>
+    <comment>en-US:Status</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆcellviewⳭGuiIoCheckBox_Cell1000ⳭContentⲱ" xml:space="preserve">
+    <value>Cell 1000</value>
+    <comment>en-US:Cell 1000</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆcellviewⳭGuiIoCheckBox_Cell100ⳭContentⲱ" xml:space="preserve">
+    <value>Cell 100</value>
+    <comment>en-US:Cell 100</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆcellviewⳭGuiIoCheckBox_Cell1100ⳭContentⲱ" xml:space="preserve">
+    <value>Cell 1100</value>
+    <comment>en-US:Cell 1100</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆcellviewⳭGuiIoCheckBox_Cell150ⳭContentⲱ" xml:space="preserve">
+    <value>Cell 150</value>
+    <comment>en-US:Cell 150</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆcellviewⳭGuiIoCheckBox_Cell2000ⳭContentⲱ" xml:space="preserve">
+    <value>Cell 2000</value>
+    <comment>en-US:Cell 2000</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆcellviewⳭGuiIoCheckBox_Cell200ⳭContentⲱ" xml:space="preserve">
+    <value>Cell 200</value>
+    <comment>en-US:Cell 200</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆcellviewⳭGuiIoCheckBox_Cell300ⳭContentⲱ" xml:space="preserve">
+    <value>Cell 300</value>
+    <comment>en-US:Cell 300</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆcellviewⳭGuiIoCheckBox_Cell350ⳭContentⲱ" xml:space="preserve">
+    <value>Cell 350</value>
+    <comment>en-US:Cell 350</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆcellviewⳭGuiIoCheckBox_Cell400ⳭContentⲱ" xml:space="preserve">
+    <value>Cell 400</value>
+    <comment>en-US:Cell 400</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆcellviewⳭGuiIoCheckBox_Cell500ⳭContentⲱ" xml:space="preserve">
+    <value>Cell 500</value>
+    <comment>en-US:Cell 500</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆcellviewⳭGuiIoCheckBox_Cell600ⳭContentⲱ" xml:space="preserve">
+    <value>Cell 600</value>
+    <comment>en-US:Cell 600</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆcellviewⳭGuiIoCheckBox_Cell700ⳭContentⲱ" xml:space="preserve">
+    <value>Cell 700</value>
+    <comment>en-US:Cell 700</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆcellviewⳭGuiIoCheckBox_Cell750ⳭContentⲱ" xml:space="preserve">
+    <value>Cell 750</value>
+    <comment>en-US:Cell 750</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆcellviewⳭGuiIoCheckBox_Cell800ⳭContentⲱ" xml:space="preserve">
+    <value>Cell 800</value>
+    <comment>en-US:Cell 800</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆcellviewⳭGuiIoCheckBox_Cell850ⳭContentⲱ" xml:space="preserve">
+    <value>Cell 850</value>
+    <comment>en-US:Cell 850</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆcellviewⳭGuiIoCheckBox_Cell900AⳭContentⲱ" xml:space="preserve">
+    <value>Cell 900 A</value>
+    <comment>en-US:Cell 900 A</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆcellviewⳭGuiIoCheckBox_Cell900BⳭContentⲱ" xml:space="preserve">
+    <value>Cell 900 B</value>
+    <comment>en-US:Cell 900 B</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆcellviewⳭGuiIoCheckBox_PLCⳭContentⲱ" xml:space="preserve">
+    <value>PLC</value>
+    <comment>en-US:PLC</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆcellviewⳭGuiIoCheckBox_ServerⳭContentⲱ" xml:space="preserve">
+    <value>Servidor:</value>
+    <comment>en-US:Server</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆcellviewⳭLabel_MachineStatusⳭContentⲱ" xml:space="preserve">
+    <value>Estado de la máquina</value>
+    <comment>en-US:Machine Status</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆcellviewⳭLabel_PrinterHSPC_0ⳭContentⲱ" xml:space="preserve">
+    <value>Impresora HS PC</value>
+    <comment>en-US:Printer HS PC</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆcellviewⳭLabel_PrinterHSPCⳭContentⲱ" xml:space="preserve">
+    <value>Impresora HS PC</value>
+    <comment>en-US:Printer HS PC</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆcellviewⳭLabel_PrinterHSⳭContentⲱ" xml:space="preserve">
+    <value>Impresora HS</value>
+    <comment>en-US:Printer HS</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆcellviewⳭLabel_ReportHSPCⳭContentⲱ" xml:space="preserve">
+    <value>Reporte HS PC</value>
+    <comment>en-US:Report HS PC</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆcellviewⳭLabel_ReportHSⳭContentⲱ" xml:space="preserve">
+    <value>Reporte HS</value>
+    <comment>en-US:Report HS</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆcellviewⳭLabel_SaveHSPCⳭContentⲱ" xml:space="preserve">
+    <value>Guardar HS PC</value>
+    <comment>en-US:Save HS PC</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆcellviewⳭLabel_SaveHSⳭContentⲱ" xml:space="preserve">
+    <value>Guardar HS</value>
+    <comment>en-US:Save HS</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆcellviewⳭLabel_SearchHSⳭContentⲱ" xml:space="preserve">
+    <value>Busqueda HS</value>
+    <comment>en-US:Search HS</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆdataviewⳭButton_RefreshⳭContentⲱ" xml:space="preserve">
+    <value>Actualizar</value>
+    <comment>en-US:Refresh</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆdataviewⳭCell_LabelⳭContentⲱ" xml:space="preserve">
+    <value>Celda</value>
+    <comment>en-US:Cell:</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆdataviewⳭDate_EnableⳭContentⲱ" xml:space="preserve">
+    <value>Habilitar</value>
+    <comment>en-US:Enable</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆdataviewⳭExport_TableⳭContentⲱ" xml:space="preserve">
+    <value>Exportar</value>
+    <comment>en-US:Export</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆdataviewⳭGuiButton_GenerateReportⳭContentⲱ" xml:space="preserve">
+    <value>Generar Reporte</value>
+    <comment>en-US:Generate Report</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆdataviewⳭGuiGroupBox_CustomReportⳭHeaderⲱ" xml:space="preserve">
+    <value>Reporte Custom</value>
+    <comment>en-US:Custom Report</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆdataviewⳭLabel_DateAndTimeⳭContentⲱ" xml:space="preserve">
+    <value>Fecha y hora.</value>
+    <comment>en-US:Date And Time:</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆdataviewⳭLabel_EndⳭContentⲱ" xml:space="preserve">
+    <value>Fin</value>
+    <comment>en-US:End:</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆdataviewⳭLabel_ItemSearchⳭContentⲱ" xml:space="preserve">
+    <value>Búsqueda de artículos</value>
+    <comment>en-US:Item Search:</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆdataviewⳭLabel_SearchⳭContentⲱ" xml:space="preserve">
+    <value>Buscar</value>
+    <comment>en-US:Search:</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆdataviewⳭLabel_StartⳭContentⲱ" xml:space="preserve">
+    <value>Iniciar</value>
+    <comment>en-US:Start:</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆdataviewⳭQuery_ZoneⳭHeaderⲱ" xml:space="preserve">
+    <value>Selección</value>
+    <comment>en-US:Selection</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆdataviewⳭSearch_ZoneⳭHeaderⲱ" xml:space="preserve">
+    <value>Buscar</value>
+    <comment>en-US:Search</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭGuiButton_Enable_0ⳭContentⲱ" xml:space="preserve">
+    <value>Habilitar</value>
+    <comment>en-US:Enable</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭGuiButton_Enable_10ⳭContentⲱ" xml:space="preserve">
+    <value>Habilitar</value>
+    <comment>en-US:Enable</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭGuiButton_Enable_11ⳭContentⲱ" xml:space="preserve">
+    <value>Habilitar</value>
+    <comment>en-US:Enable</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭGuiButton_Enable_12ⳭContentⲱ" xml:space="preserve">
+    <value>Habilitar</value>
+    <comment>en-US:Enable</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭGuiButton_Enable_13ⳭContentⲱ" xml:space="preserve">
+    <value>Habilitar</value>
+    <comment>en-US:Enable</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭGuiButton_Enable_14ⳭContentⲱ" xml:space="preserve">
+    <value>Habilitar</value>
+    <comment>en-US:Enable</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭGuiButton_Enable_1ⳭContentⲱ" xml:space="preserve">
+    <value>Habilitar</value>
+    <comment>en-US:Enable</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭGuiButton_Enable_2ⳭContentⲱ" xml:space="preserve">
+    <value>Habilitar</value>
+    <comment>en-US:Enable</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭGuiButton_Enable_3ⳭContentⲱ" xml:space="preserve">
+    <value>Habilitar</value>
+    <comment>en-US:Enable</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭGuiButton_Enable_4ⳭContentⲱ" xml:space="preserve">
+    <value>Habilitar</value>
+    <comment>en-US:Enable</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭGuiButton_Enable_5ⳭContentⲱ" xml:space="preserve">
+    <value>Habilitar</value>
+    <comment>en-US:Enable</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭGuiButton_Enable_6ⳭContentⲱ" xml:space="preserve">
+    <value>Habilitar</value>
+    <comment>en-US:Enable</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭGuiButton_Enable_7ⳭContentⲱ" xml:space="preserve">
+    <value>Habilitar</value>
+    <comment>en-US:Enable</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭGuiButton_Enable_8ⳭContentⲱ" xml:space="preserve">
+    <value>Habilitar</value>
+    <comment>en-US:Enable</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭGuiButton_Enable_9ⳭContentⲱ" xml:space="preserve">
+    <value>Habilitar</value>
+    <comment>en-US:Enable</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭGuiButton_EnableⳭContentⲱ" xml:space="preserve">
+    <value>Habilitar</value>
+    <comment>en-US:Enable</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭGuiButton_Release_0ⳭContentⲱ" xml:space="preserve">
+    <value>Liberar</value>
+    <comment>en-US:Release</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭGuiButton_Release_10ⳭContentⲱ" xml:space="preserve">
+    <value>Liberar</value>
+    <comment>en-US:Release</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭGuiButton_Release_11ⳭContentⲱ" xml:space="preserve">
+    <value>Liberar</value>
+    <comment>en-US:Release</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭGuiButton_Release_12ⳭContentⲱ" xml:space="preserve">
+    <value>Liberar</value>
+    <comment>en-US:Release</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭGuiButton_Release_13ⳭContentⲱ" xml:space="preserve">
+    <value>Liberar</value>
+    <comment>en-US:Release</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭGuiButton_Release_14ⳭContentⲱ" xml:space="preserve">
+    <value>Liberar</value>
+    <comment>en-US:Release</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭGuiButton_Release_1ⳭContentⲱ" xml:space="preserve">
+    <value>Liberar</value>
+    <comment>en-US:Release</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭGuiButton_Release_2ⳭContentⲱ" xml:space="preserve">
+    <value>Liberar</value>
+    <comment>en-US:Release</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭGuiButton_Release_3ⳭContentⲱ" xml:space="preserve">
+    <value>Liberar</value>
+    <comment>en-US:Release</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭGuiButton_Release_4ⳭContentⲱ" xml:space="preserve">
+    <value>Liberar</value>
+    <comment>en-US:Release</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭGuiButton_Release_5ⳭContentⲱ" xml:space="preserve">
+    <value>Liberar</value>
+    <comment>en-US:Release</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭGuiButton_Release_6ⳭContentⲱ" xml:space="preserve">
+    <value>Liberar</value>
+    <comment>en-US:Release</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭGuiButton_Release_7ⳭContentⲱ" xml:space="preserve">
+    <value>Liberar</value>
+    <comment>en-US:Release</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭGuiButton_Release_8ⳭContentⲱ" xml:space="preserve">
+    <value>Liberar</value>
+    <comment>en-US:Release</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭGuiButton_Release_9ⳭContentⲱ" xml:space="preserve">
+    <value>Liberar</value>
+    <comment>en-US:Release</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭGuiButton_ReleaseⳭContentⲱ" xml:space="preserve">
+    <value>Liberar</value>
+    <comment>en-US:Release</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭGuiButton_ResetSR1ⳭContentⲱ" xml:space="preserve">
+    <value>Restablecer SR 1</value>
+    <comment>en-US:Reset SR 1</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭGuiButton_ResetSR2ⳭContentⲱ" xml:space="preserve">
+    <value>Restablecer SR 2</value>
+    <comment>en-US:Reset SR 2</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭGuiButton_ResetSR3ⳭContentⲱ" xml:space="preserve">
+    <value>Restablecer SR 3</value>
+    <comment>en-US:Reset SR 3</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭGuiButton_ResetSR4ⳭContentⲱ" xml:space="preserve">
+    <value>Restablecer SR 4</value>
+    <comment>en-US:Reset SR 4</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭGuiGroupBox_ControlⳭHeaderⲱ" xml:space="preserve">
+    <value>Control</value>
+    <comment>en-US:Control</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭGuiGroupBox_OverviewⳭHeaderⲱ" xml:space="preserve">
+    <value>Visión general</value>
+    <comment>en-US:Overview</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭGuiGroupBox_StatusⳭHeaderⲱ" xml:space="preserve">
+    <value>Estado</value>
+    <comment>en-US:Status</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭGuiIoCheckBox_StatusSR1ⳭContentⲱ" xml:space="preserve">
+    <value>Estado SR 1</value>
+    <comment>en-US:Status SR 1</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭGuiIoCheckBox_StatusSR2ⳭContentⲱ" xml:space="preserve">
+    <value>Status SR 2</value>
+    <comment>en-US:Status SR 2</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭGuiIoCheckBox_StatusSR3ⳭContentⲱ" xml:space="preserve">
+    <value>Status SR 3</value>
+    <comment>en-US:Status SR 3</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭGuiIoCheckBox_StatusSR4ⳭContentⲱ" xml:space="preserve">
+    <value>Status SR 4</value>
+    <comment>en-US:Status SR 4</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭLab1ⳭContentⲱ" xml:space="preserve">
+    <value>Automático</value>
+    <comment>en-US:Automatic</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭLabel_AutomaticⳭContentⲱ" xml:space="preserve">
+    <value>Automático</value>
+    <comment>en-US:Automatic</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭLabel_BypassⳭContentⲱ" xml:space="preserve">
+    <value>Deshabilitado</value>
+    <comment>en-US:Bypass</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭLabel_Cell1000ⳭContentⲱ" xml:space="preserve">
+    <value>1000</value>
+    <comment>en-US:Cell 1000</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭLabel_Cell100ⳭContentⲱ" xml:space="preserve">
+    <value>100</value>
+    <comment>en-US:Cell 100</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭLabel_Cell1100ⳭContentⲱ" xml:space="preserve">
+    <value>1100</value>
+    <comment>en-US:Cell 1100</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭLabel_Cell1200ⳭContentⲱ" xml:space="preserve">
+    <value>1200</value>
+    <comment>en-US:Cell 1200</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭLabel_Cell150ⳭContentⲱ" xml:space="preserve">
+    <value>150</value>
+    <comment>en-US:Cell 150</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭLabel_Cell2000ⳭContentⲱ" xml:space="preserve">
+    <value>2000</value>
+    <comment>en-US:Cell 2000</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭLabel_Cell200ⳭContentⲱ" xml:space="preserve">
+    <value>200</value>
+    <comment>en-US:Cell 200</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭLabel_Cell300ⳭContentⲱ" xml:space="preserve">
+    <value>300</value>
+    <comment>en-US:Cell 300</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭLabel_Cell350ⳭContentⲱ" xml:space="preserve">
+    <value>350</value>
+    <comment>en-US:Cell 350</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭLabel_Cell400ⳭContentⲱ" xml:space="preserve">
+    <value>400</value>
+    <comment>en-US:Cell 400</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭLabel_Cell500ⳭContentⲱ" xml:space="preserve">
+    <value>500</value>
+    <comment>en-US:Cell 500</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭLabel_Cell600ⳭContentⲱ" xml:space="preserve">
+    <value>600</value>
+    <comment>en-US:Cell 600</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭLabel_Cell700ⳭContentⲱ" xml:space="preserve">
+    <value>700</value>
+    <comment>en-US:Cell 700</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭLabel_Cell750ⳭContentⲱ" xml:space="preserve">
+    <value>750</value>
+    <comment>en-US:Cell 750</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭLabel_Cell800ⳭContentⲱ" xml:space="preserve">
+    <value>800</value>
+    <comment>en-US:Cell 800</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭLabel_Cell850ⳭContentⲱ" xml:space="preserve">
+    <value>850</value>
+    <comment>en-US:Cell 850</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭLabel_Cell900AⳭContentⲱ" xml:space="preserve">
+    <value>900 A</value>
+    <comment>en-US:Cell 900 A</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭLabel_Cell900BⳭContentⲱ" xml:space="preserve">
+    <value>900 B</value>
+    <comment>en-US:Cell 900 B</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭLabel_DRPⳭContentⲱ" xml:space="preserve">
+    <value>DRP</value>
+    <comment>en-US:DRP</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭLabel_FailⳭContentⲱ" xml:space="preserve">
+    <value>Error</value>
+    <comment>en-US:Fail</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭLabel_IdleⳭContentⲱ" xml:space="preserve">
+    <value>Inactivo</value>
+    <comment>en-US:Idle</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭLabel_ManualⳭContentⲱ" xml:space="preserve">
+    <value>Manual</value>
+    <comment>en-US:Manual</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭLabel_MontracDisableⳭContentⲱ" xml:space="preserve">
+    <value>Deshabilitado</value>
+    <comment>en-US:Montrac Disable</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆmontratecviewⳭLabel_NOKⳭContentⲱ" xml:space="preserve">
+    <value>NOK</value>
+    <comment>en-US:NOK</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆreworkviewⳭButton_ModifyⳭContentⲱ" xml:space="preserve">
+    <value>Modificar</value>
+    <comment>en-US:Modify</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆreworkviewⳭGuiButton_ClearⳭContentⲱ" xml:space="preserve">
+    <value>Limpiar</value>
+    <comment>en-US:Clear</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆreworkviewⳭGuiButton_ReleaseⳭContentⲱ" xml:space="preserve">
+    <value>Liberar</value>
+    <comment>en-US:Release</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆreworkviewⳭGuiButton_ScrapⳭContentⲱ" xml:space="preserve">
+    <value>Rechazar</value>
+    <comment>en-US:Scrap</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆreworkviewⳭGuiGroupBox_InfoⳭHeaderⲱ" xml:space="preserve">
+    <value>Información</value>
+    <comment>en-US:Info</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆreworkviewⳭGuiGroupBox_RouterⳭHeaderⲱ" xml:space="preserve">
+    <value>Enrutador</value>
+    <comment>en-US:Router</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆreworkviewⳭGuiGroupBox_StatusⳭHeaderⲱ" xml:space="preserve">
+    <value>Estado</value>
+    <comment>en-US:Status</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆreworkviewⳭGuiIoCheckBox_BracketPresentⳭContentⲱ" xml:space="preserve">
+    <value>Bracket Presente</value>
+    <comment>en-US:BracketPresent</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆreworkviewⳭGuiIoCheckBox_DetentPinPresentⳭContentⲱ" xml:space="preserve">
+    <value>Detent pin Presente</value>
+    <comment>en-US:Detent Pin Present</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆreworkviewⳭGuiIoCheckBox_HousingPresentⳭContentⲱ" xml:space="preserve">
+    <value>Housing Presente</value>
+    <comment>en-US:Housing Present</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆreworkviewⳭGuiIoCheckBox_PartPresentⳭContentⲱ" xml:space="preserve">
+    <value>Shuttle Presente</value>
+    <comment>en-US:Part Present</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆreworkviewⳭGuiIoCheckBox_PartStatusNOKⳭContentⲱ" xml:space="preserve">
+    <value>Pieza NOK</value>
+    <comment>en-US:Part Status NOK</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆreworkviewⳭGuiIoCheckBox_PartStatusOKⳭContentⲱ" xml:space="preserve">
+    <value>Pieza OK</value>
+    <comment>en-US:Part Status OK</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆreworkviewⳭGuiIoCheckBox_PLCConnectionⳭContentⲱ" xml:space="preserve">
+    <value>Conexión PLC</value>
+    <comment>en-US:PLC Connection</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆreworkviewⳭGuiIoCheckBox_ShaftPresentⳭContentⲱ" xml:space="preserve">
+    <value>Shaft Presente</value>
+    <comment>en-US:Shaft Present</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆreworkviewⳭLabel_ErrorCodeⳭContentⲱ" xml:space="preserve">
+    <value>Código de error</value>
+    <comment>en-US:Error Code:</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆreworkviewⳭLabel_ErrorDescriptionⳭContentⲱ" xml:space="preserve">
+    <value>Error de descripción</value>
+    <comment>en-US:Error Description:</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆreworkviewⳭLabel_LastStationⳭContentⲱ" xml:space="preserve">
+    <value>Estación</value>
+    <comment>en-US:Last Station:</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆreworkviewⳭLabel_ModelⳭContentⲱ" xml:space="preserve">
+    <value>Modelo</value>
+    <comment>en-US:Model:</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆreworkviewⳭLabel_ReworksⳭContentⲱ" xml:space="preserve">
+    <value>Retrabajo:</value>
+    <comment>en-US:Reworks:</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆreworkviewⳭLabel_SerialNumberⳭContentⲱ" xml:space="preserve">
+    <value>Numero de Serie</value>
+    <comment>en-US:Serial Number:</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆreworkviewⳭLabel_ShuttleⳭContentⲱ" xml:space="preserve">
+    <value>Shuttle:</value>
+    <comment>en-US:Shuttle:</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆreworkviewⳭLabel_TargetCellⳭContentⲱ" xml:space="preserve">
+    <value>Celda Objetivo:</value>
+    <comment>en-US:Target Cell:</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆreworkviewⳭLabel_VariantⳭContentⲱ" xml:space="preserve">
+    <value>Presentaciones</value>
+    <comment>en-US:Variant:</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆreworkviewⳭLabel_WPCⳭContentⲱ" xml:space="preserve">
+    <value>WPC :</value>
+    <comment>en-US:WPC:</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆshuttletrackviewⳭGuiGroupBox_GeneralInfoⳭHeaderⲱ" xml:space="preserve">
+    <value>Informacion general</value>
+    <comment>en-US:General Info</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆshuttletrackviewⳭGuiGroupBox_LegendⳭHeaderⲱ" xml:space="preserve">
+    <value>Leyenda</value>
+    <comment>en-US:Legend</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆshuttletrackviewⳭGuiGroupBox_NavigationⳭHeaderⲱ" xml:space="preserve">
+    <value>Navegacion</value>
+    <comment>en-US:Navigation</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆshuttletrackviewⳭGuiGroupBox_ShuttlesⳭHeaderⲱ" xml:space="preserve">
+    <value>Shuttles</value>
+    <comment>en-US:Shuttles</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆshuttletrackviewⳭLabel_Empty_0ⳭContentⲱ" xml:space="preserve">
+    <value>Vacio</value>
+    <comment>en-US:Empty</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆshuttletrackviewⳭLabel_EmptyⳭContentⲱ" xml:space="preserve">
+    <value>Vacio</value>
+    <comment>en-US:Empty</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆshuttletrackviewⳭLabel_InnerⳭContentⲱ" xml:space="preserve">
+    <value>Interior</value>
+    <comment>en-US:Inner</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆshuttletrackviewⳭLabel_NOKⳭContentⲱ" xml:space="preserve">
+    <value>NOK</value>
+    <comment>en-US:NOK</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆshuttletrackviewⳭLabel_NumberOfFreeShuttlesⳭContentⲱ" xml:space="preserve">
+    <value>Shuttles libres</value>
+    <comment>en-US:Number of Free Shuttles</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆshuttletrackviewⳭLabel_NumberOfNOKReworkedSⳭContentⲱ" xml:space="preserve">
+    <value>NOK Shuttles Retrabajados</value>
+    <comment>en-US:Number of NOK Reworked Shuttles</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆshuttletrackviewⳭLabel_NumberOfNOKShuttlesⳭContentⲱ" xml:space="preserve">
+    <value>NOK Shuttles</value>
+    <comment>en-US:Number of NOK Shuttles</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆshuttletrackviewⳭLabel_NumberOfOcupiedShuttⳭContentⲱ" xml:space="preserve">
+    <value>Shuttles Ocupados</value>
+    <comment>en-US:Number of Ocupied Shuttles</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆshuttletrackviewⳭLabel_NumberOfOKReworkedShⳭContentⲱ" xml:space="preserve">
+    <value>OK Shuttles Retrabajados</value>
+    <comment>en-US:Number of OK Reworked Shuttles</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆshuttletrackviewⳭLabel_NumberOfOKShuttlesⳭContentⲱ" xml:space="preserve">
+    <value>OK Shuttles</value>
+    <comment>en-US:Number of OK Shuttles</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆshuttletrackviewⳭLabel_OccupiedⳭContentⲱ" xml:space="preserve">
+    <value>Ocupado</value>
+    <comment>en-US:Occupied</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆshuttletrackviewⳭLabel_OKⳭContentⲱ" xml:space="preserve">
+    <value>OK</value>
+    <comment>en-US:OK</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆshuttletrackviewⳭLabel_OutterⳭContentⲱ" xml:space="preserve">
+    <value>Exterior</value>
+    <comment>en-US:Outter</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆshuttletrackviewⳭLabel_ReworkⳭContentⲱ" xml:space="preserve">
+    <value>Retrabajo</value>
+    <comment>en-US:Rework</comment>
+  </data>
+  <data name="ⲀviewsⳆobserveⳆshuttletrackviewⳭLabel_TotalShuttlesⳭContentⲱ" xml:space="preserve">
+    <value>Total Shuttles</value>
+    <comment>en-US:Total Shuttles</comment>
+  </data>
+  <data name="ⲀviewsⳆpagⳆanalyzecycletimespageⳭGuiButton_GuiButtonⳭContentⲱ" xml:space="preserve">
+    <value>GuiButton!</value>
+    <comment>en-US:GuiButton</comment>
+  </data>
+  <data name="ⲀviewsⳆtoolsⳆcolorblockⳭLab1ⳭContentⲱ" xml:space="preserve">
+    <value>Automático</value>
+    <comment>en-US:Automatic</comment>
+  </data>
+  <data name="ⲀviewsⳆtoolsⳆcolorblockⳭLabel_BypassⳭContentⲱ" xml:space="preserve">
+    <value>Omisión</value>
+    <comment>en-US:Bypass</comment>
+  </data>
+  <data name="ⲀviewsⳆtoolsⳆcolorblockⳭLabel_DRPⳭContentⲱ" xml:space="preserve">
+    <value>PRD</value>
+    <comment>en-US:DRP</comment>
+  </data>
+  <data name="ⲀviewsⳆtoolsⳆcolorblockⳭLabel_FailⳭContentⲱ" xml:space="preserve">
+    <value>Error</value>
+    <comment>en-US:Fail</comment>
+  </data>
+  <data name="ⲀviewsⳆtoolsⳆcolorblockⳭLabel_IdleⳭContentⲱ" xml:space="preserve">
+    <value>Inactivo</value>
+    <comment>en-US:Idle</comment>
+  </data>
+  <data name="ⲀviewsⳆtoolsⳆcolorblockⳭLabel_ManualⳭContentⲱ" xml:space="preserve">
+    <value>Manual</value>
+    <comment>en-US:Manual</comment>
+  </data>
+  <data name="ⲀviewsⳆtoolsⳆshuttleⳭLabel_LastⳭContentⲱ" xml:space="preserve">
+    <value>Ultimo:</value>
+    <comment>en-US:Last:</comment>
+  </data>
+  <data name="ⲀviewsⳆtoolsⳆshuttleⳭLabel_NextⳭContentⲱ" xml:space="preserve">
+    <value>Siguiente:</value>
+    <comment>en-US:Next:</comment>
+  </data>
+  <data name="ⲀviewsⳆtoolsⳆshuttleⳭLabel_WPCⳭContentⲱ" xml:space="preserve">
+    <value>WPC:</value>
+    <comment>en-US:WPC:</comment>
+  </data>
+  <data name="ConnectionExeption" xml:space="preserve">
+    <value>Exepcion durante la inicializacion del PLC exs:</value>
+    <comment>Alarm Messages</comment>
+  </data>
+  <data name="ConnectionLost" xml:space="preserve">
+    <value>Conexion con PLC Perdida</value>
+    <comment>Alarm Messages</comment>
+  </data>
+  <data name="ConnectionRetry" xml:space="preserve">
+    <value>Reintentando conexion con PLC ....</value>
+    <comment>Alarm Messages</comment>
+  </data>
+  <data name="ConnectionSuccess" xml:space="preserve">
+    <value>Conexion  con PLC Exitosa</value>
+    <comment>Alarm Messages</comment>
+  </data>
+  <data name="MachineMontrack_Disable" xml:space="preserve">
+    <value>Deshabilitado</value>
+  </data>
+  <data name="MachineMontrack_Enable" xml:space="preserve">
+    <value>Habilitado</value>
+  </data>
+  <data name="MachineState_Automatic" xml:space="preserve">
+    <value>Automatico</value>
+  </data>
+  <data name="MachineState_Bypass" xml:space="preserve">
+    <value>Bypass</value>
+  </data>
+  <data name="MachineState_DRP" xml:space="preserve">
+    <value>DRP</value>
+  </data>
+  <data name="MachineState_Fail" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="MachineState_Idle" xml:space="preserve">
+    <value>Inactivo</value>
+  </data>
+  <data name="MachineState_Manual" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+</root>

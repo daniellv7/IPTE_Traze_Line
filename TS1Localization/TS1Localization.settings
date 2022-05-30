@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<SolutionSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UidGenerationMode>Smart</UidGenerationMode>
+  <ProjectsSettings>
+    <ProjectSettings>
+      <ProjectUniqueName>IPTE_Base_Project\IPTE Line PC.csproj</ProjectUniqueName>
+      <Localizable>true</Localizable>
+    </ProjectSettings>
+  </ProjectsSettings>
+  <DevelepmentCulture>en-US</DevelepmentCulture>
+  <LocalizationCultures>
+    <string>es-MX</string>
+  </LocalizationCultures>
+</SolutionSettings>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Querys>
+  
+   <QueryConfig Name="Interlock_Cell_10">
+     <Cell>10</Cell>
+     <Command>$02_Event_,ID,_Data_$R$L</Command>
+   </QueryConfig>
+
+  <QueryConfig Name="Interlock_Cell_20">
+    <Cell>20</Cell>
+    <Command>$02_Event_,ID,_Data_$R$L</Command>
+  </QueryConfig>
+
+  <QueryConfig Name="Boking_Cell_10">
+    <Cell>20</Cell>
+    <Command>$02_Event_,ID,_Data_$R$L</Command>
+  </QueryConfig>
+
+  <QueryConfig Name="Machine_State">
+    <Cell>ALL</Cell>
+    <Command>$02_Event_,ID,_Data_$R$L</Command>
+  </QueryConfig>
+ 
+</Querys>

@@ -1,0 +1,82 @@
+﻿<UserControl xmlns:GuiControlLibrary="clr-namespace:GuiControlLibrary;assembly=GuiControlLibrary"   x:Class="IPTE_Base_Project.Views.Analize.ErrorProcessEvents"
+             xmlns:lex="http://wpflocalizeextension.codeplex.com"             
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+	         xmlns:system="clr-namespace:System;assembly=mscorlib"
+             xmlns:charting="clr-namespace:Ipte.TS1.UI.Analytics.DataVisualization.Charting;assembly=Ipte.TS1.UI.Analytics"
+             xmlns:analytics="clr-namespace:Ipte.TS1.UI.Analytics;assembly=Ipte.TS1.UI.Analytics"
+             mc:Ignorable="d" d:DesignHeight="720" d:DesignWidth="1024">
+    
+    <UserControl.Resources>
+        <BooleanToVisibilityConverter x:Key="boolToVisibilty"/>
+        <Style x:Key="CategoryAxisLabelStyle" TargetType="{x:Type charting:AxisLabel}">
+            <Setter Property="IsTabStop" Value="False"/>
+            <Setter Property="Margin"  Value="2 0"/>
+            <Setter Property="StringFormat" Value="{}{0}"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type charting:AxisLabel}">
+                        <TextBlock Text="{TemplateBinding FormattedContent}">
+                            <TextBlock.LayoutTransform>
+                                <RotateTransform Angle="-45"/>
+                            </TextBlock.LayoutTransform>
+                        </TextBlock>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>        
+        <Style x:Key="DottedlineStyle" TargetType="Polyline">
+            <Setter Property="StrokeThickness" Value="2"/>
+            <Setter Property="StrokeMiterLimit" Value="1"/>
+            <Setter Property="StrokeDashArray" Value="1 1"/>
+            <Setter Property="Stretch" Value="None"/>
+        </Style>
+        <system:String x:Uid="String_ExportDataComplated" x:Key="Export Data Complated!">Export Data Complated!</system:String>
+
+    </UserControl.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Margin="8">
+            <TextBlock x:Uid="TextBlock_StartDateTime" Text="Start Date &amp; Time:" TextWrapping="Wrap" Margin="0,2"/>
+            <analytics:DateTimePicker Margin="8,0,0,0" DateTime="{Binding Model.StartTime, Mode=TwoWay}"/>
+
+            <TextBlock x:Uid="TextBlock_EndDateTime" Text="End Date &amp; Time:" TextWrapping="Wrap" Margin="0,8,0,2"/>
+            <analytics:DateTimePicker Margin="8,0,0,0" DateTime="{Binding Model.EndTime, Mode=TwoWay}"/>
+
+            <DockPanel>
+                <TextBlock  x:Uid="TextBlock_CellType" Text="Cell Type:" TextWrapping="Wrap" Margin="0,2" VerticalAlignment="Center" Width="161"/>
+            </DockPanel>
+
+            <GuiControlLibrary:GuiComboBox ItemsSource="{Binding Model.Cells}" Margin="0,8" SelectedIndex="{Binding Model.SelectedCell}"/>
+            <Button x:Uid="Button_UpdateGraph" Content="Update Graph" Margin="0,8" Command="{Binding UpdateGraphCommand}" CommandParameter="Process"/>
+            <Button x:Uid="Button_ExportData" Content="Export Data"  Margin="0,8" Command="{Binding ExportDataCommand}"  CommandParameter="Process"/>
+        </StackPanel>
+        <Grid Grid.Column="1">
+            <charting:Chart BorderBrush="{x:Null}" TitleStyle="{x:Null}" Padding="0,0,10,0" 
+                            LegendVisibility="Collapsed">
+                <charting:Chart.Axes>
+                    <charting:LinearAxis x:Uid="yAxis" x:Name="yAxis" Orientation="Y" Title="Quantity" Location="Left"
+                                         Minimum="{Binding OccurencesAxisMinimum}" Maximum="{Binding OccurencesAxisMaximum}"/>
+                    <charting:CategoryAxis x:Uid="xAxis" x:Name="xCategoryAxis" Orientation="X" Title="Category" Location="Bottom" SeriesHost="{x:Null}" 
+                                           AxisLabelStyle="{StaticResource CategoryAxisLabelStyle}"/>
+                </charting:Chart.Axes>
+                <charting:ColumnSeries Name="ErrorEventChart"
+                                           IndependentValuePath="Key"
+                                           IndependentAxis="{Binding ElementName=yAxis}"
+                                           DependentValuePath="Value"
+                                           DependentRangeAxis="{Binding ElementName=xCategoryAxis}"/>
+            </charting:Chart>
+        </Grid>
+
+        <TextBlock x:Uid="TextBlock_Updating" Text="Updating .." TextWrapping="Wrap" FontSize="96" Foreground="#FFFF9600"
+                   HorizontalAlignment="Center" VerticalAlignment="Center" 
+                   Grid.ColumnSpan="2" Visibility="{Binding Model.Updating,Converter={StaticResource boolToVisibilty}}"/>
+    </Grid>
+
+</UserControl>

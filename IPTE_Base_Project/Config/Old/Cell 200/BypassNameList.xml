@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<MessageList>
+  <!--Value = valor con el que se mostrara el mensaje-->
+  <!--Content = Mensaje a mostrar 3 Renglones disponibles , para separar contenido agregar ";" -->
+  <!--level= Color con el que se mostrara el mensaje -->
+  <message Value="0" Content="Bypass EKS"/>
+  <message Value="1"  Content="Bypass Trazability"/>
+  <message Value="2"  Content="Bypass Interlock Cell 150"/>
+  <message Value="3"  Content="Bypass Housing Presence"/>
+  <message Value="4"  Content="Bypass Adapter Disc Presence"/>
+  <message Value="5"  Content="Bypass Shaft Presence"/>
+  <message Value="6"  Content="Bypass Bracket Presence"/>
+  <message Value="7"  Content="Bypass Carrier Scanner"/>
+  <message Value="8"  Content="Bypass Bracket Scanner"/>
+  <message Value="9"  Content="Bypass Carrier Presence"/>
+  <message Value="10"  Content="Bypass Adapter disc Box"/>
+  <message Value="11"  Content="Bypass Shaft Box"/>
+  <message Value="12"  Content="Bypass Housing Box"/>
+  <message Value="13"  Content="Bypass Carrier Box"/>
+  <message Value="14"  Content="Bypass Spare"/>
+  <message Value="15"  Content="Bypass Jidoka Same Error Consecutive"/>
+  <message Value="16"  Content="Bypass Jidoka Same Error 1 Hour"/>
+  <message Value="17"  Content="Bypass Jidoka Same Error Turn"/>
+
+</MessageList>

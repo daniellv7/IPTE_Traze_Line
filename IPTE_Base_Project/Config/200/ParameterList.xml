@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Parameters>
+  <!--Cell and Timestamp is automatically set by application -->
+  <DBResults>
+    <Parameter Name="U_Item" ObservableVariable="U_Item"/>
+    <Parameter Name="Process_Status" ObservableVariable="Process_Status"/>
+    <Parameter Name="Error_Code" ObservableVariable="Error_Code"/>
+    <Parameter Name="Variant" ObservableVariable="Variant"/>
+    <Parameter Name="WPC" ObservableVariable="WPC"/>
+    <Parameter Name="Shuttle_ID" ObservableVariable="Shuttle_ID"/>
+    <Parameter Name="Sub_Assembly_Bracket_DMC" ObservableVariable="Sub_Assembly_Bracket_DMC"/>
+    <Parameter Name="Sub_Assembly_Carrier_DMC" ObservableVariable="Sub_Assembly_Carrier_DMC"/>
+    <Parameter Name="Sub_assembly_Bracket_present" ObservableVariable="Sub_assembly_Bracket_present"/>
+    <Parameter Name="Sub_assembly_Carrier_present" ObservableVariable="Sub_assembly_Carrier_present"/>
+    <Parameter Name="Housing_present" ObservableVariable="Housing_present"/>
+    <Parameter Name="Shaft_Present" ObservableVariable="Shaft_Present"/>
+    <Parameter Name="Adapter_Disc_Present" ObservableVariable="Adapter_Disc_Present"/>
+    <Parameter Name="Shaft_Box" ObservableVariable="Shaft_Box"/>
+    <Parameter Name="Adapter_Disc_Box" ObservableVariable="Adapter_Disc_Box"/>
+    <Parameter Name="Sub_Assembly_Carrier_Box" ObservableVariable="Sub_Assembly_Carrier_Box"/>
+    <Parameter Name="Housing_Box" ObservableVariable="Housing_Box"/>
+    <Parameter Name="Shaft_Box_storage" ObservableVariable="Shaft_Box"/>
+    <Parameter Name="Adapter_Disc_Box_storage" ObservableVariable="Adapter_Disc_Box"/>
+    <Parameter Name="Sub_Assembly_Carrier_Box_storage" ObservableVariable="Sub_Assembly_Carrier_Box"/>
+    <Parameter Name="Housing_Box_storage" ObservableVariable="Housing_Box"/>
+	<Parameter Name="Model" ObservableVariable="Model"/>
+  </DBResults>
+  <ConfigurationReport>
+    <Parameter Name="VariantName" ObservableVariable="VariantName"/>
+  </ConfigurationReport>
+</Parameters>

@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ErrorList>
+  <Cell Name="100">
+    <message Value="1" Content="Rejected By NIO"/>
+    <message Value="2" Content="Message Contetn 2"/>
+    <message Value="3" Content="Message Contetn 3"/>
+    <message Value="4" Content="Message Contetn 4"/>
+    <message Value="5" Content="Message Contetn 5"/>
+  </Cell>
+
+  <Cell Name="101">
+    <message Value="1" Content="Rejected By NIO"/>
+    <message Value="2" Content="Visual protective Films fail"/>
+    <message Value="3" Content="Visual Rotary Knob fail"/>
+    <message Value="4" Content="Visual surface Carrier fail"/>
+    <message Value="5" Content="Visual Levers Fail"/>
+    <message Value="6" Content="Printer Fail Rejected by NIO"/>
+  </Cell>
+
+  <Cell Name="150">
+    <message Value="1" Content="DMC Bracket Fail"/>
+    <message Value="2" Content="Connector detection 1 Fail"/>
+    <message Value="3" Content="Connector detection 2 Fail"/>
+    <message Value="4" Content="Connector detection 3 Fail"/>
+    <message Value="5" Content="Connector detection 4 Fail"/>
+    <message Value="6" Content="DMC Selenoid 1 not readable"/>
+    <message Value="7" Content="DMC Selenoid 2 not readable"/>
+    <message Value="8" Content="DMC Selenoid 3 not readable"/>
+    <message Value="9" Content="DMC Selenoid 4 not readable"/>
+    <message Value="10" Content="Assembly selenoid 1 Fail"/>
+    <message Value="11" Content="Assembly selenoid 2 Fail"/>
+    <message Value="12" Content="Assembly selenoid 3 Fail"/>
+    <message Value="13" Content="Assembly selenoid 4 Fail"/>
+    <message Value="14" Content="Selenoid 1 not present"/>
+    <message Value="15" Content="Selenoid 2 not present"/>
+    <message Value="16" Content="Selenoid 3 not present"/>
+    <message Value="17" Content="Selenoid 4 not present"/>
+  </Cell>
+
+  <Cell Name="200">
+    <message Value="1" Content="Rejected By NIO"/>
+    <message Value="2" Content="Message Contetn 2"/>
+    <message Value="3" Content="Message Contetn 3"/>
+    <message Value="4" Content="Message Contetn 4"/>
+    <message Value="5" Content="Message Contetn 5"/>
+  </Cell>
+  
+  <Cell Name="300">
+    <message Value="1" Content="No housing present"/>
+    <message Value="2" Content="No Bracket Present"/>
+    <message Value="3" Content="No Shaft Present"/>
+    <message Value="4" Content="Grease Process NOK"/>
+    <message Value="5" Content="Message Contetn 5"/>
+    <message Value="6" Content="Message Contetn 6"/>
+  </Cell>
+
+  <Cell Name="350">
+    <message Value="1" Content="Rejected By NIO"/>
+    <message Value="2" Content="No Shaft present"/>
+    <message Value="3" Content="No Detent pin present"/>
+    <message Value="4" Content="No Bracket present"/>
+    <message Value="5" Content="Message Contetn 4"/>
+    <message Value="6" Content="Message Contetn 5"/>
+  </Cell>
+  
+  <Cell Name="400">
+    <message Value="1" Content="Rejected By NIO"/>
+    <message Value="2" Content="No Shaft present"/>
+    <message Value="3" Content="No Detent pin present"/>
+    <message Value="4" Content="No Bracket present"/>
+    <message Value="5" Content="Bracket not present in housing"/>
+    <message Value="6" Content="Fail Screw 1"/>
+    <message Value="7" Content="Fail Screw 2"/>
+    <message Value="8" Content="Fail Screw 3"/>
+    <message Value="9" Content="Fail Screw 4"/>
+  </Cell>
+  <Cell Name="500">
+    <message Value="1" Content="Rejected By NIO"/>
+    <message Value="2" Content="Message Contetn 1"/>
+    <message Value="3" Content="Message Contetn 2"/>
+    <message Value="4" Content="Message Contetn 3"/>
+    <message Value="5" Content="Message Contetn 4"/>
+    <message Value="6" Content="Message Contetn 5"/>
+  </Cell>
+  <Cell Name="600">
+    <message Value="1" Content="Clip 1 Fail"/>
+    <message Value="2" Content="Clip 2 Fail"/>
+    <message Value="3" Content="Clip 3 Fail"/>
+    <message Value="4" Content="Clip 4 Fail"/>
+    <message Value="5" Content="Clip 5 Fail"/>
+    <message Value="6" Content="Clip 6 Fail"/>
+    <message Value="7" Content="Clip 7 Fail"/>
+    <message Value="8" Content="Clip 8 Fail"/>
+    <message Value="9" Content="Screw 1 Fail"/>
+    <message Value="10" Content="Housing Cover Not Present"/>
+    <message Value="11" Content="Sub Assembly well Cover Not Present"/>
+  </Cell>
+  <Cell Name="700">
+    <message Value="1" Content="Rejected By NIO"/>
+    <message Value="2" Content="Message Contetn 1"/>
+    <message Value="3" Content="Message Contetn 2"/>
+    <message Value="4" Content="Message Contetn 3"/>
+    <message Value="5" Content="Message Contetn 4"/>
+    <message Value="6" Content="Message Contetn 5"/>
+  </Cell>
+  <Cell Name="750">
+    <message Value="1" Content="Rejected By NIO"/>
+    <message Value="2" Content="Message Contetn 1"/>
+    <message Value="3" Content="Message Contetn 2"/>
+    <message Value="4" Content="Message Contetn 3"/>
+    <message Value="5" Content="Message Contetn 4"/>
+    <message Value="6" Content="Message Contetn 5"/>
+  </Cell>
+  <Cell Name="800">
+    <message Value="1" Content="Rejected By NIO"/>
+    <message Value="2" Content="Fail Screw 1"/>
+    <message Value="3" Content="Fail Screw 2"/>
+    <message Value="4" Content="Fail Screw 3"/>
+    <message Value="5" Content="Message Contetn 4"/>
+    <message Value="6" Content="Message Contetn 5"/>
+  </Cell>
+  <Cell Name="850">
+    <message Value="1" Content="Rejected By NIO"/>
+    <message Value="2" Content="Fail Screw 1"/>
+    <message Value="3" Content="Fail Screw 2"/>
+    <message Value="4" Content="Message Contetn 3"/>
+    <message Value="5" Content="Message Contetn 4"/>
+    <message Value="6" Content="Message Contetn 5"/>
+  </Cell>
+ 
+  <Cell Name="1000">
+    <message Value="1" Content="Rejected By NIO"/>
+    <message Value="2" Content="Press Messurements Force Fail"/>
+    <message Value="3" Content="Press Messurements Distance Fail"/>
+    <message Value="4" Content="Message Contetn 3"/>
+    <message Value="5" Content="Message Contetn 4"/>
+    <message Value="6" Content="Message Contetn 5"/>
+  </Cell>
+ 
+  <Cell Name="1200">
+    <message Value="1" Content="Rejected By NIO"/>
+    <message Value="2" Content="Message Contetn 1"/>
+    <message Value="3" Content="Message Contetn 2"/>
+    <message Value="4" Content="Message Contetn 3"/>
+    <message Value="5" Content="Message Contetn 4"/>
+    <message Value="6" Content="Message Contetn 5"/>
+  </Cell>
+
+  <Cell Name="2000">
+    <message Value="1" Content="Screw Toggle RH 1"/>
+    <message Value="2" Content="Screw Toggle RH 2"/>
+    <message Value="3" Content="Screw Toggle RH 3"/>
+    <message Value="4" Content="Screw Toggle RH 4"/>
+    <message Value="5" Content="Screw Toggle LH 1"/>
+    <message Value="6" Content="Screw Toggle LH 2"/>
+    <message Value="7" Content="Screw Toggle LH 3"/>
+    <message Value="8" Content="Screw Toggle LH 4"/>
+    <message Value="9" Content="Screw Switch RH 1"/>
+    <message Value="10" Content="Screw Switch RH 2"/>
+    <message Value="11" Content="Screw Switch RH 3"/>
+    <message Value="12" Content="Screw Switch LH 1"/>
+    <message Value="13" Content="Screw Switch LH 2"/>
+    <message Value="14" Content="Screw Switch LH 3"/>
+    <message Value="15" Content="Bad Carrier"/>
+  </Cell>
+</ErrorList>

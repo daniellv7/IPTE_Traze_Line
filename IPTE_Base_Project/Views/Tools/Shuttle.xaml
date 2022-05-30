@@ -1,0 +1,62 @@
+﻿<UserControl xmlns:Controls="clr-namespace:Ipte.TS1.UI.Controls;assembly=Ipte.TS1.UI.Controls"  xmlns:lex="http://wpflocalizeextension.codeplex.com" x:Class="IPTE_Base_Project.Views.Tools.Shuttle"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:IPTE_Base_Project.Views.Tools"
+             xmlns:Converters="clr-namespace:IPTE_Base_Project.Converters"
+             mc:Ignorable="d" 
+             d:DesignHeight="150" Width="250">
+
+    <UserControl.Resources>
+        <Converters:ShuttleBackgroundChange x:Key="BackgroundChange"/>
+        <Converters:ShuttleOutterBackgroundChange x:Key="OutterBackgroundChange"/>
+        <Converters:VisibilityChangeConverter x:Key="VisibilityChange"/>
+        <Converters:ButtonEnableConverter x:Key="ButtonEnable"/>
+        <Converters:ShuttleStatusConverter x:Key="ShuttleStatus"/>
+    </UserControl.Resources>
+
+    <Controls:GuiGroupBox  Header="{Binding Shuttle_Name}" MinHeight="150" MinWidth="250" Visibility="{Binding Visible, Converter={StaticResource VisibilityChange}}">
+        <Grid>
+            <Border BorderBrush="Black" BorderThickness="1"  >
+                <Grid Background="{Binding OutterBkg, Converter={StaticResource OutterBackgroundChange}}">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="10"/>
+                        <RowDefinition Height="80*"/>
+                        <RowDefinition Height="10"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="10*"/>
+                        <ColumnDefinition Width="80*"/>
+                        <ColumnDefinition Width="10*"/>
+                    </Grid.ColumnDefinitions>
+                    <Controls:GuiButton  Grid.Column="1" Grid.Row="1" Padding="0,0" Background="{Binding Status, Converter={StaticResource BackgroundChange}}" >
+                        <Controls:GuiButton.InputBindings>
+                            <MouseBinding Gesture="LeftDoubleClick" Command="{Binding ShowDataCommand}"/>
+                        </Controls:GuiButton.InputBindings>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="50*"/>
+                                <ColumnDefinition Width="50*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="33*"/>
+                                <RowDefinition Height="33*"/>
+                                <RowDefinition Height="33*"/>
+                            </Grid.RowDefinitions>
+                            <Label x:Uid="Label_WPC" Grid.Row="0" Grid.Column="0" Content="WPC:" />
+                            <Label Grid.Row="0" Grid.Column="1" Content="{Binding PalletID}" />
+                            <Label x:Uid="Label_Last" Grid.Row="1" Grid.Column="0" Content="Last:"/>
+                            <Label Grid.Row="1" Grid.Column="1" Content="{Binding LastStation}" />
+                            <Label x:Uid="Label_Next" Grid.Row="2" Grid.Column="0" Content="Next:"/>
+                            <Label Grid.Row="2" Grid.Column="1" Content="{Binding NextStation}" />
+
+                        </Grid>
+                    </Controls:GuiButton>
+                </Grid>
+            </Border>
+
+        </Grid>
+    </Controls:GuiGroupBox>
+
+</UserControl>

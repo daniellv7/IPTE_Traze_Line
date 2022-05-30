@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Ipte.TS1.IO</id>
+    <version>2.0.0-alpha1</version>
+    <authors>Robert Hudjakov</authors>
+    <owners>Robert Hudjakov</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>http://redmine/redmine/projects/tclib/news</projectUrl>
+    <description>IPTE TS1 IO interface library</description>
+    <releaseNotes>Initial nuget release</releaseNotes>
+    <copyright>Copyright ©2019 Ipte NV</copyright>
+    <tags>IPTE TS1 IO INTERFACE</tags>
+    <repository type="svn" url="https://ipteee1svn.ipte.global/svn/IPTEEE/Test/TS1/Ipte.TS1.IO/Ipte.TS1.IO/trunk" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.0" />
+      <group targetFramework=".NETCoreApp2.0" />
+    </dependencies>
+  </metadata>
+</package>

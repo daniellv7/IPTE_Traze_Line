@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Collectors>
+  <CollectorPath name="Cell900.1_SequenceRecord">
+    <Path>X:\File\SequenceRecord\</Path>
+  </CollectorPath>
+    <CollectorPath name="Cell900.1_TestErrorRecord">
+    <Path>X:\File\TestErrorRecord\</Path>
+  </CollectorPath>
+    <CollectorPath name="Cell900.1_AlarmMessageRecord">
+    <Path>X:\File\AlarmMessageRecord\</Path>
+  </CollectorPath>
+    <CollectorPath name="Cell900.1_Traceability">
+    <Path>X:\File\Traceability\</Path>
+  </CollectorPath>
+    <CollectorPath name="Cell900.1_UserEventRecord">
+    <Path>X:\File\UserEventRecord\</Path>
+  </CollectorPath>
+</Collectors>

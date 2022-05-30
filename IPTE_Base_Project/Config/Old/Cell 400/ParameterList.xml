@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Parameters>
+  <!--Cell and Timestamp is automatically set by application -->
+  <DBResults>
+    <Parameter Name="U_Item" ObservableVariable="U_Item"/>
+    <Parameter Name="Process_Status" ObservableVariable="Process_Status"/>
+    <Parameter Name="Error_Code" ObservableVariable="Error_Code"/>
+    <Parameter Name="Variant" ObservableVariable="Variant"/>
+    <Parameter Name="WPC" ObservableVariable="WPC"/>
+    <Parameter Name="Shuttle_ID" ObservableVariable="Shuttle_ID"/>
+    <Parameter Name="Screw_Result_1" ObservableVariable="Screw_Result_1"/>
+    <Parameter Name="Screw_Result_2" ObservableVariable="Screw_Result_2"/>
+    <Parameter Name="Screw_Result_3" ObservableVariable="Screw_Result_3"/>
+    <Parameter Name="Screw_Result_4" ObservableVariable="Screw_Result_4"/>
+    <Parameter Name="Shaft_Present" ObservableVariable="Shaft_Present"/>
+    <Parameter Name="Locking_Present" ObservableVariable="Locking_Present"/>
+    <Parameter Name="Bracket_Present" ObservableVariable="Bracket_Present"/>
+    <Parameter Name="Sub_Assy_bracket_in_housing" ObservableVariable="Sub_Assy_bracket_in_housing"/>
+    <Parameter Name="Screw_Program_1" ObservableVariable="Screw_Program_1"/>
+	<Parameter Name="Screw_Program_2" ObservableVariable="Screw_Program_2"/>
+	<Parameter Name="Screw_Program_3" ObservableVariable="Screw_Program_3"/>
+	<Parameter Name="Screw_Program_4" ObservableVariable="Screw_Program_4"/>
+    <Parameter Name="Screw_Torque_1" ObservableVariable="Screw_Torque_1"/>
+    <Parameter Name="Screw_Torque_2" ObservableVariable="Screw_Torque_2"/>
+    <Parameter Name="Screw_Torque_3" ObservableVariable="Screw_Torque_3"/>
+    <Parameter Name="Screw_Torque_4" ObservableVariable="Screw_Torque_4"/>
+    <Parameter Name="Screw_Angle_1" ObservableVariable="Screw_Angle_1"/>
+    <Parameter Name="Screw_Angle_2" ObservableVariable="Screw_Angle_2"/>
+    <Parameter Name="Screw_Angle_3" ObservableVariable="Screw_Angle_3"/>
+    <Parameter Name="Screw_Angle_4" ObservableVariable="Screw_Angle_4"/>
+    <Parameter Name="Screw_Grad_1" ObservableVariable="Screw_Grad_1"/>
+    <Parameter Name="Screw_Grad_2" ObservableVariable="Screw_Grad_2"/>
+    <Parameter Name="Screw_Grad_3" ObservableVariable="Screw_Grad_3"/>
+    <Parameter Name="Screw_Grad_4" ObservableVariable="Screw_Grad_4"/>
+    <Parameter Name="Model" ObservableVariable="Model"/>
+	<Parameter Name="Screw_Box" ObservableVariable="Screw_Box"/>
+	<Parameter Name="Screw_Box_storage" ObservableVariable="Screw_Box_storage"/>
+	<Parameter Name="Screw_Torque_High_Limit" ObservableVariable="Screw_Torque_High_Limit"/>
+	<Parameter Name="Screw_Torque_Low_Limit" ObservableVariable="Screw_Torque_Low_Limit"/>
+	<Parameter Name="Screw_Angle_High_Limit" ObservableVariable="Screw_Angle_High_Limit"/>
+	<Parameter Name="Screw_Angle_Low_Limit" ObservableVariable="Screw_Angle_Low_Limit"/>
+	<Parameter Name="Screw_Grad_High_Limit" ObservableVariable="Screw_Grad_High_Limit"/>
+	<Parameter Name="Screw_Grad_Low_Limit" ObservableVariable="Screw_Grad_Low_Limit"/>
+  </DBResults>
+  <ConfigurationReport>
+    <Parameter Name="VariantName" ObservableVariable="VariantName"/>
+    <Parameter Name="Screw_Program" ObservableVariable="Screw_Program"/>
+	<Parameter Name="Screw_Box" ObservableVariable="Screw_Box"/>
+  </ConfigurationReport>
+</Parameters>

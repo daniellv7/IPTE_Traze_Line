@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<MessageList>
+  <!--Value = valor con el que se mostrara el mensaje-->
+  <!--Content = Mensaje a mostrar 3 Renglones disponibles , para separar contenido agregar ";" -->
+  <!--level= Color con el que se mostrara el mensaje -->
+  <message Value="0" Content="Bypass EKS"/>
+  <message Value="1"  Content="Bypass Trazability"/>
+  <message Value="2"  Content="Bypass Station"/>
+  <message Value="3"  Content="Bypass SAP"/>
+  <message Value="4"  Content="Bypass Scanner Load"/>
+  <message Value="5"  Content="Bypass Scanner Unload"/>
+  <message Value="6"  Content="Bypass Detent Pin"/>
+  <message Value="7"  Content="Bypass packing Box"/>
+  <message Value="8"  Content="Bypass CAP Printer"/>
+  <message Value="9"  Content="Bypass Run Load Station"/>
+  <message Value="10"  Content="DRP Printer"/>
+  <message Value="11"  Content="Bypass Spring Box"/>
+  <message Value="12"  Content="Bypass Detent Pin Box"/>
+  <message Value="13"  Content="Bypass Ring Box"/>
+  <message Value="14"  Content="Bypass Carrier Box"/>
+  <message Value="15"  Content="Bypass Jidoka Same Error Consecutive"/>
+  <message Value="16"  Content="Bypass Jidoka Same Error 1 Hour"/>
+  <message Value="17"  Content="Bypass Jidoka Same Error Turn"/>
+  <message Value="18"  Content="Serial Check Active"/>
+</MessageList>

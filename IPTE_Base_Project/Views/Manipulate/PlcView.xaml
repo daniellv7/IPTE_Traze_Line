@@ -1,0 +1,43 @@
+﻿<UserControl xmlns:lex="http://wpflocalizeextension.codeplex.com" x:Class="IPTE_Base_Project.Views.Manipulate.PlcView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:IPTE_Base_Project.Views.Manipulate"
+             xmlns:gui="clr-namespace:GuiControlLibrary;assembly=GuiControlLibrary"
+             xmlns:converters="clr-namespace:IPTE_Base_Project.Converters"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="25*"/>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="AUTO"/>
+            <ColumnDefinition Width="47*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20*"/>
+            <RowDefinition Height="80*"/>
+        </Grid.RowDefinitions>
+        <gui:GuiGroupBox x:Uid="GuiGroupBox_LockCylinder" Grid.Column="1" Header="Lock Cylinder" >
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="33*"/>
+                    <ColumnDefinition Width="33*"/>
+                    <ColumnDefinition Width="33*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="80*"/>
+                    <RowDefinition Height="20*"/>
+                </Grid.RowDefinitions>
+                <gui:GuiButton x:Uid="GuiButton_GuiButton" Content="GuiButton" Grid.Column="0" />
+                <gui:GuiButton x:Uid="GuiButton_GuiButton_0" Content="GuiButton" Grid.Column="2" />
+
+            </Grid>
+        </gui:GuiGroupBox>
+
+    </Grid>
+</UserControl>

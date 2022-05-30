@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<IO>
+  <Inputs>
+    <!--Rework Inputs Variables -->
+    <Input>
+      <Name>LIVE_BIT_R</Name>
+      <Type>BOOL</Type>
+      <Adress>0,0</Adress>
+    </Input>
+    
+    <Input>
+      <Name>Call_HS</Name>
+      <Type>INT</Type>
+      <Adress>2</Adress>
+    </Input>
+    
+  </Inputs>
+
+  <Outputs >
+    <!--Rework Outputs Variables -->
+    <Output>
+      <Name>LIVE_BIT_W</Name>
+      <Type>BOOL</Type>
+      <Adress>0,0</Adress>
+    </Output>
+
+    <Output>
+      <Name>PC_HS</Name>
+      <Type>INT</Type>
+      <Adress>2</Adress>
+    </Output>
+    
+  </Outputs>
+
+  <Inputs2>
+    <!--Rework Inputs Variables -->
+    <Input>
+      <Name>LIVE_BIT_R</Name>
+      <Type>BOOL</Type>
+      <Adress>0,0</Adress>
+    </Input>
+    
+    <Input>
+      <Name>Call_HS</Name>
+      <Type>INT</Type>
+      <Adress>2</Adress>
+    </Input>
+
+  </Inputs2>
+  
+  <Outputs2 >
+    <!--Rework Outputs Variables -->
+    <Output>
+      <Name>LIVE_BIT_W</Name>
+      <Type>BOOL</Type>
+      <Adress>0,0</Adress>
+    </Output>
+
+    <Output>
+      <Name>PC_HS</Name>
+      <Type>INT</Type>
+      <Adress>2</Adress>
+    </Output>
+
+  </Outputs2>
+
+</IO>
+

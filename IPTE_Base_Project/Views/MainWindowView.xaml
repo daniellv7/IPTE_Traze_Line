@@ -1,0 +1,97 @@
+﻿<Window xmlns:lex="http://wpflocalizeextension.codeplex.com" x:Uid="Window_IPTELinePC" x:Class="IPTE_Base_Project.MainWindowView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+        xmlns:local="clr-namespace:IPTE_Base_Project"
+        xmlns:converters="clr-namespace:IPTE_Base_Project.Converters"
+        xmlns:gui="clr-namespace:GuiControlLibrary;assembly=GuiControlLibrary"
+        xmlns:ObsControls="clr-namespace:IPTE_Base_Project.Views.Observe"
+        xmlns:ManControls="clr-namespace:IPTE_Base_Project.Views.Manipulate"
+        xmlns:CfgControls="clr-namespace:IPTE_Base_Project.Views.Configure"
+        xmlns:AnlControls="clr-namespace:IPTE_Base_Project.Views.Analize"
+        xmlns:pages="clr-namespace:Ipte.UI.Pages"
+        xmlns:gcl="clr-namespace:Ipte.TS1.UI.Controls;assembly=Ipte.TS1.UI.Controls"
+        xmlns:Converters="clr-namespace:IPTE_Base_Project.Converters"
+        mc:Ignorable="d"
+        
+        Title="IPTE Line PC" Height="1080" Width="1920" WindowStartupLocation="CenterScreen" Icon="{StaticResource IpteImage}" Loaded="Window_Loaded">
+   
+    <Window.Resources>
+        <Converters:VisibilityChangeConverter x:Key="VisibilityChange"/>
+    </Window.Resources>
+    
+    <Grid x:Name="LayoutRoot">
+
+        <gcl:GuiFrame x:Name="Frame" SelectedIndex="{Binding SelectedIndex}" Margin="0,0,-0.4,0.4"  CustomerLogo="/IPTE_Base_Project;component/Common/Resources/Images/ZF_Logo.png" IsServiceIndicatorEnabled="False" IsAlarmButtonEnabled="False" PauseButtonVisibility="Visible" ControlPanelVisibility="Hidden" >
+            
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="StartButtonClick">
+                    <i:InvokeCommandAction Command="{Binding StartCommand}"/>
+                </i:EventTrigger>
+                <i:EventTrigger EventName="StopButtonClick">
+                    <i:InvokeCommandAction Command="{Binding StopCommand}"/>
+                </i:EventTrigger>
+                <i:EventTrigger EventName="ResetButtonClick">
+                    <i:InvokeCommandAction Command="{Binding ResetCommand}"/>
+                </i:EventTrigger>
+                <i:EventTrigger EventName="AlarmButtonClick">
+                    <i:InvokeCommandAction Command="{Binding AlarmCommand}"/>
+                </i:EventTrigger>
+                <i:EventTrigger EventName="PauseButtonClick">
+                    <i:InvokeCommandAction Command="{Binding PauseCommand}"/>
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+
+            <TabItem>
+                <TabItem.Header>
+                    <gui:GuiFrameTabItem x:Uid="GuiFrameTabItem_Observe" IconSource="{StaticResource ObserveImage}" Title="Observe"/>
+                </TabItem.Header>
+
+                <TabControl x:Name="ObserveTabControl" SelectedIndex="{Binding SelectedSecondaryIndex}" FontSize="16"  >
+                    <TabItem x:Uid="TabItem_Sequence" Header="Sequence" >
+                        <TabItem.IsEnabled>
+                            <Binding RelativeSource="{RelativeSource FindAncestor, AncestorType=Window}" Path="DataContext.SequenceManualVM.SequenceRunning" />
+                        </TabItem.IsEnabled>
+                        <ObsControls:CellView x:Name="CellView"/>
+                    </TabItem>
+                    
+                    <TabItem x:Uid="TabItem_Log" Header="Log" >
+                        <ObsControls:LogView x:Name="LogView"/>
+                    </TabItem>
+
+                </TabControl>
+            </TabItem>
+
+
+
+
+            <TabItem Visibility="{Binding SettingsVisibility}">
+                <TabItem.Header>
+                    <gui:GuiFrameTabItem x:Uid="GuiFrameTabItem_Configure" IconSource="{StaticResource ConfigureImage}" Title="Configure"/>
+                </TabItem.Header>
+
+                <TabControl x:Name="ConfigureTabControl">
+                    
+                    <TabItem x:Uid="TabItem_MachineSettings" Header="Machine Settings"  >
+                        <CfgControls:MachineSettingsView x:Name="MachineSettingsView"/>
+                    </TabItem>
+                    
+                </TabControl>
+            </TabItem>
+            
+            <TabItem Visibility="{Binding DataBaseVisibility}">
+                <TabItem.Header>
+                    <gui:GuiFrameTabItem x:Uid="GuiFrameTabItem_Analyze" IconSource="{StaticResource AnalyseImage}" Title="Analyze"/>
+                </TabItem.Header>
+
+                <TabControl x:Name="AnalyzeWindow">
+
+                    
+                </TabControl>
+            </TabItem>
+        </gcl:GuiFrame>
+
+    </Grid>
+</Window>

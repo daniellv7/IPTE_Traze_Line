@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Querys>
+   <QueryConfig name="Errors">
+      <Parameters>0</Parameters>
+      <Query>SELECT * FROM e_errortable</Query>
+      <MainTable>e_errortable</MainTable>
+    </QueryConfig>
+  <QueryConfig name="Variants">
+    <Parameters>0</Parameters>
+    <Query>SELECT * FROM v_variant</Query>
+    <MainTable>v_variant</MainTable>
+  </QueryConfig>
+</Querys>

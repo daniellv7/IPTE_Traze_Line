@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Parameters>
+  <!--Cell and Timestamp is automatically set by application -->
+  <DBResults>
+    <Parameter Name="U_Item" ObservableVariable="U_Item"/>
+    <Parameter Name="Process_Status" ObservableVariable="Process_Status"/>
+    <Parameter Name="Error_Code" ObservableVariable="Error_Code"/>
+    <Parameter Name="Variant" ObservableVariable="Variant"/>
+    <Parameter Name="WPC" ObservableVariable="WPC"/>
+    <Parameter Name="Shuttle_ID" ObservableVariable="Shuttle_ID"/>
+    <Parameter Name="Model" ObservableVariable="Model"/>
+    <Parameter Name="Grease_Weight_Dispensed" ObservableVariable="Grease_Weight_Dispensed"/>
+    <Parameter Name="Grease_Points_Bracket" ObservableVariable="Grease_Points_Bracket"/>
+    <Parameter Name="Grease_Points_Housing" ObservableVariable="Grease_Points_Housing"/>
+    <Parameter Name="Grease_Points_Shaft" ObservableVariable="Grease_Points_Shaft"/>
+    <Parameter Name="Grease_Calibration" ObservableVariable="Grease_Calibration"/>
+	<Parameter Name="Grease_Calibration_Result" ObservableVariable="Grease_Calibration_Result"/>
+    <Parameter Name="Grease_Low_limit" ObservableVariable="Grease_Low_limit"/>
+    <Parameter Name="Grease_High_limit" ObservableVariable="Grease_High_limit"/>
+    <Parameter Name="Grease_storage" ObservableVariable="Grease_storage"/>
+	<Parameter Name="Grease_Last_Calibration_Timestamp" ObservableVariable="Grease_Last_Calibration_Timestamp"/>
+  </DBResults>
+  <ConfigurationReport>
+    <Parameter Name="VariantName" ObservableVariable="VariantName"/>
+    <Parameter Name="Robot_program_Number" ObservableVariable="Robot_program_Number"/>
+    <Parameter Name="Grease_points_Weight" ObservableVariable="Grease_points_Weight"/>
+    <Parameter Name="Grease_points_Quantity_Bracket" ObservableVariable="Grease_points_Quantity_Bracket"/>
+    <Parameter Name="Grease_points_Quantity_Housing" ObservableVariable="Grease_points_Quantity_Housing"/>
+    <Parameter Name="Grease_points_Quantity_Shaft" ObservableVariable="Grease_points_Quantity_Shaft"/>
+  </ConfigurationReport>
+</Parameters>

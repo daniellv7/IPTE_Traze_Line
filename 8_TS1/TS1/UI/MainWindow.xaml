@@ -1,0 +1,69 @@
+<Window x:Class="Ipte.UI.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:pages="clr-namespace:Ipte.UI.Pages"
+    xmlns:gcl="clr-namespace:Ipte.TS1.UI.Controls;assembly=Ipte.TS1.UI.Controls"
+    Icon="pack://application:,,,/Resources/icon.ico"
+    Width="1024" Height="768" MinWidth="800" MinHeight="600" WindowState="Maximized">
+    <gcl:GuiFrame Name="frame" IsResetButtonEnabled="False" IsAlarmButtonEnabled="False" IsStopButtonEnabled="False" IsStartButtonEnabled="False">
+        <TabItem>
+            <TabItem.Header>
+                <gcl:GuiFrameTabItem x:Uid="GuiFrameTabItem_Observe" Title="Observe" IconSource="pack://application:,,,/Resources/observe.png"/>
+            </TabItem.Header>
+            <TabControl x:Name="ObserveWindow">
+                <TabItem x:Uid="TabItem_Cell" Header="Cell">
+                    <pages:CellPage x:Name="cellPage" Width="Auto" Height="Auto"/>
+                </TabItem>
+                <TabItem x:Uid="TabItem_Devices" Header="Devices">
+                    <pages:DevicesPage x:Name="devicesPage" Width="Auto" Height="Auto"/>
+                </TabItem>
+                <TabItem x:Uid="TabItem_Log" Header="Log">
+                    <pages:LogPage x:Name="logPage" Width="Auto" Height="Auto"/>
+                </TabItem>
+            </TabControl>
+        </TabItem>
+        <TabItem>
+            <TabItem.Header>
+                <gcl:GuiFrameTabItem x:Uid="GuiFrameTabItem_Configure" Title="Configure" IconSource="pack://application:,,,/Resources/configure.png"/>
+            </TabItem.Header>
+            <TabControl x:Name="ConfigureWindow">
+                <TabItem x:Uid="TabItem_GeneralSettings" Header="General settings">
+                </TabItem>
+                <TabItem x:Uid="adminConfigTab" x:Name="adminConfigTab" Header="Admin config page" Visibility="Collapsed">
+                    <pages:AdminConfigPage x:Name="adminConfigPage" Width="Auto" Height="Auto" Visibility="Collapsed"/>
+                </TabItem>
+            </TabControl>
+        </TabItem>
+        <TabItem>
+            <TabItem.Header>
+                <gcl:GuiFrameTabItem x:Uid="GuiFrameTabItem_Manipulate" Title="Manipulate" IconSource="pack://application:,,,/Resources/manipulate.png"/>
+            </TabItem.Header>
+            <TabControl x:Name="ManipulateWindow">
+                <TabItem x:Uid="TabItem_FrequentActions" Header="Frequent actions">
+                </TabItem>
+                <TabItem x:Uid="TabItem_AllIO" Header="All I/O">
+                    <pages:IoPage x:Name="ioPage" Width="Auto" Height="Auto"/>
+                </TabItem>
+            </TabControl>
+        </TabItem>
+        <TabItem>
+            <TabItem.Header>
+                <gcl:GuiFrameTabItem x:Uid="GuiFrameTabItem_Analyze" Title="Analyze" IconSource="pack://application:,,,/Resources/analyse.png"/>
+            </TabItem.Header>
+            <TabControl x:Name="AnalyzeWindow">
+                <TabItem x:Uid="TabItem_CycleTimes" Header="Cycle Times">
+                    <pages:AnalyzeCycleTimesPage x:Name="cyclePage" Width="Auto" Height="Auto"/>
+                </TabItem>
+                <TabItem x:Uid="TabItem_Events" Header="Events">
+                    <pages:AnalyzeMachineEventsPage x:Name="machineEventsPage" Width="Auto" Height="Auto"/>
+                </TabItem>
+                <TabItem x:Uid="TabItem_ItemsInOut" Header="Items In/Out">
+                    <pages:AnalyzeProductsInOut x:Name="inOutPage" Width="Auto" Height="Auto"/>
+                </TabItem>
+                <TabItem x:Uid="TabItem_Spc" Header="SPC">
+                    <pages:AnalyzeSpcPage x:Name="SpcPage" Width="Auto" Height="Auto"/>
+                </TabItem>
+            </TabControl>
+        </TabItem>
+    </gcl:GuiFrame>
+</Window>
